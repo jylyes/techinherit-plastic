@@ -1,6 +1,6 @@
 # Techinherit Plastic Materials
 
-Techinherit 工程塑胶原料展示网站。网站静态文件位于 `docs/`，可用于 GitHub Pages 发布。
+Techinherit 工程塑胶原料展示网站。静态网站文件位于仓库根目录：`index.html`、`v3.css`、`v3.js` 和材料图片。可用于 GitHub Pages 发布。
 
 当前私有预览：[Techinherit Materials](https://techinherit-materials.nimblemoon9.chatgpt.site/)。
 
