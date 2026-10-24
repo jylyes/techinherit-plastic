@@ -2,40 +2,40 @@
 window.TechMaterials={
   "categories": [
     {
-      "id": "engineering",
-      "name": "Engineering plastics",
-      "en": "Engineering plastics",
-      "image": "materials/pa-nylon.webp",
-      "intro": "Start with base-resin characteristics to balance mechanical behavior, appearance, processing and cost for the application.",
-      "thumbnail": "materials/pa-nylon-small.webp",
-      "imageWidth": 560,
-      "imageHeight": 501,
-      "thumbnailWidth": 400,
-      "searchAliases": "工程塑料 从基础树脂特性出发，在力学性能、外观、加工性与成本之间寻找适合应用的材料方向。"
-    },
-    {
-      "id": "reinforced",
-      "name": "Glass-fiber reinforced",
-      "en": "Glass-fiber reinforced",
-      "image": "materials/pa66-gf30.webp",
-      "intro": "Select around structural stiffness, loading and dimensional stability, considering resin, reinforcement level and part design.",
-      "thumbnail": "materials/pa66-gf30-small.webp",
-      "imageWidth": 900,
+      "id": "transparent-nylon",
+      "name": "Transparent nylon 12",
+      "en": "Transparent nylon 12",
+      "intro": "Select transparent-part nylon solutions around light transmission, toughness, chemical resistance and molded dimensions.",
+      "image": "materials/nylon-tn900.webp",
+      "thumbnail": "materials/nylon-tn900-small.webp",
+      "imageWidth": 1200,
       "imageHeight": 900,
       "thumbnailWidth": 400,
-      "searchAliases": "玻纤增强材料 围绕结构刚性、承载需求和尺寸稳定性，结合基体树脂、增强比例与零件设计进行选型。"
+      "searchAliases": "透明尼龙12 围绕透光、韧性、耐化学性与成型尺寸，选择适合透明部件的尼龙方案。"
     },
     {
-      "id": "functional",
-      "name": "Functional compounds",
-      "en": "Functional compounds",
-      "image": "materials/pa6-red-phosphorus.webp",
-      "intro": "Address flame, heat, low-temperature and toughness requirements through coordinated compound, process and environmental assessment.",
-      "thumbnail": "materials/pa6-red-phosphorus-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 864,
+      "id": "long-chain-nylon",
+      "name": "Long-chain nylon",
+      "en": "Long-chain nylon",
+      "intro": "Explore long-chain nylons through water uptake, dimensional stability, chemical exposure and processing.",
+      "image": "materials/nylon-pa610.webp",
+      "thumbnail": "materials/nylon-pa610-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
       "thumbnailWidth": 400,
-      "searchAliases": "功能改性材料 针对阻燃、耐热、耐低温与韧性需求，协同考虑配方、工艺和使用环境。"
+      "searchAliases": "长碳链尼龙 从吸水、尺寸稳定和介质接触出发，探索长碳链尼龙的加工与应用。"
+    },
+    {
+      "id": "bio-based-nylon",
+      "name": "Bio-based nylon",
+      "en": "Bio-based nylon",
+      "intro": "Match bio-based material options with part requirements, processing and project documentation.",
+      "image": "materials/nylon-tn955.webp",
+      "thumbnail": "materials/nylon-tn955-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400,
+      "searchAliases": "生物基尼龙 结合生物基材料方向与实际部件要求，核对性能、加工和项目资料。"
     },
     {
       "id": "conductive",
@@ -60,3462 +60,1581 @@ window.TechMaterials={
       "imageHeight": 900,
       "thumbnailWidth": 400,
       "searchAliases": "碳纤维复合材料 围绕轻量化、高刚性与结构应用，探索碳纤增强树脂的材料及加工方案。"
-    },
-    {
-      "id": "elastomer",
-      "name": "Thermoplastic elastomers",
-      "en": "Thermoplastic elastomers",
-      "image": "materials/tpu.webp",
-      "intro": "Select for flexibility, touch, wear and overmolding by considering hardness, environment and processing.",
-      "thumbnail": "materials/tpu-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "热塑性弹性体 面向柔性、触感、耐磨及包覆需求，结合硬度、使用环境和加工工艺进行选择。"
     }
   ],
   "products": [
     {
-      "id": "pa-nylon",
-      "name": "PA (Nylon PA6 / PA66)",
-      "category": "engineering",
-      "family": "PA6 / PA66",
-      "features": [
-        "Mechanical performance",
-        "Wear resistance",
-        "Structural applications"
+      "id": "nylon-tn900",
+      "name": "Techinherit TN900",
+      "grade": "TN900",
+      "catalogType": "grade",
+      "category": "transparent-nylon",
+      "categories": [
+        "transparent-nylon"
       ],
-      "desc": "A nylon direction for gears, bearings and structural parts. Consider temperature, moisture condition, impact and dimensional requirements.",
-      "source": "https://www.techinherit.com/engineering-plastics/10.html",
-      "image": "materials/pa-nylon.webp",
-      "thumbnail": "materials/pa-nylon-small.webp",
-      "imageWidth": 560,
-      "imageHeight": 501,
-      "thumbnailWidth": 400,
+      "family": "PA12",
+      "features": [
+        "Optical clarity",
+        "Toughness & resilience",
+        "Chemical resistance"
+      ],
+      "desc": "A transparent nylon 12 for selection around optical clarity, resilience and toughness in transparent structures, electronics and industrial products.",
+      "source": "",
       "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/10.html",
         "accessed": "2026-10-24"
       },
       "properties": [
         {
+          "key": "density",
+          "label": "Density",
+          "sourceLabel": "Density",
+          "value": "1.02 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 1183 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "saturated-water-absorption",
+          "label": "Saturated water absorption",
+          "sourceLabel": "Saturated water absorption",
+          "value": "3 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "light-transmittance",
+          "label": "Light transmittance",
+          "sourceLabel": "Light transmittance",
+          "value": "≥90 %",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
+        },
+        {
+          "key": "molding-shrinkage-parallel",
+          "label": "Molding shrinkage, parallel",
+          "sourceLabel": "Molding shrinkage, parallel",
+          "value": "0.4 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4,2577 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "molding-shrinkage-transverse",
+          "label": "Molding shrinkage, transverse",
+          "sourceLabel": "Molding shrinkage, transverse",
+          "value": "0.5 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4,2577 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
           "key": "tensile-strength",
           "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "80 MPa",
+          "sourceLabel": "Tensile strength",
+          "value": "60 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "80 MPa"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "tensile-modulus",
           "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "2,900 MPa",
+          "sourceLabel": "Tensile modulus",
+          "value": "1500 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,900 MPa"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "elongation-at-break",
           "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "50%",
+          "sourceLabel": "Elongation at break",
+          "value": "160 %",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "50%"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R110 / R120",
+          "key": "flexural-modulus",
+          "label": "Flexural modulus",
+          "sourceLabel": "Flexural modulus",
+          "value": "1500 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R110 / R120"
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "melting-point-pa66",
-          "label": "Melting point (PA66)",
-          "sourceLabel": "Melting Point (PA66)",
-          "value": "255 - 265 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "255 - 265 °C"
-        },
-        {
-          "key": "melting-point-pa6",
-          "label": "Melting point (PA6)",
-          "sourceLabel": "Melting Point (PA6)",
-          "value": "215 - 225 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "215 - 225 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa-pa66",
-          "label": "HDT (1.82 MPa, PA66)",
-          "sourceLabel": "HDT (1.82 MPa, PA66)",
-          "value": "70 - 90 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "70 - 90 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa-pa6",
-          "label": "HDT (1.82 MPa, PA6)",
-          "sourceLabel": "HDT (1.82 MPa, PA6)",
-          "value": "65 - 80 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "65 - 80 °C"
-        },
-        {
-          "key": "continuous-use-temperature-pa66",
-          "label": "Continuous use temperature (PA66)",
-          "sourceLabel": "Continuous Use Temp (PA66)",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 hrs"
-        },
-        {
-          "key": "melt-temperature-pa66",
-          "label": "Melt temperature (PA66)",
-          "sourceLabel": "Melt Temperature (PA66)",
-          "value": "280 - 300 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "280 - 300 °C"
-        },
-        {
-          "key": "mold-temperature-pa6-source-requires-clarification",
-          "label": "Mold temperature (PA6, source requires clarification)",
-          "sourceLabel": "Mold Temperature (PA6)",
-          "value": "To be confirmed",
-          "available": false,
-          "group": "processing",
-          "condition": "Source label and value require clarification; excluded from processing guidance",
-          "sourceValue": "250 - 290 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "1.0 - 2.0%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "1.0 - 2.0%"
-        }
-      ],
-      "profile": {
-        "parts": "Housings, gears, mating parts and general structural components",
-        "focus": "Identify the resin system, then balance stiffness, toughness, appearance and processability.",
-        "process": "Confirm moisture sensitivity and drying, then assess wall thickness, gates, shrinkage and assembly tolerances.",
-        "tests": [
-          "Dimensions & shrinkage: record critical dimensions by molding direction",
-          "Assembly & impact: verify snap fits, mating features and loaded areas",
-          "Chemicals & aging: test the actual cleaner, temperature and exposure time"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "PA 尼龙（PA6 / PA66） 面向齿轮、轴承和结构件等应用的尼龙材料方向。选型需结合温度、含水状态、冲击与尺寸要求。 机械性能 耐磨 结构应用"
-    },
-    {
-      "id": "pc",
-      "name": "PC (Polycarbonate)",
-      "category": "engineering",
-      "family": "PC",
-      "features": [
-        "Optical clarity",
-        "Impact resistance",
-        "Structural applications"
-      ],
-      "desc": "An engineering-plastic direction combining optical appearance and impact requirements for housings, transparent parts and assemblies.",
-      "source": "https://www.techinherit.com/engineering-plastics/8.html",
-      "image": "materials/pc.webp",
-      "thumbnail": "materials/pc-small.webp",
-      "imageWidth": 625,
-      "imageHeight": 544,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/8.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
+          "key": "flexural-strength",
+          "label": "Flexural strength",
+          "sourceLabel": "Flexural strength",
           "value": "65 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "65 MPa"
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "charpy-impact-state-pending",
+          "label": "Charpy impact, notch state to confirm",
+          "sourceLabel": "Charpy impact, notch state to confirm",
+          "value": "18 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "Confirm notch state, impact method and specimen state"
+        },
+        {
+          "key": "melt-flow-reference",
+          "label": "Melt flow, conditions to confirm",
+          "sourceLabel": "Melt flow, conditions to confirm",
+          "value": "3 g/min",
+          "available": true,
+          "group": "processing",
+          "condition": "Confirm melt-flow method, temperature, load and time unit"
+        },
+        {
+          "key": "hdt-1-8-mpa",
+          "label": "HDT (1.8 MPa)",
+          "sourceLabel": "HDT (1.8 MPa)",
+          "value": "105 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "hdt-0-45-mpa",
+          "label": "HDT (0.45 MPa)",
+          "sourceLabel": "HDT (0.45 MPa)",
+          "value": "120 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "Flammability (UL 94)",
+          "sourceLabel": "Flammability (UL 94)",
+          "value": "HB",
+          "available": true,
+          "group": "thermal",
+          "condition": "UL 94 · Confirm thickness, color and applicable revision"
+        }
+      ],
+      "profile": {
+        "parts": "Clear housings, optical components, electronics and packaging parts",
+        "focus": "A transparent nylon 12 for selection around optical clarity, resilience and toughness in transparent structures, electronics and industrial products.",
+        "process": "Confirm grade-specific drying, melt and mold settings; verify shrinkage, appearance and dimensions during trials.",
+        "reinforcement": "Unreinforced nylon; confirm the formulation for the grade",
+        "tests": [
+          "Optics & appearance: verify transmission, haze and surfaces at the actual thickness",
+          "Chemicals & stress: check cleaners and stress cracking in the assembled state",
+          "Temperature & impact: validate heat exposure, drops and service life"
+        ]
+      },
+      "image": "materials/nylon-tn900.webp",
+      "thumbnail": "materials/nylon-tn900-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TN900 透明尼龙12，兼顾透光、回弹与韧性，适合围绕透明结构件、电子电器及工业消费品开展选型。 透明外观 韧性与回弹 耐化学方向"
+    },
+    {
+      "id": "nylon-tn915",
+      "name": "Techinherit TN915",
+      "grade": "TN915",
+      "catalogType": "grade",
+      "category": "transparent-nylon",
+      "categories": [
+        "transparent-nylon"
+      ],
+      "family": "Transparent PA",
+      "features": [
+        "Optical clarity",
+        "Toughness & resilience",
+        "Chemical resistance"
+      ],
+      "desc": "An amorphous transparent nylon combining stiffness, low water uptake and chemical resistance for automotive, electronic and packaging applications.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "density",
+          "label": "Density",
+          "sourceLabel": "Density",
+          "value": "1020 kg/m³",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 1183 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "water-absorption",
+          "label": "Water absorption",
+          "sourceLabel": "Water absorption",
+          "value": "3 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "light-transmittance",
+          "label": "Light transmittance",
+          "sourceLabel": "Light transmittance",
+          "value": "≥90 %",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
+        },
+        {
+          "key": "molding-shrinkage-parallel",
+          "label": "Molding shrinkage, parallel",
+          "sourceLabel": "Molding shrinkage, parallel",
+          "value": "0.2 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4, 2577 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "molding-shrinkage-transverse",
+          "label": "Molding shrinkage, transverse",
+          "sourceLabel": "Molding shrinkage, transverse",
+          "value": "0.3 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4, 2577 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "60 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "tensile-modulus",
           "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "2,400 MPa",
+          "sourceLabel": "Tensile modulus",
+          "value": "1600 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,400 MPa"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "elongation-at-break",
           "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": ">50%",
+          "sourceLabel": "Elongation at break",
+          "value": "150 %",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": ">50%"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "flexural-modulus",
+          "label": "Flexural modulus",
+          "sourceLabel": "Flexural modulus",
+          "value": "1580 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "flexural-strength",
           "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "97 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "97 MPa"
-        },
-        {
-          "key": "notched-impact-strength-izod",
-          "label": "Notched impact strength (Izod)",
-          "sourceLabel": "Impact Strength (Izod, notched)",
-          "value": "65 KJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "65 KJ/m²"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "M70 - M75",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "M70 - M75"
-        },
-        {
-          "key": "hdt-0-45-mpa",
-          "label": "HDT (0.45 MPa)",
-          "sourceLabel": "HDT (0.45 MPa)",
-          "value": "137 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "137 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "124 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "124 °C"
-        },
-        {
-          "key": "glass-transition-temperature",
-          "label": "Glass transition temperature",
-          "sourceLabel": "Glass Transition Temp",
-          "value": "144 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "144 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "115 - 125 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "115 - 125 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "120 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "2 - 3 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "2 - 3 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "280 - 300 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "280 - 300 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "80 - 140 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 140 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "0.5 - 0.7%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "0.5 - 0.7%"
-        }
-      ],
-      "profile": {
-        "parts": "Housings, gears, mating parts and general structural components",
-        "focus": "Identify the resin system, then balance stiffness, toughness, appearance and processability.",
-        "process": "Confirm moisture sensitivity and drying, then assess wall thickness, gates, shrinkage and assembly tolerances.",
-        "tests": [
-          "Dimensions & shrinkage: record critical dimensions by molding direction",
-          "Assembly & impact: verify snap fits, mating features and loaded areas",
-          "Chemicals & aging: test the actual cleaner, temperature and exposure time"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "PC 聚碳酸酯 兼顾透光外观与抗冲击需求的工程塑料方向，适合从外壳、透明部件和装配要求展开讨论。 透明外观 抗冲击 结构应用"
-    },
-    {
-      "id": "pom",
-      "name": "POM (Acetal)",
-      "category": "engineering",
-      "family": "POM",
-      "features": [
-        "Precision assembly",
-        "Wear resistance",
-        "Dimensional stability"
-      ],
-      "desc": "A material direction for precision transmission and mating parts. Consider friction, loads, tolerances and the long-term operating environment.",
-      "source": "https://www.techinherit.com/engineering-plastics/11.html",
-      "image": "materials/pom.webp",
-      "thumbnail": "materials/pom-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 866,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/11.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "60 - 70 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "60 - 70 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "2,600 - 3,200 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,600 - 3,200 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "25 - 40%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "25 - 40%"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "2,600MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,600MPa"
-        },
-        {
-          "key": "notched-impact-strength-charpy",
-          "label": "Notched impact strength (Charpy)",
-          "sourceLabel": "Impact Strength (Charpy, notched)",
-          "value": "6-8 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "6-8 kJ/m²"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R118 / R120",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R118 / R120"
-        },
-        {
-          "key": "melting-point",
-          "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "175°C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "175°C"
-        },
-        {
-          "key": "hdt-0-45-mpa",
-          "label": "HDT (0.45 MPa)",
-          "sourceLabel": "HDT (0.45 MPa)",
-          "value": "160 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "160 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "110 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "110 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "90 - 100 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "90 - 100 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "2 - 3 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "2 - 3 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "190 - 230 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "190 - 230 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "60 - 100 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "60 - 100 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "70 - 120 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "70 - 120 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "1.8 - 2.5%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "1.8 - 2.5%"
-        }
-      ],
-      "profile": {
-        "parts": "Housings, gears, mating parts and general structural components",
-        "focus": "Identify the resin system, then balance stiffness, toughness, appearance and processability.",
-        "process": "Confirm moisture sensitivity and drying, then assess wall thickness, gates, shrinkage and assembly tolerances.",
-        "tests": [
-          "Dimensions & shrinkage: record critical dimensions by molding direction",
-          "Assembly & impact: verify snap fits, mating features and loaded areas",
-          "Chemicals & aging: test the actual cleaner, temperature and exposure time"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "POM 聚甲醛 面向精密传动与配合部件的材料方向。关注摩擦、载荷、配合公差以及长期使用环境。 精密配合 耐磨 尺寸稳定"
-    },
-    {
-      "id": "pbt",
-      "name": "PBT (Polybutylene terephthalate)",
-      "category": "engineering",
-      "family": "PBT",
-      "features": [
-        "Electrical applications",
-        "Dimensional stability",
-        "Structural applications"
-      ],
-      "desc": "An engineering-plastic direction for electrical and structural parts, with reinforcement, flame-retardant and assembly requirements considered as needed.",
-      "source": "https://www.techinherit.com/engineering-plastics/12.html",
-      "image": "materials/pbt.webp",
-      "thumbnail": "materials/pbt-small.webp",
-      "imageWidth": 675,
-      "imageHeight": 660,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/12.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "55 - 60 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "55 - 60 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "2,500 - 2,700 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,500 - 2,700 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "15 - 40%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "15 - 40%"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "2,500 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,500 MPa"
-        },
-        {
-          "key": "notched-impact-strength-izod",
-          "label": "Notched impact strength (Izod)",
-          "sourceLabel": "Impact Strength (Izod, notched)",
-          "value": "5 - 8 J/m",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "5 - 8 J/m"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R118",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R118"
-        },
-        {
-          "key": "melting-point",
-          "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "225 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "225 °C"
-        },
-        {
-          "key": "hdt-0-45-mpa",
-          "label": "HDT (0.45 MPa)",
-          "sourceLabel": "HDT (0.45 MPa)",
-          "value": "155 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "155 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "60 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "60 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "120 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "120 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "120 - 130 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "120 - 130 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "3 - 4 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "3 - 4 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "240 - 270 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "240 - 270 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "40 - 80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "40 - 80 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "60 - 120 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "60 - 120 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "1.5 - 2.2%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "1.5 - 2.2%"
-        }
-      ],
-      "profile": {
-        "parts": "Housings, gears, mating parts and general structural components",
-        "focus": "Identify the resin system, then balance stiffness, toughness, appearance and processability.",
-        "process": "Confirm moisture sensitivity and drying, then assess wall thickness, gates, shrinkage and assembly tolerances.",
-        "tests": [
-          "Dimensions & shrinkage: record critical dimensions by molding direction",
-          "Assembly & impact: verify snap fits, mating features and loaded areas",
-          "Chemicals & aging: test the actual cleaner, temperature and exposure time"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "PBT 聚对苯二甲酸丁二醇酯 用于电子电气与结构部件的工程塑料方向，可结合增强、阻燃以及装配需求讨论合适配方。 电气应用 尺寸稳定 结构应用"
-    },
-    {
-      "id": "pmma",
-      "name": "PMMA (Acrylic)",
-      "category": "engineering",
-      "family": "PMMA",
-      "features": [
-        "Optical clarity",
-        "Surface quality",
-        "Appearance parts"
-      ],
-      "desc": "A material direction for optical, display and appearance needs, considered alongside environment, surface requirements and geometry.",
-      "source": "https://www.techinherit.com/engineering-plastics/13.html",
-      "image": "materials/pmma.webp",
-      "thumbnail": "materials/pmma-small.webp",
-      "imageWidth": 520,
-      "imageHeight": 519,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/13.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
+          "sourceLabel": "Flexural strength",
           "value": "70 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "70 MPa"
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "3,200 MPa",
+          "key": "charpy-impact-state-pending",
+          "label": "Charpy impact, notch state to confirm",
+          "sourceLabel": "Charpy impact, notch state to confirm",
+          "value": "30 kJ/m²",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3,200 MPa"
+          "condition": "Confirm notch state, impact method and specimen state"
         },
         {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "5%",
+          "key": "melt-flow-reference",
+          "label": "Melt flow, conditions to confirm",
+          "sourceLabel": "Melt flow, conditions to confirm",
+          "value": "2.8 g/min",
           "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "5%"
+          "group": "processing",
+          "condition": "Confirm melt-flow method, temperature, load and time unit"
         },
         {
-          "key": "flexural-strength",
-          "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "115 MPa",
+          "key": "hdt-1-8-mpa",
+          "label": "HDT (1.8 MPa)",
+          "sourceLabel": "HDT (1.8 MPa)",
+          "value": "125 °C",
           "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "115 MPa"
-        },
-        {
-          "key": "notched-impact-strength-izod",
-          "label": "Notched impact strength (Izod)",
-          "sourceLabel": "Impact Strength (Izod, notched)",
-          "value": "2 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2 kJ/m²"
-        },
-        {
-          "key": "rockwell-hardness-m-scale",
-          "label": "Rockwell hardness (M scale)",
-          "sourceLabel": "Hardness (Rockwell M)",
-          "value": "M90 - M100",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "M90 - M100"
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "hdt-0-45-mpa",
           "label": "HDT (0.45 MPa)",
           "sourceLabel": "HDT (0.45 MPa)",
-          "value": "100 °C",
+          "value": "135 °C",
           "available": true,
           "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "100 °C"
+          "condition": "ISO 75-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "95 °C",
+          "key": "flammability-ul94",
+          "label": "Flammability (UL 94)",
+          "sourceLabel": "Flammability (UL 94)",
+          "value": "HB",
           "available": true,
           "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "95 °C"
+          "condition": "UL 94 · Confirm thickness, color and applicable revision"
+        }
+      ],
+      "profile": {
+        "parts": "Clear housings, optical components, electronics and packaging parts",
+        "focus": "An amorphous transparent nylon combining stiffness, low water uptake and chemical resistance for automotive, electronic and packaging applications.",
+        "process": "Confirm grade-specific drying, melt and mold settings; verify shrinkage, appearance and dimensions during trials.",
+        "reinforcement": "Unreinforced nylon; confirm the formulation for the grade",
+        "tests": [
+          "Optics & appearance: verify transmission, haze and surfaces at the actual thickness",
+          "Chemicals & stress: check cleaners and stress cracking in the assembled state",
+          "Temperature & impact: validate heat exposure, drops and service life"
+        ]
+      },
+      "image": "materials/nylon-tn915.webp",
+      "thumbnail": "materials/nylon-tn915-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TN915 非晶型透明尼龙，关注刚性、低吸水和耐化学表现，可用于汽车部件、电子产品及包装方向。 透明外观 韧性与回弹 耐化学方向"
+    },
+    {
+      "id": "nylon-tn926",
+      "name": "Techinherit TN926",
+      "grade": "TN926",
+      "catalogType": "grade",
+      "category": "transparent-nylon",
+      "categories": [
+        "transparent-nylon"
+      ],
+      "family": "PA12",
+      "features": [
+        "Optical clarity",
+        "Toughness & resilience",
+        "Chemical resistance"
+      ],
+      "desc": "A high-transmission transparent nylon 12 for evaluating toughness and stress-cracking resistance in optical parts, clear housings and industrial components.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "density",
+          "label": "Density",
+          "sourceLabel": "Density",
+          "value": "1.02 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 1183 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "glass-transition-temperature",
-          "label": "Glass transition temperature",
-          "sourceLabel": "Glass Transition Temp",
+          "key": "saturated-water-absorption",
+          "label": "Saturated water absorption",
+          "sourceLabel": "Saturated water absorption",
+          "value": "3 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "light-transmittance",
+          "label": "Light transmittance",
+          "sourceLabel": "Light transmittance",
+          "value": "≥92 %",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
+        },
+        {
+          "key": "molding-shrinkage-parallel",
+          "label": "Molding shrinkage, parallel",
+          "sourceLabel": "Molding shrinkage, parallel",
+          "value": "0.4 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4,2577 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "molding-shrinkage-transverse",
+          "label": "Molding shrinkage, transverse",
+          "sourceLabel": "Molding shrinkage, transverse",
+          "value": "0.5 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4,2577 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "62 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "tensile-modulus",
+          "label": "Tensile modulus",
+          "sourceLabel": "Tensile modulus",
+          "value": "1580 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "elongation-at-break",
+          "label": "Elongation at break",
+          "sourceLabel": "Elongation at break",
+          "value": "170 %",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "flexural-modulus",
+          "label": "Flexural modulus",
+          "sourceLabel": "Flexural modulus",
+          "value": "1580 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "flexural-strength",
+          "label": "Flexural strength",
+          "sourceLabel": "Flexural strength",
+          "value": "72 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "charpy-impact-state-pending",
+          "label": "Charpy impact, notch state to confirm",
+          "sourceLabel": "Charpy impact, notch state to confirm",
+          "value": "18 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "Confirm notch state, impact method and specimen state"
+        },
+        {
+          "key": "melt-flow-reference",
+          "label": "Melt flow, conditions to confirm",
+          "sourceLabel": "Melt flow, conditions to confirm",
+          "value": "3 g/min",
+          "available": true,
+          "group": "processing",
+          "condition": "Confirm melt-flow method, temperature, load and time unit"
+        },
+        {
+          "key": "hdt-1-8-mpa",
+          "label": "HDT (1.8 MPa)",
+          "sourceLabel": "HDT (1.8 MPa)",
           "value": "105 °C",
           "available": true,
           "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "105 °C"
+          "condition": "ISO 75-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
+          "key": "hdt-0-45-mpa",
+          "label": "HDT (0.45 MPa)",
+          "sourceLabel": "HDT (0.45 MPa)",
           "value": "120 °C",
           "available": true,
           "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "120 °C"
+          "condition": "ISO 75-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "flammability-ul-94",
+          "key": "flammability-ul94",
           "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
+          "sourceLabel": "Flammability (UL 94)",
           "value": "HB",
           "available": true,
           "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "2 - 4 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "2 - 4 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "220 - 250 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "220 - 250 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "50 - 80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "50 - 80 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "70 - 140 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "70 - 140 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "0.2 - 0.7%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "0.2 - 0.7%"
+          "condition": "UL 94 · Confirm thickness, color and applicable revision"
         }
       ],
       "profile": {
-        "parts": "Housings, gears, mating parts and general structural components",
-        "focus": "Identify the resin system, then balance stiffness, toughness, appearance and processability.",
-        "process": "Confirm moisture sensitivity and drying, then assess wall thickness, gates, shrinkage and assembly tolerances.",
+        "parts": "Clear housings, optical components, electronics and packaging parts",
+        "focus": "A high-transmission transparent nylon 12 for evaluating toughness and stress-cracking resistance in optical parts, clear housings and industrial components.",
+        "process": "Confirm grade-specific drying, melt and mold settings; verify shrinkage, appearance and dimensions during trials.",
+        "reinforcement": "Unreinforced nylon; confirm the formulation for the grade",
         "tests": [
-          "Dimensions & shrinkage: record critical dimensions by molding direction",
-          "Assembly & impact: verify snap fits, mating features and loaded areas",
-          "Chemicals & aging: test the actual cleaner, temperature and exposure time"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
+          "Optics & appearance: verify transmission, haze and surfaces at the actual thickness",
+          "Chemicals & stress: check cleaners and stress cracking in the assembled state",
+          "Temperature & impact: validate heat exposure, drops and service life"
+        ]
       },
-      "searchAliases": "PMMA 亚克力 面向透光、展示与外观需求的材料方向，需要同时考虑使用环境、表面要求与零件结构。 透明外观 表面表现 外观部件"
+      "image": "materials/nylon-tn926.webp",
+      "thumbnail": "materials/nylon-tn926-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TN926 高透光透明尼龙12，关注韧性与耐应力开裂表现，可围绕光学部件、透明外壳和工业零件进行评估。 透明外观 韧性与回弹 耐化学方向"
     },
     {
-      "id": "abs",
-      "name": "ABS",
-      "category": "engineering",
-      "family": "ABS",
-      "features": [
-        "Appearance parts",
-        "Impact resistance",
-        "Processing suitability"
+      "id": "nylon-tn955",
+      "name": "Techinherit TN955",
+      "grade": "TN955",
+      "catalogType": "grade",
+      "category": "transparent-nylon",
+      "categories": [
+        "transparent-nylon",
+        "bio-based-nylon"
       ],
-      "desc": "A resin direction balancing appearance, impact and processing needs for housings, consumer products and structural design.",
-      "source": "https://www.techinherit.com/Carbon%20fiber%20materials/7.html",
-      "image": "materials/abs.webp",
-      "thumbnail": "materials/abs-small.webp",
-      "imageWidth": 639,
-      "imageHeight": 630,
-      "thumbnailWidth": 400,
+      "family": "Transparent PA",
+      "features": [
+        "Bio-based option",
+        "Optical clarity",
+        "Toughness & resilience"
+      ],
+      "desc": "A bio-based transparent nylon for evaluating stiffness, low water uptake and hydrolysis resistance in automotive, electronic and premium packaging components.",
+      "source": "",
       "reference": {
-        "source": "https://www.techinherit.com/Carbon%20fiber%20materials/7.html",
         "accessed": "2026-10-24"
       },
       "properties": [
         {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "45 MPa",
+          "key": "density",
+          "label": "Density",
+          "sourceLabel": "Density",
+          "value": "1.02 g/cm³",
           "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "45 MPa"
+          "group": "physical",
+          "condition": "ISO 1183 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "2.3 GPa",
+          "key": "saturated-water-absorption",
+          "label": "Saturated water absorption",
+          "sourceLabel": "Saturated water absorption",
+          "value": "3 %",
           "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2.3 GPa"
+          "group": "physical",
+          "condition": "ISO 62 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "notched-impact-strength-izod",
-          "label": "Notched impact strength (Izod)",
-          "sourceLabel": "Impact Strength (Izod, notched)",
-          "value": "260 J/m",
+          "key": "light-transmittance",
+          "label": "Light transmittance",
+          "sourceLabel": "Light transmittance",
+          "value": "≥90 %",
           "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "260 J/m"
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
         },
         {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "10 %",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "10 %"
-        },
-        {
-          "key": "rockwell-hardness-r-scale",
-          "label": "Rockwell hardness (R scale)",
-          "sourceLabel": "Hardness (Rockwell R)",
-          "value": "R105",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R105"
-        },
-        {
-          "key": "hdt-0-45-mpa",
-          "label": "HDT (0.45 MPa)",
-          "sourceLabel": "HDT (0.45 MPa)",
-          "value": "99 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "99 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "94 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "94 °C"
-        },
-        {
-          "key": "vicat-softening-temperature",
-          "label": "Vicat softening temperature",
-          "sourceLabel": "Vicat Softening Point",
-          "value": "105 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "105 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "80 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "80 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 °C",
+          "key": "molding-shrinkage-parallel",
+          "label": "Molding shrinkage, parallel",
+          "sourceLabel": "Molding shrinkage, parallel",
+          "value": "0.6 %",
           "available": true,
           "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 °C"
+          "condition": "ISO 294-4, 2577 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "2 - 4 hrs",
+          "key": "molding-shrinkage-transverse",
+          "label": "Molding shrinkage, transverse",
+          "sourceLabel": "Molding shrinkage, transverse",
+          "value": "0.8 %",
           "available": true,
           "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "2 - 4 hrs"
+          "condition": "ISO 294-4, 2577 · Confirm specimen state, temperature, humidity and full test conditions"
         },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "220 - 260 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "220 - 260 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "30 - 80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "30 - 80 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "50 - 100 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "50 - 100 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "0.4 - 0.7%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "0.4 - 0.7%"
-        }
-      ],
-      "profile": {
-        "parts": "Housings, gears, mating parts and general structural components",
-        "focus": "Identify the resin system, then balance stiffness, toughness, appearance and processability.",
-        "process": "Confirm moisture sensitivity and drying, then assess wall thickness, gates, shrinkage and assembly tolerances.",
-        "tests": [
-          "Dimensions & shrinkage: record critical dimensions by molding direction",
-          "Assembly & impact: verify snap fits, mating features and loaded areas",
-          "Chemicals & aging: test the actual cleaner, temperature and exposure time"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "ABS 兼顾外观、冲击与加工需求的树脂方向，可用于讨论外壳、消费类部件与结构设计的匹配。 外观部件 抗冲击 加工适配"
-    },
-    {
-      "id": "pp",
-      "name": "PP (Polypropylene)",
-      "category": "engineering",
-      "family": "PP",
-      "features": [
-        "Lightweight design",
-        "General applications",
-        "Functional modification"
-      ],
-      "desc": "A polypropylene direction for general applications, with modified or dedicated compounds discussed around operating conditions and performance targets.",
-      "source": "https://www.techinherit.com/Carbon%20fiber%20materials/14.html",
-      "image": "materials/pp.webp",
-      "thumbnail": "materials/pp-small.webp",
-      "imageWidth": 530,
-      "imageHeight": 458,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/Carbon%20fiber%20materials/14.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
         {
           "key": "tensile-strength",
           "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "30 -40 MPa",
+          "sourceLabel": "Tensile strength",
+          "value": "60 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "30 -40 MPa"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "tensile-modulus",
           "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "1,400 -1,800 MPa",
+          "sourceLabel": "Tensile modulus",
+          "value": "1680 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "1,400 -1,800 MPa"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "elongation-at-break",
           "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "100 - 600%",
+          "sourceLabel": "Elongation at break",
+          "value": "160 %",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "100 - 600%"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "flexural-modulus",
           "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "1,400 MPa",
+          "sourceLabel": "Flexural modulus",
+          "value": "1589 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "1,400 MPa"
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "notched-impact-strength-izod",
-          "label": "Notched impact strength (Izod)",
-          "sourceLabel": "Impact Strength (Izod, notched)",
-          "value": "3 - 6 kJ/m²",
+          "key": "flexural-strength",
+          "label": "Flexural strength",
+          "sourceLabel": "Flexural strength",
+          "value": "60 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 6 kJ/m²"
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R80 - R100",
+          "key": "charpy-impact-state-pending",
+          "label": "Charpy impact, notch state to confirm",
+          "sourceLabel": "Charpy impact, notch state to confirm",
+          "value": "15 kJ/㎡",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R80 - R100"
+          "condition": "Confirm notch state, impact method and specimen state"
         },
         {
-          "key": "melting-point",
-          "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "160 - 170 °C",
+          "key": "melt-flow-reference",
+          "label": "Melt flow, conditions to confirm",
+          "sourceLabel": "Melt flow, conditions to confirm",
+          "value": "3 g/min",
+          "available": true,
+          "group": "processing",
+          "condition": "Confirm melt-flow method, temperature, load and time unit"
+        },
+        {
+          "key": "hdt-1-8-mpa",
+          "label": "HDT (1.8 MPa)",
+          "sourceLabel": "HDT (1.8 MPa)",
+          "value": "120 °C",
           "available": true,
           "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "160 - 170 °C"
+          "condition": "ISO 75-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "hdt-0-45-mpa",
           "label": "HDT (0.45 MPa)",
           "sourceLabel": "HDT (0.45 MPa)",
-          "value": "100 -170 °C",
+          "value": "135 °C",
           "available": true,
           "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "100 -170 °C"
+          "condition": "ISO 75-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "55 - 65 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "55 - 65 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "80 - 100 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "80 - 100 °C"
-        },
-        {
-          "key": "flammability-ul-94",
+          "key": "flammability-ul94",
           "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
+          "sourceLabel": "Flammability (UL 94)",
           "value": "HB",
           "available": true,
           "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "1 - 2 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "1 - 2 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "200 - 280 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "200 - 280 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "30 - 80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "30 - 80 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "40 - 100 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "40 - 100 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "1.0 - 2.5%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "1.0 - 2.5%"
+          "condition": "UL 94 · 1.5 mm · Confirm thickness, color and applicable revision"
         }
       ],
       "profile": {
-        "parts": "Housings, gears, mating parts and general structural components",
-        "focus": "Identify the resin system, then balance stiffness, toughness, appearance and processability.",
-        "process": "Confirm moisture sensitivity and drying, then assess wall thickness, gates, shrinkage and assembly tolerances.",
+        "parts": "Clear housings, optical components, electronics and packaging parts",
+        "focus": "A bio-based transparent nylon for evaluating stiffness, low water uptake and hydrolysis resistance in automotive, electronic and premium packaging components.",
+        "process": "Confirm grade-specific drying, melt and mold settings; verify shrinkage, appearance and dimensions during trials.",
+        "reinforcement": "Unreinforced nylon; confirm the formulation for the grade",
         "tests": [
-          "Dimensions & shrinkage: record critical dimensions by molding direction",
-          "Assembly & impact: verify snap fits, mating features and loaded areas",
-          "Chemicals & aging: test the actual cleaner, temperature and exposure time"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
+          "Optics & appearance: verify transmission, haze and surfaces at the actual thickness",
+          "Chemicals & stress: check cleaners and stress cracking in the assembled state",
+          "Temperature & impact: validate heat exposure, drops and service life"
+        ]
       },
-      "searchAliases": "PP 聚丙烯 适用于多种通用应用的聚丙烯材料方向，可根据使用环境与性能目标讨论改性或专用配方。 轻量化 通用应用 功能改性"
+      "image": "materials/nylon-tn955.webp",
+      "thumbnail": "materials/nylon-tn955-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TN955 生物基透明尼龙，兼顾刚性、低吸水与耐水解方向，适合汽车、电子和高端包装部件的材料评估。 生物基方向 透明外观 韧性与回弹"
     },
     {
-      "id": "pe",
-      "name": "PE (HDPE / LDPE)",
-      "category": "engineering",
-      "family": "PE",
-      "features": [
-        "General applications",
-        "Flexibility",
-        "Material selection"
+      "id": "nylon-tn956",
+      "name": "Techinherit TN956",
+      "grade": "TN956",
+      "catalogType": "grade",
+      "category": "transparent-nylon",
+      "categories": [
+        "transparent-nylon"
       ],
-      "desc": "High-density and low-density polyethylene directions. Consider stiffness, flexibility, contact media and processing when selecting a resin system.",
-      "source": "https://www.techinherit.com/Carbon%20fiber%20materials/15.html",
-      "image": "materials/pe.webp",
-      "thumbnail": "materials/pe-small.webp",
-      "imageWidth": 333,
-      "imageHeight": 315,
-      "thumbnailWidth": 333,
+      "family": "PA12",
+      "features": [
+        "Optical clarity",
+        "Toughness & resilience",
+        "Chemical resistance"
+      ],
+      "desc": "A transparent nylon 12 for heat resistance, toughness and clear appearance in vessels, electronics and optical parts; confirm contact compliance for the intended use.",
+      "source": "",
       "reference": {
-        "source": "https://www.techinherit.com/Carbon%20fiber%20materials/15.html",
         "accessed": "2026-10-24"
       },
       "properties": [
         {
-          "key": "tensile-strength-hdpe",
-          "label": "Tensile strength (HDPE)",
-          "sourceLabel": "Tensile Strength (HDPE)",
-          "value": "25 -31 MPa",
+          "key": "density",
+          "label": "Density",
+          "sourceLabel": "Density",
+          "value": "1 g/cm³",
           "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "25 -31 MPa"
+          "group": "physical",
+          "condition": "ISO 1183 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "tensile-strength-ldpe",
-          "label": "Tensile strength (LDPE)",
-          "sourceLabel": "Tensile Strength (LDPE)",
-          "value": "8 - 15 MPa",
+          "key": "saturated-water-absorption",
+          "label": "Saturated water absorption",
+          "sourceLabel": "Saturated water absorption",
+          "value": "2 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "light-transmittance",
+          "label": "Light transmittance",
+          "sourceLabel": "Light transmittance",
+          "value": "≥90 %",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
+        },
+        {
+          "key": "molding-shrinkage-parallel",
+          "label": "Molding shrinkage, parallel",
+          "sourceLabel": "Molding shrinkage, parallel",
+          "value": "0.3 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4,2577 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "molding-shrinkage-transverse",
+          "label": "Molding shrinkage, transverse",
+          "sourceLabel": "Molding shrinkage, transverse",
+          "value": "0.4 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4,2577 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "60 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "8 - 15 MPa"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "tensile-modulus",
           "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "800 -1,100 MPa",
+          "sourceLabel": "Tensile modulus",
+          "value": "1600 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "800 -1,100 MPa"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "elongation-at-break",
           "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "100 - 600%",
+          "sourceLabel": "Elongation at break",
+          "value": "150 %",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "100 - 600%"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "impact-strength-izod-notch-unspecified",
-          "label": "Impact strength (Izod, notch unspecified)",
-          "sourceLabel": "Impact Strength (Izod)",
-          "value": "5 - 20 kJ/m²",
+          "key": "flexural-modulus",
+          "label": "Flexural modulus",
+          "sourceLabel": "Flexural modulus",
+          "value": "1600 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "5 - 20 kJ/m²"
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "shore-d-hardness",
-          "label": "Shore D hardness",
-          "sourceLabel": "Hardness (Shore D)",
-          "value": "60 - 70",
+          "key": "flexural-strength",
+          "label": "Flexural strength",
+          "sourceLabel": "Flexural strength",
+          "value": "70 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "60 - 70"
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "melting-point-hdpe",
-          "label": "Melting point (HDPE)",
-          "sourceLabel": "Melting Point (HDPE)",
-          "value": "130 - 135 °C",
+          "key": "charpy-impact-state-pending",
+          "label": "Charpy impact, notch state to confirm",
+          "sourceLabel": "Charpy impact, notch state to confirm",
+          "value": "30 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "Confirm notch state, impact method and specimen state"
+        },
+        {
+          "key": "melt-flow-reference",
+          "label": "Melt flow, conditions to confirm",
+          "sourceLabel": "Melt flow, conditions to confirm",
+          "value": "2.8 g/min",
+          "available": true,
+          "group": "processing",
+          "condition": "Confirm melt-flow method, temperature, load and time unit"
+        },
+        {
+          "key": "hdt-1-8-mpa",
+          "label": "HDT (1.8 MPa)",
+          "sourceLabel": "HDT (1.8 MPa)",
+          "value": "125 °C",
           "available": true,
           "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "130 - 135 °C"
-        },
-        {
-          "key": "melting-point-ldpe",
-          "label": "Melting point (LDPE)",
-          "sourceLabel": "Melting Point (LDPE)",
-          "value": "110 - 115 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "110 - 115 °C"
+          "condition": "ISO 75-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "hdt-0-45-mpa",
           "label": "HDT (0.45 MPa)",
           "sourceLabel": "HDT (0.45 MPa)",
-          "value": "80 °C",
+          "value": "135 °C",
           "available": true,
           "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "80 °C"
+          "condition": "ISO 75-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "60 - 80 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "60 - 80 °C"
-        },
-        {
-          "key": "flammability-ul-94",
+          "key": "flammability-ul94",
           "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
+          "sourceLabel": "Flammability (UL 94)",
           "value": "HB",
           "available": true,
           "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "Not normally required",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "Not normally required"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "To be confirmed",
-          "available": false,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "N/A"
-        },
-        {
-          "key": "melt-temperature-hdpe",
-          "label": "Melt temperature (HDPE)",
-          "sourceLabel": "Melt Temperature (HDPE)",
-          "value": "210 - 280 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "210 - 280 °C"
-        },
-        {
-          "key": "melt-temperature-ldpe",
-          "label": "Melt temperature (LDPE)",
-          "sourceLabel": "Melt Temperature (LDPE)",
-          "value": "170 - 240 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "170 - 240 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "20 - 60 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "20 - 60 °C"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "1.5 - 3.5%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "1.5 - 3.5%"
+          "condition": "UL 94 · Confirm thickness, color and applicable revision"
         }
       ],
       "profile": {
-        "parts": "Housings, gears, mating parts and general structural components",
-        "focus": "Identify the resin system, then balance stiffness, toughness, appearance and processability.",
-        "process": "Confirm moisture sensitivity and drying, then assess wall thickness, gates, shrinkage and assembly tolerances.",
+        "parts": "Clear housings, optical components, electronics and packaging parts",
+        "focus": "A transparent nylon 12 for heat resistance, toughness and clear appearance in vessels, electronics and optical parts; confirm contact compliance for the intended use.",
+        "process": "Confirm grade-specific drying, melt and mold settings; verify shrinkage, appearance and dimensions during trials.",
+        "reinforcement": "Unreinforced nylon; confirm the formulation for the grade",
         "tests": [
-          "Dimensions & shrinkage: record critical dimensions by molding direction",
-          "Assembly & impact: verify snap fits, mating features and loaded areas",
-          "Chemicals & aging: test the actual cleaner, temperature and exposure time"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
+          "Optics & appearance: verify transmission, haze and surfaces at the actual thickness",
+          "Chemicals & stress: check cleaners and stress cracking in the assembled state",
+          "Temperature & impact: validate heat exposure, drops and service life"
+        ]
       },
-      "searchAliases": "PE（HDPE / LDPE） 高密度与低密度聚乙烯材料方向。关注刚柔需求、接触介质和加工形式，选择适用树脂体系。 通用应用 柔韧需求 材料选型"
+      "image": "materials/nylon-tn956.webp",
+      "thumbnail": "materials/nylon-tn956-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TN956 透明尼龙12，关注耐热、韧性与透明外观，可用于杯体、电子电器和光学部件方向；接触合规按具体用途确认。 透明外观 韧性与回弹 耐化学方向"
     },
     {
-      "id": "pa66-gf30",
-      "name": "PA66 GF30",
-      "category": "reinforced",
-      "family": "PA66",
+      "id": "nylon-pa610",
+      "name": "Techinherit PA610",
+      "grade": "PA610",
+      "catalogType": "grade",
+      "category": "long-chain-nylon",
+      "categories": [
+        "long-chain-nylon",
+        "bio-based-nylon"
+      ],
+      "family": "PA610",
       "features": [
-        "Glass-fiber reinforcement",
-        "High stiffness",
+        "Bio-based option",
+        "Low moisture uptake",
         "Dimensional stability"
       ],
-      "desc": "PA66 with 30% glass fiber, for discussions involving structural loads, stiffness and dimensional stability.",
-      "source": "https://www.techinherit.com/engineering-plastics/25.html",
-      "image": "materials/pa66-gf30.webp",
-      "thumbnail": "materials/pa66-gf30-small.webp",
-      "imageWidth": 900,
+      "desc": "A bio-based long-chain nylon for low water uptake, low-temperature toughness and dimensional stability in monofilaments, cable coatings and mechanical parts.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "viscosity-options",
+          "label": "Viscosity options",
+          "sourceLabel": "Viscosity options",
+          "value": "Ⅰ Ⅱ Ⅲ",
+          "available": true,
+          "group": "processing",
+          "condition": "Confirm test method and specimen state"
+        },
+        {
+          "key": "melting-point",
+          "label": "Melting point",
+          "sourceLabel": "Melting point",
+          "value": "224 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 11357-1/-3 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "58 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "elongation-at-break",
+          "label": "Elongation at break",
+          "sourceLabel": "Elongation at break",
+          "value": "＞100 %",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "flexural-strength",
+          "label": "Flexural strength",
+          "sourceLabel": "Flexural strength",
+          "value": "65 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
+        },
+        {
+          "key": "pellet-count",
+          "label": "Pellet count",
+          "sourceLabel": "Pellet count",
+          "value": "40-60 pellets/g",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
+        },
+        {
+          "key": "loss-on-drying",
+          "label": "Loss on drying",
+          "sourceLabel": "Loss on drying",
+          "value": "＜1 ‰",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
+        },
+        {
+          "key": "density",
+          "label": "Density",
+          "sourceLabel": "Density",
+          "value": "1.08 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
+        },
+        {
+          "key": "unnotched-impact-strength",
+          "label": "Unnotched impact strength",
+          "sourceLabel": "Unnotched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Confirm notch state, impact method and specimen state"
+        },
+        {
+          "key": "notched-impact-strength-method-pending",
+          "label": "Notched impact strength, method to confirm",
+          "sourceLabel": "Notched impact strength, method to confirm",
+          "value": "6 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "Confirm notch state, impact method and specimen state"
+        },
+        {
+          "key": "saturated-water-absorption",
+          "label": "Saturated water absorption",
+          "sourceLabel": "Saturated water absorption",
+          "value": "3 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · Confirm specimen state, temperature, humidity and full test conditions"
+        }
+      ],
+      "profile": {
+        "parts": "Monofilaments, tubing, cable coatings, instrument and mechanical components",
+        "focus": "A bio-based long-chain nylon for low water uptake, low-temperature toughness and dimensional stability in monofilaments, cable coatings and mechanical parts.",
+        "process": "Confirm grade-specific drying, melt and mold settings; verify shrinkage, appearance and dimensions during trials.",
+        "reinforcement": "Unreinforced nylon; confirm the formulation for the grade",
+        "tests": [
+          "Water uptake & dimensions: compare critical dimensions dry and conditioned",
+          "Cold & load: test impact and loading at the target temperature",
+          "Chemicals & processing: check oil exposure, shrinkage and processing window"
+        ]
+      },
+      "image": "materials/nylon-pa610.webp",
+      "thumbnail": "materials/nylon-pa610-small.webp",
+      "imageWidth": 1200,
       "imageHeight": 900,
       "thumbnailWidth": 400,
+      "searchAliases": "Techinherit PA610 长碳链生物基尼龙，关注低吸水、低温韧性和尺寸稳定，适用于单丝、电缆包覆及机械配合件方向。 生物基方向 低吸水方向 尺寸稳定"
+    },
+    {
+      "id": "nylon-pa612",
+      "name": "Techinherit PA612",
+      "grade": "PA612",
+      "catalogType": "grade",
+      "category": "long-chain-nylon",
+      "categories": [
+        "long-chain-nylon"
+      ],
+      "family": "PA612",
+      "features": [
+        "Low moisture uptake",
+        "Dimensional stability",
+        "Oil resistance"
+      ],
+      "desc": "A long-chain nylon for toughness, oil resistance and electrical applications including bristles, monofilaments, cable coatings and instrument components.",
+      "source": "",
       "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/25.html",
         "accessed": "2026-10-24"
       },
       "properties": [
         {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "200 MPa",
+          "key": "viscosity-options",
+          "label": "Viscosity options",
+          "sourceLabel": "Viscosity options",
+          "value": "Ⅰ Ⅱ Ⅲ",
           "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "200 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "9500 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "9500 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "3 - 5%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 5%"
-        },
-        {
-          "key": "flexural-strength",
-          "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "300 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "300 MPa"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "9000 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "9000 MPa"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R120 / R125",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R120 / R125"
+          "group": "processing",
+          "condition": "Confirm test method and specimen state"
         },
         {
           "key": "melting-point",
           "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "255 - 265 °C",
+          "sourceLabel": "Melting point",
+          "value": "218 °C",
           "available": true,
           "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "255 - 265 °C"
+          "condition": "ISO 11357-1/-3 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "240 - 260 °C",
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "58 MPa",
           "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "240 - 260 °C"
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "120 - 150 °C",
+          "key": "elongation-at-break",
+          "label": "Elongation at break",
+          "sourceLabel": "Elongation at break",
+          "value": "＞150 %",
           "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "120 - 150 °C"
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
+          "key": "flexural-strength",
+          "label": "Flexural strength",
+          "sourceLabel": "Flexural strength",
+          "value": "62 MPa",
           "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
+          "group": "mechanical",
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 - 90°C",
+          "key": "pellet-count",
+          "label": "Pellet count",
+          "sourceLabel": "Pellet count",
+          "value": "40-60 pellets/g",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 90°C"
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
         },
         {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 - 6 hrs",
+          "key": "loss-on-drying",
+          "label": "Loss on drying",
+          "sourceLabel": "Loss on drying",
+          "value": "＜1 ‰",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 - 6 hrs"
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
         },
         {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "280 - 300 °C",
+          "key": "density",
+          "label": "Density",
+          "sourceLabel": "Density",
+          "value": "1.06 g/cm³",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "280 - 300 °C"
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
         },
         {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 120 °C"
+          "key": "unnotched-impact-strength",
+          "label": "Unnotched impact strength",
+          "sourceLabel": "Unnotched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Confirm notch state, impact method and specimen state"
         },
         {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "100 - 160 MPa",
+          "key": "notched-impact-strength-method-pending",
+          "label": "Notched impact strength, method to confirm",
+          "sourceLabel": "Notched impact strength, method to confirm",
+          "value": "6 kJ/m²",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "100 - 160 MPa"
+          "group": "mechanical",
+          "condition": "Confirm notch state, impact method and specimen state"
         },
         {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "0.3 - 0.6%",
+          "key": "saturated-water-absorption",
+          "label": "Saturated water absorption",
+          "sourceLabel": "Saturated water absorption",
+          "value": "2.8 %",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "0.3 - 0.6%"
+          "group": "physical",
+          "condition": "ISO 62 · Confirm specimen state, temperature, humidity and full test conditions"
         }
       ],
       "profile": {
-        "parts": "Load-bearing brackets, chair frames, mounts and precision supports",
-        "focus": "Reinforcement content and fiber orientation jointly affect stiffness, toughness and dimensions.",
-        "process": "Review gates, weld lines and fiber orientation; verify warpage and loaded areas on molded parts.",
+        "parts": "Monofilaments, tubing, cable coatings, instrument and mechanical components",
+        "focus": "A long-chain nylon for toughness, oil resistance and electrical applications including bristles, monofilaments, cable coatings and instrument components.",
+        "process": "Confirm grade-specific drying, melt and mold settings; verify shrinkage, appearance and dimensions during trials.",
+        "reinforcement": "Unreinforced nylon; confirm the formulation for the grade",
         "tests": [
-          "Structural loading: distinguish short-term strength, creep and cyclic fatigue",
-          "Dry & conditioned states: compare nylon materials in matching states",
-          "Orientation & weld lines: verify weak areas and mounting points"
-        ],
-        "reinforcement": "30% glass fiber"
+          "Water uptake & dimensions: compare critical dimensions dry and conditioned",
+          "Cold & load: test impact and loading at the target temperature",
+          "Chemicals & processing: check oil exposure, shrinkage and processing window"
+        ]
       },
-      "searchAliases": "PA66 GF30 含 30% 玻璃纤维的增强 PA66 材料方向，面向结构承载、刚性与尺寸稳定需求。 玻纤增强 高刚性 尺寸稳定"
-    },
-    {
-      "id": "pa6-gf30",
-      "name": "PA6 GF30",
-      "category": "reinforced",
-      "family": "PA6",
-      "features": [
-        "Glass-fiber reinforcement",
-        "Structural applications",
-        "Mechanical performance"
-      ],
-      "desc": "PA6 with 30% glass fiber. Evaluate it alongside part design, molding conditions and the operating environment.",
-      "source": "https://www.techinherit.com/engineering-plastics/24.html",
-      "image": "materials/pa6-gf30.webp",
-      "thumbnail": "materials/pa6-gf30-small.webp",
-      "imageWidth": 900,
+      "image": "materials/nylon-pa612.webp",
+      "thumbnail": "materials/nylon-pa612-small.webp",
+      "imageWidth": 1200,
       "imageHeight": 900,
       "thumbnailWidth": 400,
+      "searchAliases": "Techinherit PA612 长碳链尼龙，兼顾韧性、耐油和电气应用需求，可围绕牙刷丝、单丝、电缆包覆及仪表零件选型。 低吸水方向 尺寸稳定 耐油方向"
+    },
+    {
+      "id": "nylon-pa1010",
+      "name": "Techinherit PA1010",
+      "grade": "PA1010",
+      "catalogType": "grade",
+      "category": "long-chain-nylon",
+      "categories": [
+        "long-chain-nylon",
+        "bio-based-nylon"
+      ],
+      "family": "PA1010",
+      "features": [
+        "Bio-based option",
+        "Low moisture uptake",
+        "Dimensional stability"
+      ],
+      "desc": "A bio-based long-chain nylon for toughness, strength, low moisture uptake and controlled shrinkage in automotive, instrument and industrial parts.",
+      "source": "",
       "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/24.html",
         "accessed": "2026-10-24"
       },
       "properties": [
         {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "180 MPa",
+          "key": "viscosity-options",
+          "label": "Viscosity options",
+          "sourceLabel": "Viscosity options",
+          "value": "Ⅰ Ⅱ Ⅲ",
           "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "180 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "9000 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "9000 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "3 - 5%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 5%"
-        },
-        {
-          "key": "flexural-strength",
-          "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "280 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "280 MPa"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "8500 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "8500 MPa"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R120 / R125",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R120 / R125"
+          "group": "processing",
+          "condition": "Confirm test method and specimen state"
         },
         {
           "key": "melting-point",
           "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "215 - 225 °C",
+          "sourceLabel": "Melting point",
+          "value": "200 °C",
           "available": true,
           "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "215 - 225 °C"
+          "condition": "ISO 11357-1/-3 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "200 - 220 °C",
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "55 MPa",
           "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "200 - 220 °C"
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "120 - 150 °C",
+          "key": "elongation-at-break",
+          "label": "Elongation at break",
+          "sourceLabel": "Elongation at break",
+          "value": "＞160 %",
           "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "120 - 150 °C"
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
+          "key": "flexural-strength",
+          "label": "Flexural strength",
+          "sourceLabel": "Flexural strength",
+          "value": "60 MPa",
           "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
+          "group": "mechanical",
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 °C",
+          "key": "pellet-count",
+          "label": "Pellet count",
+          "sourceLabel": "Pellet count",
+          "value": "40-60 pellets/g",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 °C"
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
         },
         {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 - 6 hrs",
+          "key": "loss-on-drying",
+          "label": "Loss on drying",
+          "sourceLabel": "Loss on drying",
+          "value": "＜1 ‰",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 - 6 hrs"
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
         },
         {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "250 - 280 °C",
+          "key": "density",
+          "label": "Density",
+          "sourceLabel": "Density",
+          "value": "1.04 g/cm³",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "250 - 280 °C"
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
         },
         {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 120 °C"
+          "key": "unnotched-impact-strength",
+          "label": "Unnotched impact strength",
+          "sourceLabel": "Unnotched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Confirm notch state, impact method and specimen state"
         },
         {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "100 - 160 MPa",
+          "key": "notched-impact-strength-method-pending",
+          "label": "Notched impact strength, method to confirm",
+          "sourceLabel": "Notched impact strength, method to confirm",
+          "value": "10 kJ/m²",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "100 - 160 MPa"
+          "group": "mechanical",
+          "condition": "Confirm notch state, impact method and specimen state"
         },
         {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "0.2 - 0.5%",
+          "key": "saturated-water-absorption",
+          "label": "Saturated water absorption",
+          "sourceLabel": "Saturated water absorption",
+          "value": "2.5 %",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "0.2 - 0.5%"
+          "group": "physical",
+          "condition": "ISO 62 · Confirm specimen state, temperature, humidity and full test conditions"
         }
       ],
       "profile": {
-        "parts": "Load-bearing brackets, chair frames, mounts and precision supports",
-        "focus": "Reinforcement content and fiber orientation jointly affect stiffness, toughness and dimensions.",
-        "process": "Review gates, weld lines and fiber orientation; verify warpage and loaded areas on molded parts.",
+        "parts": "Monofilaments, tubing, cable coatings, instrument and mechanical components",
+        "focus": "A bio-based long-chain nylon for toughness, strength, low moisture uptake and controlled shrinkage in automotive, instrument and industrial parts.",
+        "process": "Confirm grade-specific drying, melt and mold settings; verify shrinkage, appearance and dimensions during trials.",
+        "reinforcement": "Unreinforced nylon; confirm the formulation for the grade",
         "tests": [
-          "Structural loading: distinguish short-term strength, creep and cyclic fatigue",
-          "Dry & conditioned states: compare nylon materials in matching states",
-          "Orientation & weld lines: verify weak areas and mounting points"
-        ],
-        "reinforcement": "30% glass fiber"
+          "Water uptake & dimensions: compare critical dimensions dry and conditioned",
+          "Cold & load: test impact and loading at the target temperature",
+          "Chemicals & processing: check oil exposure, shrinkage and processing window"
+        ]
       },
-      "searchAliases": "PA6 GF30 含 30% 玻璃纤维的增强 PA6 材料方向，结合结构、成型工艺与使用环境评估适用性。 玻纤增强 结构应用 机械性能"
-    },
-    {
-      "id": "pa66-gf20",
-      "name": "PA66 GF20",
-      "category": "reinforced",
-      "family": "PA66",
-      "features": [
-        "Glass-fiber reinforcement",
-        "Structural applications",
-        "Processing suitability"
-      ],
-      "desc": "PA66 with 20% glass fiber, balancing reinforcement, flow and part-design requirements.",
-      "source": "https://www.techinherit.com/engineering-plastics/31.html",
-      "image": "materials/pa66-gf20.webp",
-      "thumbnail": "materials/pa66-gf20-small.webp",
-      "imageWidth": 900,
+      "image": "materials/nylon-pa1010.webp",
+      "thumbnail": "materials/nylon-pa1010-small.webp",
+      "imageWidth": 1200,
       "imageHeight": 900,
       "thumbnailWidth": 400,
+      "searchAliases": "Techinherit PA1010 长碳链生物基尼龙，关注韧性、强度、低吸水和成型收缩，可用于汽车、仪表与工业结构件方向。 生物基方向 低吸水方向 尺寸稳定"
+    },
+    {
+      "id": "nylon-pa1012",
+      "name": "Techinherit PA1012",
+      "grade": "PA1012",
+      "catalogType": "grade",
+      "category": "long-chain-nylon",
+      "categories": [
+        "long-chain-nylon"
+      ],
+      "family": "PA1012",
+      "features": [
+        "Low moisture uptake",
+        "Dimensional stability",
+        "Oil resistance"
+      ],
+      "desc": "A long-chain nylon for low moisture uptake, oil resistance and dimensional stability in extrusion, injection molding, blow molding and tubing.",
+      "source": "",
       "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/31.html",
         "accessed": "2026-10-24"
       },
       "properties": [
         {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "150 - 170 MPa",
+          "key": "viscosity-options",
+          "label": "Viscosity options",
+          "sourceLabel": "Viscosity options",
+          "value": "Ⅰ Ⅱ Ⅲ",
           "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "150 - 170 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "6500 - 7500 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "6500 - 7500 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "3 - 6%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 6%"
-        },
-        {
-          "key": "flexural-strength",
-          "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "220 - 250 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "220 - 250 MPa"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "6000 - 7000 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "6000 - 7000 MPa"
-        },
-        {
-          "key": "notched-impact-strength-method-unspecified",
-          "label": "Notched impact strength (method unspecified)",
-          "sourceLabel": "Impact Strength (Notched)",
-          "value": "8 - 12 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "8 - 12 kJ/m²"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R115 / R125",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R115 / R125"
+          "group": "processing",
+          "condition": "Confirm test method and specimen state"
         },
         {
           "key": "melting-point",
           "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "255 - 265 °C",
+          "sourceLabel": "Melting point",
+          "value": "192 °C",
           "available": true,
           "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "255 - 265 °C"
+          "condition": "ISO 11357-1/-3 · Confirm specimen state, temperature, humidity and full test conditions"
         },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "220 - 240 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "220 - 240 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "120 - 140 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "120 - 140 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 - 90°C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 90°C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 - 6 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 - 6 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "280 - 300 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "280 - 300 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "100 - 160 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "100 - 160 MPa"
-        }
-      ],
-      "profile": {
-        "parts": "Load-bearing brackets, chair frames, mounts and precision supports",
-        "focus": "Reinforcement content and fiber orientation jointly affect stiffness, toughness and dimensions.",
-        "process": "Review gates, weld lines and fiber orientation; verify warpage and loaded areas on molded parts.",
-        "tests": [
-          "Structural loading: distinguish short-term strength, creep and cyclic fatigue",
-          "Dry & conditioned states: compare nylon materials in matching states",
-          "Orientation & weld lines: verify weak areas and mounting points"
-        ],
-        "reinforcement": "20% glass fiber"
-      },
-      "searchAliases": "PA66 GF20 含 20% 玻璃纤维的增强 PA66 材料方向，在增强需求、流动性和零件设计之间进行匹配。 玻纤增强 结构应用 加工适配"
-    },
-    {
-      "id": "pa6-gf15",
-      "name": "PA6 GF15",
-      "category": "reinforced",
-      "family": "PA6",
-      "features": [
-        "Glass-fiber reinforcement",
-        "Mechanical performance",
-        "Processing suitability"
-      ],
-      "desc": "PA6 with 15% glass fiber, selected around mechanical requirements and molding conditions.",
-      "source": "https://www.techinherit.com/engineering-plastics/23.html",
-      "image": "materials/pa6-gf15.webp",
-      "thumbnail": "materials/pa6-gf15-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 836,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/23.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
         {
           "key": "tensile-strength",
           "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "120 MPa",
+          "sourceLabel": "Tensile strength",
+          "value": "52 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "120 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "6500 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "6500 MPa"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "elongation-at-break",
           "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "3 - 5%",
+          "sourceLabel": "Elongation at break",
+          "value": "＞200 %",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 5%"
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
           "key": "flexural-strength",
           "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "180 MPa",
+          "sourceLabel": "Flexural strength",
+          "value": "58 MPa",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "180 MPa"
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "5500 MPa",
+          "key": "pellet-count",
+          "label": "Pellet count",
+          "sourceLabel": "Pellet count",
+          "value": "40-60 pellets/g",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
+        },
+        {
+          "key": "loss-on-drying",
+          "label": "Loss on drying",
+          "sourceLabel": "Loss on drying",
+          "value": "＜1 ‰",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
+        },
+        {
+          "key": "density",
+          "label": "Density",
+          "sourceLabel": "Density",
+          "value": "1.02 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
+        },
+        {
+          "key": "unnotched-impact-strength",
+          "label": "Unnotched impact strength",
+          "sourceLabel": "Unnotched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Confirm notch state, impact method and specimen state"
+        },
+        {
+          "key": "notched-impact-strength-method-pending",
+          "label": "Notched impact strength, method to confirm",
+          "sourceLabel": "Notched impact strength, method to confirm",
+          "value": "15 kJ/m²",
           "available": true,
           "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "5500 MPa"
+          "condition": "Confirm notch state, impact method and specimen state"
         },
         {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R120 / R125",
+          "key": "saturated-water-absorption",
+          "label": "Saturated water absorption",
+          "sourceLabel": "Saturated water absorption",
+          "value": "2 %",
           "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R120 / R125"
-        },
-        {
-          "key": "melting-point",
-          "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "215 - 225 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "215 - 225 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "170 - 190 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "170 - 190 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "100 - 120 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "100 - 120 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 - 6 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 - 6 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "250 - 280 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "250 - 280 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "80 - 140 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 140 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "0.3 - 0.6%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "0.3 - 0.6%"
+          "group": "physical",
+          "condition": "ISO 62 · Confirm specimen state, temperature, humidity and full test conditions"
         }
       ],
       "profile": {
-        "parts": "Load-bearing brackets, chair frames, mounts and precision supports",
-        "focus": "Reinforcement content and fiber orientation jointly affect stiffness, toughness and dimensions.",
-        "process": "Review gates, weld lines and fiber orientation; verify warpage and loaded areas on molded parts.",
+        "parts": "Monofilaments, tubing, cable coatings, instrument and mechanical components",
+        "focus": "A long-chain nylon for low moisture uptake, oil resistance and dimensional stability in extrusion, injection molding, blow molding and tubing.",
+        "process": "Confirm grade-specific drying, melt and mold settings; verify shrinkage, appearance and dimensions during trials.",
+        "reinforcement": "Unreinforced nylon; confirm the formulation for the grade",
         "tests": [
-          "Structural loading: distinguish short-term strength, creep and cyclic fatigue",
-          "Dry & conditioned states: compare nylon materials in matching states",
-          "Orientation & weld lines: verify weak areas and mounting points"
-        ],
-        "reinforcement": "15% glass fiber"
+          "Water uptake & dimensions: compare critical dimensions dry and conditioned",
+          "Cold & load: test impact and loading at the target temperature",
+          "Chemicals & processing: check oil exposure, shrinkage and processing window"
+        ]
       },
-      "searchAliases": "PA6 GF15 含 15% 玻璃纤维的增强 PA6 材料方向，适合从机械需求与成型条件出发进行选型。 玻纤增强 机械性能 加工适配"
-    },
-    {
-      "id": "pa6-fr-gf30",
-      "name": "Flame-retardant PA6 GF30",
-      "category": "functional",
-      "family": "PA6",
-      "features": [
-        "Flame retardancy",
-        "Glass-fiber reinforcement",
-        "Electrical applications"
-      ],
-      "desc": "A PA6 direction combining flame-retardant technology with glass-fiber reinforcement. Any flame rating must be tied to a specific grade, sample thickness and test method.",
-      "source": "https://www.techinherit.com/engineering-plastics/26.html",
-      "image": "materials/pa6-fr-gf30.webp",
-      "thumbnail": "materials/pa6-fr-gf30-small.webp",
-      "imageWidth": 675,
-      "imageHeight": 900,
-      "thumbnailWidth": 300,
-      "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/26.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "170 - 190 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "170 - 190 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "8500 - 9500 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "8500 - 9500 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "3 - 5%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 5%"
-        },
-        {
-          "key": "flexural-strength",
-          "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "260 - 300 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "260 - 300 MPa"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "8000 - 9000 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "8000 - 9000 MPa"
-        },
-        {
-          "key": "notched-impact-strength-izod",
-          "label": "Notched impact strength (Izod)",
-          "sourceLabel": "Impact Strength (Izod, Notched)",
-          "value": "8 - 12 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "8 - 12 kJ/m²"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R120 / R125",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R120 / R125"
-        },
-        {
-          "key": "melting-point",
-          "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "215 - 225 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "215 - 225 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "180 - 220 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "180 - 220 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "120 - 140 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "120 - 140 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "V-0",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "V-0"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 - 90°C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 90°C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 - 6 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 - 6 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "250 - 280 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "250 - 280 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "100 - 160 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "100 - 160 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "0.2 - 0.5%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "0.2 - 0.5%"
-        }
-      ],
-      "profile": {
-        "parts": "Electrical housings, hot-environment structures and low-temperature impact parts",
-        "focus": "Specify flame behavior, heat exposure and low-temperature toughness independently.",
-        "process": "Confirm thermal stability and drying for the formulation; review thin walls, weld lines and residence time in trials.",
-        "tests": [
-          "Flammability: fix thickness, color and specimen state",
-          "Heat: distinguish HDT, long-term aging and loaded service",
-          "Low temperature: test at the minimum service temperature and actual impact mode"
-        ],
-        "reinforcement": "30% glass fiber"
-      },
-      "searchAliases": "阻燃增强 PA6 GF30 将阻燃方向与玻纤增强相结合的 PA6 材料。阻燃等级需明确试样厚度、测试方法和具体牌号。 阻燃 玻纤增强 电气应用"
-    },
-    {
-      "id": "pa6-red-phosphorus",
-      "name": "Halogen-free red-phosphorus PA6",
-      "category": "functional",
-      "family": "PA6",
-      "features": [
-        "Flame retardancy",
-        "Compound development",
-        "Electrical applications"
-      ],
-      "desc": "A PA6 direction using red-phosphorus flame-retardant technology. Define flame, electrical, color and environmental requirements together.",
-      "source": "https://www.techinherit.com/engineering-plastics/27.html",
-      "image": "materials/pa6-red-phosphorus.webp",
-      "thumbnail": "materials/pa6-red-phosphorus-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 864,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/27.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "70 - 90 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "70 - 90 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "2500 - 3500 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2500 - 3500 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "3 - 8%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 8%"
-        },
-        {
-          "key": "flexural-strength",
-          "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "110 - 140 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "110 - 140 MPa"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "3000 - 4000 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3000 - 4000 MPa"
-        },
-        {
-          "key": "notched-impact-strength-izod",
-          "label": "Notched impact strength (Izod)",
-          "sourceLabel": "Impact Strength (Izod, Notched)",
-          "value": "4 - 8 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "4 - 8 kJ/m²"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R110 / R120",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R110 / R120"
-        },
-        {
-          "key": "melting-point",
-          "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "215 - 225 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "215 - 225 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "100 - 120 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "100 - 120 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "V-0",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "V-0"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 - 90°C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 90°C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 - 6 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 - 6 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "240 - 270 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "240 - 270 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "70 - 100 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "70 - 100 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "80 - 140 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 140 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "0.8 - 1.5%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "0.8 - 1.5%"
-        }
-      ],
-      "profile": {
-        "parts": "Electrical housings, hot-environment structures and low-temperature impact parts",
-        "focus": "Specify flame behavior, heat exposure and low-temperature toughness independently.",
-        "process": "Confirm thermal stability and drying for the formulation; review thin walls, weld lines and residence time in trials.",
-        "tests": [
-          "Flammability: fix thickness, color and specimen state",
-          "Heat: distinguish HDT, long-term aging and loaded service",
-          "Low temperature: test at the minimum service temperature and actual impact mode"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "无卤红磷阻燃 PA6 采用红磷阻燃技术方向的 PA6 材料，选型需同步明确阻燃、电气、颜色和使用环境要求。 阻燃 配方开发 电气应用"
-    },
-    {
-      "id": "pa6-heat",
-      "name": "Heat-resistant PA6",
-      "category": "functional",
-      "family": "PA6",
-      "features": [
-        "Heat resistance",
-        "Thermal stability",
-        "Structural applications"
-      ],
-      "desc": "A modified PA6 direction for elevated-temperature use. Distinguish short-term exposure, continuous service temperature and actual loading.",
-      "source": "https://www.techinherit.com/engineering-plastics/28.html",
-      "image": "materials/pa6-heat.webp",
-      "thumbnail": "materials/pa6-heat-small.webp",
-      "imageWidth": 900,
+      "image": "materials/nylon-pa1012.webp",
+      "thumbnail": "materials/nylon-pa1012-small.webp",
+      "imageWidth": 1200,
       "imageHeight": 900,
       "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/28.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "75 - 90 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "75 - 90 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "2800 - 3500 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2800 - 3500 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "15 - 40%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "15 - 40%"
-        },
-        {
-          "key": "flexural-strength",
-          "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "110 - 140 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "110 - 140 MPa"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "3000 - 4000 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3000 - 4000 MPa"
-        },
-        {
-          "key": "notched-impact-strength-izod",
-          "label": "Notched impact strength (Izod)",
-          "sourceLabel": "Impact Strength (Izod, Notched)",
-          "value": "5 - 10 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "5 - 10 kJ/m²"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R110 / R120",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R110 / R120"
-        },
-        {
-          "key": "melting-point",
-          "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "215 - 225 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "215 - 225 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "120 - 160 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "120 - 160 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "120 - 150 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "120 - 150 °C"
-        },
-        {
-          "key": "thermal-decomposition-temperature",
-          "label": "Thermal decomposition temperature",
-          "sourceLabel": "Thermal Decomposition Temperature",
-          "value": "240°C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "240°C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 - 90°C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 90°C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 - 6 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 - 6 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "250 - 280 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "250 - 280 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "80 - 140 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 140 MPa"
-        }
-      ],
-      "profile": {
-        "parts": "Electrical housings, hot-environment structures and low-temperature impact parts",
-        "focus": "Specify flame behavior, heat exposure and low-temperature toughness independently.",
-        "process": "Confirm thermal stability and drying for the formulation; review thin walls, weld lines and residence time in trials.",
-        "tests": [
-          "Flammability: fix thickness, color and specimen state",
-          "Heat: distinguish HDT, long-term aging and loaded service",
-          "Low temperature: test at the minimum service temperature and actual impact mode"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "耐高温 PA6 面向热环境使用需求的改性 PA6 方向。需区分短时温度、连续工作温度与实际承载状态。 耐热 热稳定 结构应用"
+      "searchAliases": "Techinherit PA1012 长碳链尼龙，关注低吸水、耐油及尺寸稳定，可用于挤出、注塑、吹塑与管材相关应用。 低吸水方向 尺寸稳定 耐油方向"
     },
     {
-      "id": "pa66-tough",
-      "name": "Toughened low-temperature PA66",
-      "category": "functional",
-      "family": "PA66",
-      "features": [
-        "Low-temperature performance",
-        "Impact resistance",
-        "Toughening"
+      "id": "nylon-pa1212",
+      "name": "Techinherit PA1212",
+      "grade": "PA1212",
+      "catalogType": "grade",
+      "category": "long-chain-nylon",
+      "categories": [
+        "long-chain-nylon"
       ],
-      "desc": "A toughened PA66 direction for low-temperature and impact requirements, evaluated against the minimum service temperature and impact conditions.",
-      "source": "https://www.techinherit.com/engineering-plastics/29.html",
-      "image": "materials/pa66-tough.webp",
-      "thumbnail": "materials/pa66-tough-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 900,
-      "thumbnailWidth": 400,
+      "family": "PA1212",
+      "features": [
+        "Low moisture uptake",
+        "Dimensional stability",
+        "Oil resistance"
+      ],
+      "desc": "A long-chain nylon for low-temperature toughness, low water uptake and dimensional stability in extrusion, injection molding, blow molding and powder processing.",
+      "source": "",
       "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/29.html",
         "accessed": "2026-10-24"
       },
       "properties": [
         {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "65 - 80 MPa",
+          "key": "viscosity-options",
+          "label": "Viscosity options",
+          "sourceLabel": "Viscosity options",
+          "value": "Ⅰ Ⅱ Ⅲ",
           "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "65 - 80 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "1800 - 2600 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "1800 - 2600 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "50 - 150%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "50 - 150%"
-        },
-        {
-          "key": "flexural-strength",
-          "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "80 - 110 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "80 - 110 MPa"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "2000 - 2800 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2000 - 2800 MPa"
-        },
-        {
-          "key": "notched-impact-strength-method-unspecified",
-          "label": "Notched impact strength (method unspecified)",
-          "sourceLabel": "Impact Strength (Notched)",
-          "value": "15 - 35 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "15 - 35 kJ/m²"
-        },
-        {
-          "key": "impact-strength-at-30-c-method-unspecified",
-          "label": "Impact strength at −30°C (method unspecified)",
-          "sourceLabel": "Impact Strength at -30°C",
-          "value": "10 - 25 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "10 - 25 kJ/m²"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R90 / R115",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R90 / R115"
+          "group": "processing",
+          "condition": "Confirm test method and specimen state"
         },
         {
           "key": "melting-point",
           "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "255 - 265 °C",
+          "sourceLabel": "Melting point",
+          "value": "180-190 °C",
           "available": true,
           "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "255 - 265 °C"
+          "condition": "ISO 11357-1/-3 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "70 - 100 °C",
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "≥43 MPa",
           "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "70 - 100 °C"
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "100 - 120 °C",
+          "key": "elongation-at-break",
+          "label": "Elongation at break",
+          "sourceLabel": "Elongation at break",
+          "value": "＞298 %",
           "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "100 - 120 °C"
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
+          "key": "flexural-strength",
+          "label": "Flexural strength",
+          "sourceLabel": "Flexural strength",
+          "value": "≥34 MPa",
           "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
+          "group": "mechanical",
+          "condition": "ISO 178 · Confirm specimen state, temperature, humidity and full test conditions"
         },
         {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 - 90°C",
+          "key": "pellet-count",
+          "label": "Pellet count",
+          "sourceLabel": "Pellet count",
+          "value": "40-60 pellets/g",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 90°C"
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
         },
         {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 - 6 hrs",
+          "key": "loss-on-drying",
+          "label": "Loss on drying",
+          "sourceLabel": "Loss on drying",
+          "value": "＜1.0 ‰",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 - 6 hrs"
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
         },
         {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "270 - 300 °C",
+          "key": "density",
+          "label": "Density",
+          "sourceLabel": "Density",
+          "value": "1.02 g/cm³",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "270 - 300 °C"
+          "group": "physical",
+          "condition": "Confirm test method and specimen state"
         },
         {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 120 °C"
+          "key": "unnotched-impact-strength",
+          "label": "Unnotched impact strength",
+          "sourceLabel": "Unnotched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Confirm notch state, impact method and specimen state"
         },
         {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "80 - 140 MPa",
+          "key": "notched-impact-strength-method-pending",
+          "label": "Notched impact strength, method to confirm",
+          "sourceLabel": "Notched impact strength, method to confirm",
+          "value": "20 kJ/m²",
           "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 140 MPa"
+          "group": "mechanical",
+          "condition": "Confirm notch state, impact method and specimen state"
+        },
+        {
+          "key": "saturated-water-absorption",
+          "label": "Saturated water absorption",
+          "sourceLabel": "Saturated water absorption",
+          "value": "2 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · Confirm specimen state, temperature, humidity and full test conditions"
         }
       ],
       "profile": {
-        "parts": "Electrical housings, hot-environment structures and low-temperature impact parts",
-        "focus": "Specify flame behavior, heat exposure and low-temperature toughness independently.",
-        "process": "Confirm thermal stability and drying for the formulation; review thin walls, weld lines and residence time in trials.",
+        "parts": "Monofilaments, tubing, cable coatings, instrument and mechanical components",
+        "focus": "A long-chain nylon for low-temperature toughness, low water uptake and dimensional stability in extrusion, injection molding, blow molding and powder processing.",
+        "process": "Confirm grade-specific drying, melt and mold settings; verify shrinkage, appearance and dimensions during trials.",
+        "reinforcement": "Unreinforced nylon; confirm the formulation for the grade",
         "tests": [
-          "Flammability: fix thickness, color and specimen state",
-          "Heat: distinguish HDT, long-term aging and loaded service",
-          "Low temperature: test at the minimum service temperature and actual impact mode"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
+          "Water uptake & dimensions: compare critical dimensions dry and conditioned",
+          "Cold & load: test impact and loading at the target temperature",
+          "Chemicals & processing: check oil exposure, shrinkage and processing window"
+        ]
       },
-      "searchAliases": "增韧耐低温 PA66 面向低温工况与冲击需求的增韧 PA66 方向，结合最低使用温度和冲击形式进行验证。 耐低温 抗冲击 增韧"
-    },
-    {
-      "id": "pa6-fr-tough",
-      "name": "Flame-retardant toughened PA6",
-      "category": "functional",
-      "family": "PA6",
-      "features": [
-        "Flame retardancy",
-        "Low-temperature performance",
-        "Glass-fiber reinforcement"
-      ],
-      "desc": "A PA6 direction addressing flame retardancy, reinforcement and low-temperature toughness, requiring coordinated validation of the target properties.",
-      "source": "https://www.techinherit.com/engineering-plastics/30.html",
-      "image": "materials/pa6-fr-tough.webp",
-      "thumbnail": "materials/pa6-fr-tough-small.webp",
-      "imageWidth": 900,
+      "image": "materials/nylon-pa1212.webp",
+      "thumbnail": "materials/nylon-pa1212-small.webp",
+      "imageWidth": 1200,
       "imageHeight": 900,
       "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/engineering-plastics/30.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "150 - 180 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "150 - 180 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "7500 - 9500 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "7500 - 9500 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "4 - 8%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "4 - 8%"
-        },
-        {
-          "key": "flexural-strength",
-          "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "240 - 280 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "240 - 280 MPa"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "7500 - 9000 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "7500 - 9000 MPa"
-        },
-        {
-          "key": "notched-impact-strength-method-unspecified",
-          "label": "Notched impact strength (method unspecified)",
-          "sourceLabel": "Impact Strength (Notched)",
-          "value": "12 - 20 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "12 - 20 kJ/m²"
-        },
-        {
-          "key": "impact-strength-at-30-c-method-unspecified",
-          "label": "Impact strength at −30°C (method unspecified)",
-          "sourceLabel": "Impact Strength at -30°C",
-          "value": "8 - 15 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "8 - 15 kJ/m²"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R115 / R125",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R115 / R125"
-        },
-        {
-          "key": "melting-point",
-          "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "215 - 225 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "215 - 225 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "180 - 220 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "180 - 220 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "120 - 140 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "120 - 140 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "V-0",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "V-0"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 - 90°C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 90°C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 - 6 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 - 6 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "250 - 280 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "250 - 280 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "100 - 160 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "100 - 160 MPa"
-        }
-      ],
-      "profile": {
-        "parts": "Electrical housings, hot-environment structures and low-temperature impact parts",
-        "focus": "Specify flame behavior, heat exposure and low-temperature toughness independently.",
-        "process": "Confirm thermal stability and drying for the formulation; review thin walls, weld lines and residence time in trials.",
-        "tests": [
-          "Flammability: fix thickness, color and specimen state",
-          "Heat: distinguish HDT, long-term aging and loaded service",
-          "Low temperature: test at the minimum service temperature and actual impact mode"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "阻燃增强耐低温 PA6 同时关注阻燃、增强和低温韧性的 PA6 材料方向，需要协同验证多项性能目标。 阻燃 耐低温 玻纤增强"
+      "searchAliases": "Techinherit PA1212 长碳链尼龙，关注低温韧性、低吸水与尺寸稳定，适合挤出、注塑、吹塑及粉末加工方向。 低吸水方向 尺寸稳定 耐油方向"
     },
     {
       "id": "antistatic-abs",
@@ -6984,378 +5103,6 @@ window.TechMaterials={
         "reinforcement": "Carbon fiber; content to be confirmed"
       },
       "searchAliases": "长碳纤维增强复合材料 以 热塑性树脂 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
-    },
-    {
-      "id": "tpu",
-      "name": "TPU (Thermoplastic polyurethane)",
-      "category": "elastomer",
-      "family": "TPU",
-      "features": [
-        "Soft touch",
-        "Wear resistance",
-        "Overmolding"
-      ],
-      "desc": "A thermoplastic elastomer direction for flexibility, wear and overmolding. Define hardness, contact media and the operating environment.",
-      "source": "https://www.techinherit.com/elastomers%20_tpe_tpu/34.html",
-      "image": "materials/tpu.webp",
-      "thumbnail": "materials/tpu-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/elastomers%20_tpe_tpu/34.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "25 - 50 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "25 - 50 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "20 - 150 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "20 - 150 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "400 - 700%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "400 - 700%"
-        },
-        {
-          "key": "tear-strength",
-          "label": "Tear strength",
-          "sourceLabel": "Tear Strength",
-          "value": "50 - 100 kN/m",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "50 - 100 kN/m"
-        },
-        {
-          "key": "shore-a-hardness",
-          "label": "Shore A hardness",
-          "sourceLabel": "Hardness (Shore A)",
-          "value": "60 - 95 A",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "60 - 95 A"
-        },
-        {
-          "key": "compression-set",
-          "label": "Compression set",
-          "sourceLabel": "Compression Set",
-          "value": "15 - 40%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "15 - 40%"
-        },
-        {
-          "key": "melting-point",
-          "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "160 - 220 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "160 - 220 °C"
-        },
-        {
-          "key": "hdt-load-unspecified",
-          "label": "HDT (load unspecified)",
-          "sourceLabel": "Heat Deflection Temperature",
-          "value": "70 - 120 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "70 - 120 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "-40 to 100 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "-40 to 100 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 - 100°C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 100°C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "2 - 4 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "2 - 4 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "190 - 230 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "190 - 230 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "20 - 60 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "20 - 60 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "50 - 120 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "50 - 120 MPa"
-        }
-      ],
-      "profile": {
-        "parts": "Soft overmolds, grips, cushioning and wear components",
-        "focus": "Hardness is a starting point; rebound, compression set, tear resistance and substrate adhesion also matter.",
-        "process": "Confirm drying, residence time and overmolding temperature; check substrate compatibility and bonding.",
-        "tests": [
-          "Feel & hardness: specify the scale and test temperature",
-          "Repeated use: verify tear, abrasion and compression set",
-          "Overmolding: verify bond strength, chemicals and thermal cycling"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "TPU 热塑性聚氨酯 面向柔性、耐磨与包覆部件的热塑性弹性体方向，选型需明确硬度范围、介质与使用环境。 柔性触感 耐磨 包覆应用"
-    },
-    {
-      "id": "tpe",
-      "name": "TPE (Thermoplastic elastomer)",
-      "category": "elastomer",
-      "family": "TPE",
-      "features": [
-        "Elasticity",
-        "Soft touch",
-        "Overmolding"
-      ],
-      "desc": "A material direction for elasticity and soft touch. Discuss overmolding substrates, hardness and processing requirements when selecting a grade.",
-      "source": "https://www.techinherit.com/elastomers%20_tpe_tpu/33.html",
-      "image": "materials/tpe.webp",
-      "thumbnail": "materials/tpe-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 868,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/elastomers%20_tpe_tpu/33.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "8 - 15 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "8 - 15 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "20 - 80 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "20 - 80 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "300 - 600%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "300 - 600%"
-        },
-        {
-          "key": "tear-strength",
-          "label": "Tear strength",
-          "sourceLabel": "Tear Strength",
-          "value": "20 - 50 kN/m",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "20 - 50 kN/m"
-        },
-        {
-          "key": "shore-a-hardness",
-          "label": "Shore A hardness",
-          "sourceLabel": "Hardness (Shore A)",
-          "value": "30 - 90 A",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "30 - 90 A"
-        },
-        {
-          "key": "compression-set",
-          "label": "Compression set",
-          "sourceLabel": "Compression Set",
-          "value": "20 - 50%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "20 - 50%"
-        },
-        {
-          "key": "melting-softening-temperature",
-          "label": "Melting / softening temperature",
-          "sourceLabel": "Melting / Softening Temperature",
-          "value": "150 - 220 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "150 - 220 °C"
-        },
-        {
-          "key": "hdt-load-unspecified",
-          "label": "HDT (load unspecified)",
-          "sourceLabel": "Heat Deflection Temperature",
-          "value": "50 - 90 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "50 - 90 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "-40 to 120 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "-40 to 120 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 available)",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 available)"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "60 - 80°C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "60 - 80°C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "2 - 4 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "2 - 4 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "170 - 230 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "170 - 230 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "20 - 60 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "20 - 60 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "50 - 120 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "50 - 120 MPa"
-        }
-      ],
-      "profile": {
-        "parts": "Soft overmolds, grips, cushioning and wear components",
-        "focus": "Hardness is a starting point; rebound, compression set, tear resistance and substrate adhesion also matter.",
-        "process": "Confirm drying, residence time and overmolding temperature; check substrate compatibility and bonding.",
-        "tests": [
-          "Feel & hardness: specify the scale and test temperature",
-          "Repeated use: verify tear, abrasion and compression set",
-          "Overmolding: verify bond strength, chemicals and thermal cycling"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "TPE 热塑性弹性体 面向弹性与柔软触感需求的材料方向，可结合包覆基材、硬度和加工形式讨论具体选型。 弹性 柔性触感 包覆应用"
     }
   ],
   "applications": [
@@ -7371,12 +5118,7 @@ window.TechMaterials={
         "Confirm flame-retardancy targets at the relevant thickness and test conditions",
         "Validate insulation, weathering and actual assembly requirements"
       ],
-      "ids": [
-        "pa6-fr-gf30",
-        "pa6-heat",
-        "pa66-gf30",
-        "pbt"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/new-energy-cases.html",
       "cases": [
         {
@@ -7387,10 +5129,7 @@ window.TechMaterials={
           "problem": "Electrical insulation, sealed assembly and outdoor exposure must be addressed together.",
           "approach": "The corporate case uses glass-fiber reinforced PA6 with flame, weathering and electrical requirements considered together.",
           "validation": "Verify flame behavior and electrical properties at the actual wall thickness, plus sealing and dimensions after aging.",
-          "ids": [
-            "pa6-fr-gf30",
-            "pa6-gf30"
-          ],
+          "ids": [],
           "source": "https://www.techinherit.com/new-energy-cases.html"
         },
         {
@@ -7422,8 +5161,7 @@ window.TechMaterials={
       "ids": [
         "antistatic-pa66",
         "conductive-pc",
-        "cf-pa6",
-        "pa66-gf30"
+        "cf-pa6"
       ],
       "source": "https://www.techinherit.com/ai-hardware-cases.html",
       "cases": [
@@ -7435,9 +5173,7 @@ window.TechMaterials={
           "problem": "A lightweight thin-wall structure needs stiffness, dimensional stability and operating reliability.",
           "approach": "The corporate case uses flame-retardant reinforced PBT, considering flow, reinforcement and precision molding together.",
           "validation": "Verify thin-wall filling, warpage, mounting-point fatigue and clearances after heating; assess noise in the assembled system.",
-          "ids": [
-            "pbt"
-          ],
+          "ids": [],
           "source": "https://www.techinherit.com/ai-hardware-cases.html"
         },
         {
@@ -7448,9 +5184,7 @@ window.TechMaterials={
           "problem": "Structural protection, temperature rise and electromagnetic requirements need separate specifications.",
           "approach": "The corporate case uses flame-retardant glass-fiber reinforced PC; structural reinforcement and EMC targets require separate validation.",
           "validation": "Verify thermal cycling, mounts, flame behavior at actual thickness and system EMC; glass-fiber reinforcement alone does not establish shielding.",
-          "ids": [
-            "pc"
-          ],
+          "ids": [],
           "source": "https://www.techinherit.com/ai-hardware-cases.html"
         }
       ],
@@ -7469,9 +5203,6 @@ window.TechMaterials={
         "Validate selection against temperature rise and electrical conditions"
       ],
       "ids": [
-        "abs",
-        "pc",
-        "pbt",
         "antistatic-abs"
       ],
       "source": "https://www.techinherit.com/consumer-electronics-cases.html",
@@ -7484,10 +5215,7 @@ window.TechMaterials={
           "problem": "A compact housing needs surface quality, snap-fit toughness and accurate assembly.",
           "approach": "The corporate case uses PC/ABS, aligning flow, impact and appearance needs with molding.",
           "validation": "Check color variation, weld marks, opening cycles and fit after drops; include cleaning chemicals in validation.",
-          "ids": [
-            "pc",
-            "abs"
-          ],
+          "ids": [],
           "source": "https://www.techinherit.com/consumer-electronics-cases.html"
         },
         {
@@ -7498,9 +5226,7 @@ window.TechMaterials={
           "problem": "A slender thin-wall part needs stiffness, flatness and precision fit.",
           "approach": "The corporate case uses PA6 GF30; reinforcement, low-stress molding and fiber orientation jointly affect dimensions.",
           "validation": "Record flatness, critical dimensions and assembly stress in dry and conditioned states, then verify device functions.",
-          "ids": [
-            "pa6-gf30"
-          ],
+          "ids": [],
           "source": "https://www.techinherit.com/consumer-electronics-cases.html"
         }
       ],
@@ -7519,9 +5245,6 @@ window.TechMaterials={
         "Evaluate color and aging in the intended environment"
       ],
       "ids": [
-        "pa66-gf30",
-        "pa6-gf30",
-        "pa66-tough",
         "cf-pa66"
       ],
       "source": "https://www.techinherit.com/office-furniture-cases.html",
@@ -7534,9 +5257,7 @@ window.TechMaterials={
           "problem": "Sustained load, impact and repeated use can cause deformation and fatigue.",
           "approach": "The corporate case uses PA66 GF30, balancing stiffness, toughness, thermal stability and warpage.",
           "validation": "Test static load, fatigue, creep and humidity effects on the actual structure, focusing on screws and weld lines.",
-          "ids": [
-            "pa66-gf30"
-          ],
+          "ids": [],
           "source": "https://www.techinherit.com/office-furniture-cases.html"
         },
         {
@@ -7547,10 +5268,7 @@ window.TechMaterials={
           "problem": "Assembly fit, loaded stiffness and repeated-contact wear must be balanced.",
           "approach": "The corporate case uses PA66 GF30 for precision structure, load support and wear requirements.",
           "validation": "Check adjustment cycles, local loads, mounting dimensions and loosening or wear after extended use.",
-          "ids": [
-            "pa66-gf30",
-            "pa6-gf30"
-          ],
+          "ids": [],
           "source": "https://www.techinherit.com/office-furniture-cases.html"
         }
       ],
@@ -7569,9 +5287,6 @@ window.TechMaterials={
         "Confirm batches, documentation and validation requirements"
       ],
       "ids": [
-        "pc",
-        "abs",
-        "pom",
         "antistatic-pa6"
       ],
       "source": "https://www.techinherit.com/medical-devices-cases.html",
@@ -7584,10 +5299,7 @@ window.TechMaterials={
           "problem": "Repeated wiping, cleaner exposure and consistent appearance are key housing requirements.",
           "approach": "The corporate case describes PC/ABS for a medical application; verify the grade and documentation for the intended use.",
           "validation": "Check cracking, color and dimensions with the actual disinfectant concentration, wipe cycles and temperature; catalog materials do not imply medical approval.",
-          "ids": [
-            "pc",
-            "abs"
-          ],
+          "ids": [],
           "source": "https://www.techinherit.com/medical-devices-cases.html"
         },
         {
@@ -7598,9 +5310,7 @@ window.TechMaterials={
           "problem": "Repeated assembly needs toughness, low friction and stable fit.",
           "approach": "The corporate case uses POM for a medical application; verify friction and fatigue against the structure and contact scenario.",
           "validation": "Verify snap cycles, insertion force and cleaning compatibility; patient-contact uses require separate biocompatibility and regulatory review.",
-          "ids": [
-            "pom"
-          ],
+          "ids": [],
           "source": "https://www.techinherit.com/medical-devices-cases.html"
         }
       ],
@@ -7618,12 +5328,7 @@ window.TechMaterials={
         "Define cleaning, contact media and service temperature",
         "Validate hardness, wear and appearance"
       ],
-      "ids": [
-        "pp",
-        "tpe",
-        "tpu",
-        "abs"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/pet-supplies-cases.html",
       "cases": [
         {
@@ -7634,10 +5339,7 @@ window.TechMaterials={
           "problem": "The housing needs easy cleaning and consistent appearance, with food-contact and non-contact areas identified.",
           "approach": "The corporate case describes ABS for food-contact requirements; verify the grade, color and contact conditions individually.",
           "validation": "Confirm migration documentation for contact time, temperature and target market; also assess cleaning, odor and snap-fit life.",
-          "ids": [
-            "abs",
-            "pp"
-          ],
+          "ids": [],
           "source": "https://www.techinherit.com/pet-supplies-cases.html"
         },
         {
@@ -7648,9 +5350,7 @@ window.TechMaterials={
           "problem": "Handling drops, load and cold environments require structural toughness.",
           "approach": "The corporate case uses impact-modified PP with weathering requirements; assess the material with ribs and latch design.",
           "validation": "Test whole-crate drops, latches and loading at the target low temperature; check toughness and appearance after aging.",
-          "ids": [
-            "pp"
-          ],
+          "ids": [],
           "source": "https://www.techinherit.com/pet-supplies-cases.html"
         }
       ],

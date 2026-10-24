@@ -1,0 +1,57 @@
+{
+  "tool": "image_gen",
+  "prompt": "Remove the lower-left label and watermark only, reconstruct matching background, and preserve resin granules, framing, color and light. No text or logo. Use hand-free material photographs.",
+  "products": [
+    {
+      "grade": "Techinherit TN900",
+      "image": "materials/nylon-tn900.webp",
+      "thumbnail": "materials/nylon-tn900-small.webp"
+    },
+    {
+      "grade": "Techinherit TN915",
+      "image": "materials/nylon-tn915.webp",
+      "thumbnail": "materials/nylon-tn915-small.webp"
+    },
+    {
+      "grade": "Techinherit TN926",
+      "image": "materials/nylon-tn926.webp",
+      "thumbnail": "materials/nylon-tn926-small.webp"
+    },
+    {
+      "grade": "Techinherit TN955",
+      "image": "materials/nylon-tn955.webp",
+      "thumbnail": "materials/nylon-tn955-small.webp"
+    },
+    {
+      "grade": "Techinherit TN956",
+      "image": "materials/nylon-tn956.webp",
+      "thumbnail": "materials/nylon-tn956-small.webp"
+    },
+    {
+      "grade": "Techinherit PA610",
+      "image": "materials/nylon-pa610.webp",
+      "thumbnail": "materials/nylon-pa610-small.webp"
+    },
+    {
+      "grade": "Techinherit PA612",
+      "image": "materials/nylon-pa612.webp",
+      "thumbnail": "materials/nylon-pa612-small.webp"
+    },
+    {
+      "grade": "Techinherit PA1010",
+      "image": "materials/nylon-pa1010.webp",
+      "thumbnail": "materials/nylon-pa1010-small.webp"
+    },
+    {
+      "grade": "Techinherit PA1012",
+      "image": "materials/nylon-pa1012.webp",
+      "thumbnail": "materials/nylon-pa1012-small.webp"
+    },
+    {
+      "grade": "Techinherit PA1212",
+      "image": "materials/nylon-pa1212.webp",
+      "thumbnail": "materials/nylon-pa1212-small.webp"
+    }
+  ],
+  "processed": "2026-10-24"
+}

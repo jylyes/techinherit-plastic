@@ -8,10 +8,7 @@
       "problem": "电气绝缘、密封装配与户外暴露需要同时满足。",
       "approach": "官网案例采用玻纤增强 PA6，并将阻燃、耐候与电气要求纳入同一材料方案。",
       "validation": "核对实际壁厚下的阻燃、电气性能，以及成型件老化后的密封和关键尺寸。",
-      "ids": [
-        "pa6-fr-gf30",
-        "pa6-gf30"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/new-energy-cases.html"
     },
     {
@@ -35,9 +32,7 @@
       "problem": "轻量薄壁结构需兼顾刚性、尺寸稳定与运行可靠性。",
       "approach": "官网案例采用阻燃增强 PBT；把流动性、增强体系与精密成型共同考虑。",
       "validation": "验证薄壁充填、翘曲、紧固点疲劳及温升后的间隙；噪声需在整机上评估。",
-      "ids": [
-        "pbt"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/ai-hardware-cases.html"
     },
     {
@@ -48,9 +43,7 @@
       "problem": "结构保护、温升和电磁相关需求容易被混为同一指标。",
       "approach": "官网案例采用阻燃玻纤增强 PC；结构增强与 EMC 目标应分别定义和验证。",
       "validation": "验证热循环、安装点、实际厚度阻燃及整机 EMC；玻纤增强本身不等同于屏蔽性能。",
-      "ids": [
-        "pc"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/ai-hardware-cases.html"
     }
   ],
@@ -63,10 +56,7 @@
       "problem": "小型外壳对表面、卡扣韧性和装配尺寸都有要求。",
       "approach": "官网案例采用 PC/ABS，结合流动、冲击和外观要求安排材料与成型。",
       "validation": "核对色差、熔接痕、开合循环和跌落后的装配；清洁介质也应纳入评估。",
-      "ids": [
-        "pc",
-        "abs"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/consumer-electronics-cases.html"
     },
     {
@@ -77,9 +67,7 @@
       "problem": "细长薄壁件需要刚性、平整度和精密配合。",
       "approach": "官网案例采用 PA6 GF30；增强材料与低应力成型、纤维取向共同影响尺寸。",
       "validation": "分别记录干态与调湿后的平整度、关键尺寸和装配应力，再核对整机功能。",
-      "ids": [
-        "pa6-gf30"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/consumer-electronics-cases.html"
     }
   ],
@@ -92,9 +80,7 @@
       "problem": "长期受力、冲击与反复坐靠可能带来变形和疲劳。",
       "approach": "官网案例采用 PA66 GF30，将刚性、韧性、热稳定与翘曲控制结合。",
       "validation": "在实际结构上验证静载、循环疲劳、蠕变及湿度影响，关注螺钉和熔接线区域。",
-      "ids": [
-        "pa66-gf30"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/office-furniture-cases.html"
     },
     {
@@ -105,10 +91,7 @@
       "problem": "安装配合、受力刚性与反复接触磨损需要兼顾。",
       "approach": "官网案例采用 PA66 GF30，围绕精密结构、承载和耐磨需求开展选型。",
       "validation": "核对调节循环、局部承载、安装尺寸及长期使用后的松动与磨损。",
-      "ids": [
-        "pa66-gf30",
-        "pa6-gf30"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/office-furniture-cases.html"
     }
   ],
@@ -121,10 +104,7 @@
       "problem": "反复擦拭、清洁剂接触与外观一致性是外壳选型重点。",
       "approach": "官网案例介绍医疗用途 PC/ABS；应按实际用途核对牌号与可提供的资料。",
       "validation": "按实际消毒剂浓度、擦拭次数和温度检查开裂、色差与尺寸；目录通用材料不代表医疗认证。",
-      "ids": [
-        "pc",
-        "abs"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/medical-devices-cases.html"
     },
     {
@@ -135,9 +115,7 @@
       "problem": "反复装配需要韧性、低摩擦和稳定配合。",
       "approach": "官网案例采用医疗用途 POM；低摩擦与耐疲劳需结合结构和接触场景验证。",
       "validation": "验证卡扣循环、插拔力和清洁相容性；患者接触用途另行确认生物相容性与法规资料。",
-      "ids": [
-        "pom"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/medical-devices-cases.html"
     }
   ],
@@ -150,10 +128,7 @@
       "problem": "需要易清洁、外观稳定，并区分食物接触与非接触位置。",
       "approach": "官网案例采用食品接触方向 ABS；材料牌号、颜色和接触条件需要逐项核对。",
       "validation": "按接触时间、温度与目标市场确认迁移资料，同时评估清洗、气味和卡扣寿命。",
-      "ids": [
-        "abs",
-        "pp"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/pet-supplies-cases.html"
     },
     {
@@ -164,9 +139,7 @@
       "problem": "搬运跌落、承重和低温环境要求结构保持韧性。",
       "approach": "官网案例采用增韧 PP，并结合耐候需求；材料与加强筋、锁扣结构一起评估。",
       "validation": "在目标低温下验证整箱跌落、锁扣与承载，核对老化后的韧性和外观。",
-      "ids": [
-        "pp"
-      ],
+      "ids": [],
       "source": "https://www.techinherit.com/pet-supplies-cases.html"
     }
   ]

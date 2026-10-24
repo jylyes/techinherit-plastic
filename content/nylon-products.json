@@ -1,0 +1,1602 @@
+{
+  "categories": [
+    {
+      "id": "transparent-nylon",
+      "name": "透明尼龙12",
+      "en": "Transparent nylon 12",
+      "intro": "围绕透光、韧性、耐化学性与成型尺寸，选择适合透明部件的尼龙方案。",
+      "image": "materials/nylon-tn900.webp",
+      "thumbnail": "materials/nylon-tn900-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "long-chain-nylon",
+      "name": "长碳链尼龙",
+      "en": "Long-chain nylon",
+      "intro": "从吸水、尺寸稳定和介质接触出发，探索长碳链尼龙的加工与应用。",
+      "image": "materials/nylon-pa610.webp",
+      "thumbnail": "materials/nylon-pa610-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "bio-based-nylon",
+      "name": "生物基尼龙",
+      "en": "Bio-based nylon",
+      "intro": "结合生物基材料方向与实际部件要求，核对性能、加工和项目资料。",
+      "image": "materials/nylon-tn955.webp",
+      "thumbnail": "materials/nylon-tn955-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    }
+  ],
+  "products": [
+    {
+      "id": "nylon-tn900",
+      "name": "Techinherit TN900",
+      "grade": "TN900",
+      "catalogType": "grade",
+      "category": "transparent-nylon",
+      "categories": [
+        "transparent-nylon"
+      ],
+      "family": "PA12",
+      "features": [
+        "透明外观",
+        "韧性与回弹",
+        "耐化学方向"
+      ],
+      "desc": "透明尼龙12，兼顾透光、回弹与韧性，适合围绕透明结构件、电子电器及工业消费品开展选型。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "density",
+          "label": "密度",
+          "sourceLabel": "密度",
+          "value": "1.02 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 1183 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "saturated-water-absorption",
+          "label": "饱和吸水率",
+          "sourceLabel": "饱和吸水率",
+          "value": "3 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "light-transmittance",
+          "label": "透光率",
+          "sourceLabel": "透光率",
+          "value": "≥90 %",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "molding-shrinkage-parallel",
+          "label": "收缩率（平行）",
+          "sourceLabel": "收缩率（平行）",
+          "value": "0.4 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4,2577 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "molding-shrinkage-transverse",
+          "label": "收缩率（垂直）",
+          "sourceLabel": "收缩率（垂直）",
+          "value": "0.5 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4,2577 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "60 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-modulus",
+          "label": "拉伸模量",
+          "sourceLabel": "拉伸模量",
+          "value": "1500 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "elongation-at-break",
+          "label": "断裂伸长率",
+          "sourceLabel": "断裂伸长率",
+          "value": "160 %",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-modulus",
+          "label": "弯曲模量",
+          "sourceLabel": "弯曲模量",
+          "value": "1500 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-strength",
+          "label": "弯曲强度",
+          "sourceLabel": "弯曲强度",
+          "value": "65 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "charpy-impact-state-pending",
+          "label": "简支梁冲击强度（缺口状态待确认）",
+          "sourceLabel": "简支梁冲击强度（缺口状态待确认）",
+          "value": "18 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "melt-flow-reference",
+          "label": "熔指（测试条件待确认）",
+          "sourceLabel": "熔指（测试条件待确认）",
+          "value": "3 g/min",
+          "available": true,
+          "group": "processing",
+          "condition": "熔体流动测试方法、温度、载荷与时间单位需确认"
+        },
+        {
+          "key": "hdt-1-8-mpa",
+          "label": "热变形温度（1.8 MPa）",
+          "sourceLabel": "热变形温度（1.8 MPa）",
+          "value": "105 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "hdt-0-45-mpa",
+          "label": "热变形温度（0.45 MPa）",
+          "sourceLabel": "热变形温度（0.45 MPa）",
+          "value": "120 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "HB",
+          "available": true,
+          "group": "thermal",
+          "condition": "UL 94 · 厚度、颜色与适用版本需确认"
+        }
+      ],
+      "profile": {
+        "parts": "透明外壳、光学周边、电子电器与包装部件",
+        "focus": "透明尼龙12，兼顾透光、回弹与韧性，适合围绕透明结构件、电子电器及工业消费品开展选型。",
+        "process": "按牌号确认干燥、熔体温度和模具条件；试制中核对收缩、外观与尺寸。",
+        "reinforcement": "未增强尼龙；具体配方按牌号确认",
+        "tests": [
+          "透光与外观：按实际壁厚验证透光、雾度及表面",
+          "介质与应力：按装配状态验证清洁剂和应力开裂",
+          "温度与冲击：结合热环境、跌落和使用周期验证"
+        ]
+      },
+      "image": "materials/nylon-tn900.webp",
+      "thumbnail": "materials/nylon-tn900-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "nylon-tn915",
+      "name": "Techinherit TN915",
+      "grade": "TN915",
+      "catalogType": "grade",
+      "category": "transparent-nylon",
+      "categories": [
+        "transparent-nylon"
+      ],
+      "family": "透明 PA",
+      "features": [
+        "透明外观",
+        "韧性与回弹",
+        "耐化学方向"
+      ],
+      "desc": "非晶型透明尼龙，关注刚性、低吸水和耐化学表现，可用于汽车部件、电子产品及包装方向。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "density",
+          "label": "密度",
+          "sourceLabel": "密度",
+          "value": "1020 kg/m³",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 1183 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "water-absorption",
+          "label": "吸水率",
+          "sourceLabel": "吸水率",
+          "value": "3 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "light-transmittance",
+          "label": "透光率",
+          "sourceLabel": "透光率",
+          "value": "≥90 %",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "molding-shrinkage-parallel",
+          "label": "收缩率（平行）",
+          "sourceLabel": "收缩率（平行）",
+          "value": "0.2 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4, 2577 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "molding-shrinkage-transverse",
+          "label": "收缩率（垂直）",
+          "sourceLabel": "收缩率（垂直）",
+          "value": "0.3 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4, 2577 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "60 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-modulus",
+          "label": "拉伸模量",
+          "sourceLabel": "拉伸模量",
+          "value": "1600 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "elongation-at-break",
+          "label": "断裂伸长率",
+          "sourceLabel": "断裂伸长率",
+          "value": "150 %",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-modulus",
+          "label": "弯曲模量",
+          "sourceLabel": "弯曲模量",
+          "value": "1580 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-strength",
+          "label": "弯曲强度",
+          "sourceLabel": "弯曲强度",
+          "value": "70 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "charpy-impact-state-pending",
+          "label": "简支梁冲击强度（缺口状态待确认）",
+          "sourceLabel": "简支梁冲击强度（缺口状态待确认）",
+          "value": "30 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "melt-flow-reference",
+          "label": "熔指（测试条件待确认）",
+          "sourceLabel": "熔指（测试条件待确认）",
+          "value": "2.8 g/min",
+          "available": true,
+          "group": "processing",
+          "condition": "熔体流动测试方法、温度、载荷与时间单位需确认"
+        },
+        {
+          "key": "hdt-1-8-mpa",
+          "label": "热变形温度（1.8 MPa）",
+          "sourceLabel": "热变形温度（1.8 MPa）",
+          "value": "125 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "hdt-0-45-mpa",
+          "label": "热变形温度（0.45 MPa）",
+          "sourceLabel": "热变形温度（0.45 MPa）",
+          "value": "135 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "HB",
+          "available": true,
+          "group": "thermal",
+          "condition": "UL 94 · 厚度、颜色与适用版本需确认"
+        }
+      ],
+      "profile": {
+        "parts": "透明外壳、光学周边、电子电器与包装部件",
+        "focus": "非晶型透明尼龙，关注刚性、低吸水和耐化学表现，可用于汽车部件、电子产品及包装方向。",
+        "process": "按牌号确认干燥、熔体温度和模具条件；试制中核对收缩、外观与尺寸。",
+        "reinforcement": "未增强尼龙；具体配方按牌号确认",
+        "tests": [
+          "透光与外观：按实际壁厚验证透光、雾度及表面",
+          "介质与应力：按装配状态验证清洁剂和应力开裂",
+          "温度与冲击：结合热环境、跌落和使用周期验证"
+        ]
+      },
+      "image": "materials/nylon-tn915.webp",
+      "thumbnail": "materials/nylon-tn915-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "nylon-tn926",
+      "name": "Techinherit TN926",
+      "grade": "TN926",
+      "catalogType": "grade",
+      "category": "transparent-nylon",
+      "categories": [
+        "transparent-nylon"
+      ],
+      "family": "PA12",
+      "features": [
+        "透明外观",
+        "韧性与回弹",
+        "耐化学方向"
+      ],
+      "desc": "高透光透明尼龙12，关注韧性与耐应力开裂表现，可围绕光学部件、透明外壳和工业零件进行评估。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "density",
+          "label": "密度",
+          "sourceLabel": "密度",
+          "value": "1.02 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 1183 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "saturated-water-absorption",
+          "label": "饱和吸水率",
+          "sourceLabel": "饱和吸水率",
+          "value": "3 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "light-transmittance",
+          "label": "透光率",
+          "sourceLabel": "透光率",
+          "value": "≥92 %",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "molding-shrinkage-parallel",
+          "label": "收缩率（平行）",
+          "sourceLabel": "收缩率（平行）",
+          "value": "0.4 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4,2577 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "molding-shrinkage-transverse",
+          "label": "收缩率（垂直）",
+          "sourceLabel": "收缩率（垂直）",
+          "value": "0.5 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4,2577 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "62 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-modulus",
+          "label": "拉伸模量",
+          "sourceLabel": "拉伸模量",
+          "value": "1580 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "elongation-at-break",
+          "label": "断裂伸长率",
+          "sourceLabel": "断裂伸长率",
+          "value": "170 %",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-modulus",
+          "label": "弯曲模量",
+          "sourceLabel": "弯曲模量",
+          "value": "1580 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-strength",
+          "label": "弯曲强度",
+          "sourceLabel": "弯曲强度",
+          "value": "72 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "charpy-impact-state-pending",
+          "label": "简支梁冲击强度（缺口状态待确认）",
+          "sourceLabel": "简支梁冲击强度（缺口状态待确认）",
+          "value": "18 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "melt-flow-reference",
+          "label": "熔指（测试条件待确认）",
+          "sourceLabel": "熔指（测试条件待确认）",
+          "value": "3 g/min",
+          "available": true,
+          "group": "processing",
+          "condition": "熔体流动测试方法、温度、载荷与时间单位需确认"
+        },
+        {
+          "key": "hdt-1-8-mpa",
+          "label": "热变形温度（1.8 MPa）",
+          "sourceLabel": "热变形温度（1.8 MPa）",
+          "value": "105 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "hdt-0-45-mpa",
+          "label": "热变形温度（0.45 MPa）",
+          "sourceLabel": "热变形温度（0.45 MPa）",
+          "value": "120 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "HB",
+          "available": true,
+          "group": "thermal",
+          "condition": "UL 94 · 厚度、颜色与适用版本需确认"
+        }
+      ],
+      "profile": {
+        "parts": "透明外壳、光学周边、电子电器与包装部件",
+        "focus": "高透光透明尼龙12，关注韧性与耐应力开裂表现，可围绕光学部件、透明外壳和工业零件进行评估。",
+        "process": "按牌号确认干燥、熔体温度和模具条件；试制中核对收缩、外观与尺寸。",
+        "reinforcement": "未增强尼龙；具体配方按牌号确认",
+        "tests": [
+          "透光与外观：按实际壁厚验证透光、雾度及表面",
+          "介质与应力：按装配状态验证清洁剂和应力开裂",
+          "温度与冲击：结合热环境、跌落和使用周期验证"
+        ]
+      },
+      "image": "materials/nylon-tn926.webp",
+      "thumbnail": "materials/nylon-tn926-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "nylon-tn955",
+      "name": "Techinherit TN955",
+      "grade": "TN955",
+      "catalogType": "grade",
+      "category": "transparent-nylon",
+      "categories": [
+        "transparent-nylon",
+        "bio-based-nylon"
+      ],
+      "family": "透明 PA",
+      "features": [
+        "生物基方向",
+        "透明外观",
+        "韧性与回弹"
+      ],
+      "desc": "生物基透明尼龙，兼顾刚性、低吸水与耐水解方向，适合汽车、电子和高端包装部件的材料评估。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "density",
+          "label": "密度",
+          "sourceLabel": "密度",
+          "value": "1.02 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 1183 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "saturated-water-absorption",
+          "label": "饱和吸水率",
+          "sourceLabel": "饱和吸水率",
+          "value": "3 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "light-transmittance",
+          "label": "透光率",
+          "sourceLabel": "透光率",
+          "value": "≥90 %",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "molding-shrinkage-parallel",
+          "label": "收缩率（平行）",
+          "sourceLabel": "收缩率（平行）",
+          "value": "0.6 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4, 2577 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "molding-shrinkage-transverse",
+          "label": "收缩率（垂直）",
+          "sourceLabel": "收缩率（垂直）",
+          "value": "0.8 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4, 2577 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "60 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-modulus",
+          "label": "拉伸模量",
+          "sourceLabel": "拉伸模量",
+          "value": "1680 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "elongation-at-break",
+          "label": "断裂伸长率",
+          "sourceLabel": "断裂伸长率",
+          "value": "160 %",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-modulus",
+          "label": "弯曲模量",
+          "sourceLabel": "弯曲模量",
+          "value": "1589 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-strength",
+          "label": "弯曲强度",
+          "sourceLabel": "弯曲强度",
+          "value": "60 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "charpy-impact-state-pending",
+          "label": "简支梁冲击强度（缺口状态待确认）",
+          "sourceLabel": "简支梁冲击强度（缺口状态待确认）",
+          "value": "15 kJ/㎡",
+          "available": true,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "melt-flow-reference",
+          "label": "熔指（测试条件待确认）",
+          "sourceLabel": "熔指（测试条件待确认）",
+          "value": "3 g/min",
+          "available": true,
+          "group": "processing",
+          "condition": "熔体流动测试方法、温度、载荷与时间单位需确认"
+        },
+        {
+          "key": "hdt-1-8-mpa",
+          "label": "热变形温度（1.8 MPa）",
+          "sourceLabel": "热变形温度（1.8 MPa）",
+          "value": "120 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "hdt-0-45-mpa",
+          "label": "热变形温度（0.45 MPa）",
+          "sourceLabel": "热变形温度（0.45 MPa）",
+          "value": "135 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级（1.5 mm）",
+          "sourceLabel": "燃烧等级（1.5 mm）",
+          "value": "HB",
+          "available": true,
+          "group": "thermal",
+          "condition": "UL 94 · 1.5 mm · 厚度、颜色与适用版本需确认"
+        }
+      ],
+      "profile": {
+        "parts": "透明外壳、光学周边、电子电器与包装部件",
+        "focus": "生物基透明尼龙，兼顾刚性、低吸水与耐水解方向，适合汽车、电子和高端包装部件的材料评估。",
+        "process": "按牌号确认干燥、熔体温度和模具条件；试制中核对收缩、外观与尺寸。",
+        "reinforcement": "未增强尼龙；具体配方按牌号确认",
+        "tests": [
+          "透光与外观：按实际壁厚验证透光、雾度及表面",
+          "介质与应力：按装配状态验证清洁剂和应力开裂",
+          "温度与冲击：结合热环境、跌落和使用周期验证"
+        ]
+      },
+      "image": "materials/nylon-tn955.webp",
+      "thumbnail": "materials/nylon-tn955-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "nylon-tn956",
+      "name": "Techinherit TN956",
+      "grade": "TN956",
+      "catalogType": "grade",
+      "category": "transparent-nylon",
+      "categories": [
+        "transparent-nylon"
+      ],
+      "family": "PA12",
+      "features": [
+        "透明外观",
+        "韧性与回弹",
+        "耐化学方向"
+      ],
+      "desc": "透明尼龙12，关注耐热、韧性与透明外观，可用于杯体、电子电器和光学部件方向；接触合规按具体用途确认。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "density",
+          "label": "密度",
+          "sourceLabel": "密度",
+          "value": "1 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 1183 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "saturated-water-absorption",
+          "label": "饱和吸水率",
+          "sourceLabel": "饱和吸水率",
+          "value": "2 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "light-transmittance",
+          "label": "透光率",
+          "sourceLabel": "透光率",
+          "value": "≥90 %",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "molding-shrinkage-parallel",
+          "label": "收缩率（平行）",
+          "sourceLabel": "收缩率（平行）",
+          "value": "0.3 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4,2577 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "molding-shrinkage-transverse",
+          "label": "收缩率（垂直）",
+          "sourceLabel": "收缩率（垂直）",
+          "value": "0.4 %",
+          "available": true,
+          "group": "processing",
+          "condition": "ISO 294-4,2577 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "60 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-modulus",
+          "label": "拉伸模量",
+          "sourceLabel": "拉伸模量",
+          "value": "1600 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "elongation-at-break",
+          "label": "断裂伸长率",
+          "sourceLabel": "断裂伸长率",
+          "value": "150 %",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-modulus",
+          "label": "弯曲模量",
+          "sourceLabel": "弯曲模量",
+          "value": "1600 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-strength",
+          "label": "弯曲强度",
+          "sourceLabel": "弯曲强度",
+          "value": "70 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "charpy-impact-state-pending",
+          "label": "简支梁冲击强度（缺口状态待确认）",
+          "sourceLabel": "简支梁冲击强度（缺口状态待确认）",
+          "value": "30 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "melt-flow-reference",
+          "label": "熔指（测试条件待确认）",
+          "sourceLabel": "熔指（测试条件待确认）",
+          "value": "2.8 g/min",
+          "available": true,
+          "group": "processing",
+          "condition": "熔体流动测试方法、温度、载荷与时间单位需确认"
+        },
+        {
+          "key": "hdt-1-8-mpa",
+          "label": "热变形温度（1.8 MPa）",
+          "sourceLabel": "热变形温度（1.8 MPa）",
+          "value": "125 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "hdt-0-45-mpa",
+          "label": "热变形温度（0.45 MPa）",
+          "sourceLabel": "热变形温度（0.45 MPa）",
+          "value": "135 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 75-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "HB",
+          "available": true,
+          "group": "thermal",
+          "condition": "UL 94 · 厚度、颜色与适用版本需确认"
+        }
+      ],
+      "profile": {
+        "parts": "透明外壳、光学周边、电子电器与包装部件",
+        "focus": "透明尼龙12，关注耐热、韧性与透明外观，可用于杯体、电子电器和光学部件方向；接触合规按具体用途确认。",
+        "process": "按牌号确认干燥、熔体温度和模具条件；试制中核对收缩、外观与尺寸。",
+        "reinforcement": "未增强尼龙；具体配方按牌号确认",
+        "tests": [
+          "透光与外观：按实际壁厚验证透光、雾度及表面",
+          "介质与应力：按装配状态验证清洁剂和应力开裂",
+          "温度与冲击：结合热环境、跌落和使用周期验证"
+        ]
+      },
+      "image": "materials/nylon-tn956.webp",
+      "thumbnail": "materials/nylon-tn956-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "nylon-pa610",
+      "name": "Techinherit PA610",
+      "grade": "PA610",
+      "catalogType": "grade",
+      "category": "long-chain-nylon",
+      "categories": [
+        "long-chain-nylon",
+        "bio-based-nylon"
+      ],
+      "family": "PA610",
+      "features": [
+        "生物基方向",
+        "低吸水方向",
+        "尺寸稳定"
+      ],
+      "desc": "长碳链生物基尼龙，关注低吸水、低温韧性和尺寸稳定，适用于单丝、电缆包覆及机械配合件方向。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "viscosity-options",
+          "label": "粘度",
+          "sourceLabel": "粘度",
+          "value": "Ⅰ Ⅱ Ⅲ",
+          "available": true,
+          "group": "processing",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "melting-point",
+          "label": "熔点",
+          "sourceLabel": "熔点",
+          "value": "224 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 11357-1/-3 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "58 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "elongation-at-break",
+          "label": "断裂伸长率",
+          "sourceLabel": "断裂伸长率",
+          "value": "＞100 %",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-strength",
+          "label": "弯曲强度",
+          "sourceLabel": "弯曲强度",
+          "value": "65 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "pellet-count",
+          "label": "颗粒度",
+          "sourceLabel": "颗粒度",
+          "value": "40-60 pellets/g",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "loss-on-drying",
+          "label": "干燥失重",
+          "sourceLabel": "干燥失重",
+          "value": "＜1 ‰",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "density",
+          "label": "密度",
+          "sourceLabel": "密度",
+          "value": "1.08 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "unnotched-impact-strength",
+          "label": "无缺口冲击强度",
+          "sourceLabel": "无缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "notched-impact-strength-method-pending",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "6 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "saturated-water-absorption",
+          "label": "饱和吸水率",
+          "sourceLabel": "饱和吸水率",
+          "value": "3 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · 试样状态、温湿度与完整测试条件需确认"
+        }
+      ],
+      "profile": {
+        "parts": "单丝、管材、电缆包覆、仪表与机械部件",
+        "focus": "长碳链生物基尼龙，关注低吸水、低温韧性和尺寸稳定，适用于单丝、电缆包覆及机械配合件方向。",
+        "process": "按牌号确认干燥、熔体温度和模具条件；试制中核对收缩、外观与尺寸。",
+        "reinforcement": "未增强尼龙；具体配方按牌号确认",
+        "tests": [
+          "吸水与尺寸：比较干态与调湿后的关键尺寸",
+          "耐低温与受力：结合目标温度验证冲击和承载",
+          "介质与加工：核对油品接触、收缩和加工窗口"
+        ]
+      },
+      "image": "materials/nylon-pa610.webp",
+      "thumbnail": "materials/nylon-pa610-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "nylon-pa612",
+      "name": "Techinherit PA612",
+      "grade": "PA612",
+      "catalogType": "grade",
+      "category": "long-chain-nylon",
+      "categories": [
+        "long-chain-nylon"
+      ],
+      "family": "PA612",
+      "features": [
+        "低吸水方向",
+        "尺寸稳定",
+        "耐油方向"
+      ],
+      "desc": "长碳链尼龙，兼顾韧性、耐油和电气应用需求，可围绕牙刷丝、单丝、电缆包覆及仪表零件选型。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "viscosity-options",
+          "label": "粘度",
+          "sourceLabel": "粘度",
+          "value": "Ⅰ Ⅱ Ⅲ",
+          "available": true,
+          "group": "processing",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "melting-point",
+          "label": "熔点",
+          "sourceLabel": "熔点",
+          "value": "218 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 11357-1/-3 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "58 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "elongation-at-break",
+          "label": "断裂伸长率",
+          "sourceLabel": "断裂伸长率",
+          "value": "＞150 %",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-strength",
+          "label": "弯曲强度",
+          "sourceLabel": "弯曲强度",
+          "value": "62 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "pellet-count",
+          "label": "颗粒度",
+          "sourceLabel": "颗粒度",
+          "value": "40-60 pellets/g",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "loss-on-drying",
+          "label": "干燥失重",
+          "sourceLabel": "干燥失重",
+          "value": "＜1 ‰",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "density",
+          "label": "密度",
+          "sourceLabel": "密度",
+          "value": "1.06 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "unnotched-impact-strength",
+          "label": "无缺口冲击强度",
+          "sourceLabel": "无缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "notched-impact-strength-method-pending",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "6 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "saturated-water-absorption",
+          "label": "饱和吸水率",
+          "sourceLabel": "饱和吸水率",
+          "value": "2.8 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · 试样状态、温湿度与完整测试条件需确认"
+        }
+      ],
+      "profile": {
+        "parts": "单丝、管材、电缆包覆、仪表与机械部件",
+        "focus": "长碳链尼龙，兼顾韧性、耐油和电气应用需求，可围绕牙刷丝、单丝、电缆包覆及仪表零件选型。",
+        "process": "按牌号确认干燥、熔体温度和模具条件；试制中核对收缩、外观与尺寸。",
+        "reinforcement": "未增强尼龙；具体配方按牌号确认",
+        "tests": [
+          "吸水与尺寸：比较干态与调湿后的关键尺寸",
+          "耐低温与受力：结合目标温度验证冲击和承载",
+          "介质与加工：核对油品接触、收缩和加工窗口"
+        ]
+      },
+      "image": "materials/nylon-pa612.webp",
+      "thumbnail": "materials/nylon-pa612-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "nylon-pa1010",
+      "name": "Techinherit PA1010",
+      "grade": "PA1010",
+      "catalogType": "grade",
+      "category": "long-chain-nylon",
+      "categories": [
+        "long-chain-nylon",
+        "bio-based-nylon"
+      ],
+      "family": "PA1010",
+      "features": [
+        "生物基方向",
+        "低吸水方向",
+        "尺寸稳定"
+      ],
+      "desc": "长碳链生物基尼龙，关注韧性、强度、低吸水和成型收缩，可用于汽车、仪表与工业结构件方向。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "viscosity-options",
+          "label": "粘度",
+          "sourceLabel": "粘度",
+          "value": "Ⅰ Ⅱ Ⅲ",
+          "available": true,
+          "group": "processing",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "melting-point",
+          "label": "熔点",
+          "sourceLabel": "熔点",
+          "value": "200 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 11357-1/-3 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "55 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "elongation-at-break",
+          "label": "断裂伸长率",
+          "sourceLabel": "断裂伸长率",
+          "value": "＞160 %",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-strength",
+          "label": "弯曲强度",
+          "sourceLabel": "弯曲强度",
+          "value": "60 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "pellet-count",
+          "label": "颗粒度",
+          "sourceLabel": "颗粒度",
+          "value": "40-60 pellets/g",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "loss-on-drying",
+          "label": "干燥失重",
+          "sourceLabel": "干燥失重",
+          "value": "＜1 ‰",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "density",
+          "label": "密度",
+          "sourceLabel": "密度",
+          "value": "1.04 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "unnotched-impact-strength",
+          "label": "无缺口冲击强度",
+          "sourceLabel": "无缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "notched-impact-strength-method-pending",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "10 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "saturated-water-absorption",
+          "label": "饱和吸水率",
+          "sourceLabel": "饱和吸水率",
+          "value": "2.5 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · 试样状态、温湿度与完整测试条件需确认"
+        }
+      ],
+      "profile": {
+        "parts": "单丝、管材、电缆包覆、仪表与机械部件",
+        "focus": "长碳链生物基尼龙，关注韧性、强度、低吸水和成型收缩，可用于汽车、仪表与工业结构件方向。",
+        "process": "按牌号确认干燥、熔体温度和模具条件；试制中核对收缩、外观与尺寸。",
+        "reinforcement": "未增强尼龙；具体配方按牌号确认",
+        "tests": [
+          "吸水与尺寸：比较干态与调湿后的关键尺寸",
+          "耐低温与受力：结合目标温度验证冲击和承载",
+          "介质与加工：核对油品接触、收缩和加工窗口"
+        ]
+      },
+      "image": "materials/nylon-pa1010.webp",
+      "thumbnail": "materials/nylon-pa1010-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "nylon-pa1012",
+      "name": "Techinherit PA1012",
+      "grade": "PA1012",
+      "catalogType": "grade",
+      "category": "long-chain-nylon",
+      "categories": [
+        "long-chain-nylon"
+      ],
+      "family": "PA1012",
+      "features": [
+        "低吸水方向",
+        "尺寸稳定",
+        "耐油方向"
+      ],
+      "desc": "长碳链尼龙，关注低吸水、耐油及尺寸稳定，可用于挤出、注塑、吹塑与管材相关应用。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "viscosity-options",
+          "label": "粘度",
+          "sourceLabel": "粘度",
+          "value": "Ⅰ Ⅱ Ⅲ",
+          "available": true,
+          "group": "processing",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "melting-point",
+          "label": "熔点",
+          "sourceLabel": "熔点",
+          "value": "192 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 11357-1/-3 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "52 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "elongation-at-break",
+          "label": "断裂伸长率",
+          "sourceLabel": "断裂伸长率",
+          "value": "＞200 %",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-strength",
+          "label": "弯曲强度",
+          "sourceLabel": "弯曲强度",
+          "value": "58 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "pellet-count",
+          "label": "颗粒度",
+          "sourceLabel": "颗粒度",
+          "value": "40-60 pellets/g",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "loss-on-drying",
+          "label": "干燥失重",
+          "sourceLabel": "干燥失重",
+          "value": "＜1 ‰",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "density",
+          "label": "密度",
+          "sourceLabel": "密度",
+          "value": "1.02 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "unnotched-impact-strength",
+          "label": "无缺口冲击强度",
+          "sourceLabel": "无缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "notched-impact-strength-method-pending",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "15 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "saturated-water-absorption",
+          "label": "饱和吸水率",
+          "sourceLabel": "饱和吸水率",
+          "value": "2 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · 试样状态、温湿度与完整测试条件需确认"
+        }
+      ],
+      "profile": {
+        "parts": "单丝、管材、电缆包覆、仪表与机械部件",
+        "focus": "长碳链尼龙，关注低吸水、耐油及尺寸稳定，可用于挤出、注塑、吹塑与管材相关应用。",
+        "process": "按牌号确认干燥、熔体温度和模具条件；试制中核对收缩、外观与尺寸。",
+        "reinforcement": "未增强尼龙；具体配方按牌号确认",
+        "tests": [
+          "吸水与尺寸：比较干态与调湿后的关键尺寸",
+          "耐低温与受力：结合目标温度验证冲击和承载",
+          "介质与加工：核对油品接触、收缩和加工窗口"
+        ]
+      },
+      "image": "materials/nylon-pa1012.webp",
+      "thumbnail": "materials/nylon-pa1012-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "nylon-pa1212",
+      "name": "Techinherit PA1212",
+      "grade": "PA1212",
+      "catalogType": "grade",
+      "category": "long-chain-nylon",
+      "categories": [
+        "long-chain-nylon"
+      ],
+      "family": "PA1212",
+      "features": [
+        "低吸水方向",
+        "尺寸稳定",
+        "耐油方向"
+      ],
+      "desc": "长碳链尼龙，关注低温韧性、低吸水与尺寸稳定，适合挤出、注塑、吹塑及粉末加工方向。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "viscosity-options",
+          "label": "粘度",
+          "sourceLabel": "粘度",
+          "value": "Ⅰ Ⅱ Ⅲ",
+          "available": true,
+          "group": "processing",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "melting-point",
+          "label": "熔点",
+          "sourceLabel": "熔点",
+          "value": "180-190 °C",
+          "available": true,
+          "group": "thermal",
+          "condition": "ISO 11357-1/-3 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "≥43 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "elongation-at-break",
+          "label": "断裂伸长率",
+          "sourceLabel": "断裂伸长率",
+          "value": "＞298 %",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 527-1/-2 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "flexural-strength",
+          "label": "弯曲强度",
+          "sourceLabel": "弯曲强度",
+          "value": "≥34 MPa",
+          "available": true,
+          "group": "mechanical",
+          "condition": "ISO 178 · 试样状态、温湿度与完整测试条件需确认"
+        },
+        {
+          "key": "pellet-count",
+          "label": "颗粒度",
+          "sourceLabel": "颗粒度",
+          "value": "40-60 pellets/g",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "loss-on-drying",
+          "label": "干燥失重",
+          "sourceLabel": "干燥失重",
+          "value": "＜1.0 ‰",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "density",
+          "label": "密度",
+          "sourceLabel": "密度",
+          "value": "1.02 g/cm³",
+          "available": true,
+          "group": "physical",
+          "condition": "测试方法与试样状态需确认"
+        },
+        {
+          "key": "unnotched-impact-strength",
+          "label": "无缺口冲击强度",
+          "sourceLabel": "无缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "notched-impact-strength-method-pending",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "20 kJ/m²",
+          "available": true,
+          "group": "mechanical",
+          "condition": "缺口状态、冲击方法与试样状态需确认"
+        },
+        {
+          "key": "saturated-water-absorption",
+          "label": "饱和吸水率",
+          "sourceLabel": "饱和吸水率",
+          "value": "2 %",
+          "available": true,
+          "group": "physical",
+          "condition": "ISO 62 · 试样状态、温湿度与完整测试条件需确认"
+        }
+      ],
+      "profile": {
+        "parts": "单丝、管材、电缆包覆、仪表与机械部件",
+        "focus": "长碳链尼龙，关注低温韧性、低吸水与尺寸稳定，适合挤出、注塑、吹塑及粉末加工方向。",
+        "process": "按牌号确认干燥、熔体温度和模具条件；试制中核对收缩、外观与尺寸。",
+        "reinforcement": "未增强尼龙；具体配方按牌号确认",
+        "tests": [
+          "吸水与尺寸：比较干态与调湿后的关键尺寸",
+          "耐低温与受力：结合目标温度验证冲击和承载",
+          "介质与加工：核对油品接触、收缩和加工窗口"
+        ]
+      },
+      "image": "materials/nylon-pa1212.webp",
+      "thumbnail": "materials/nylon-pa1212-small.webp",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    }
+  ]
+}
