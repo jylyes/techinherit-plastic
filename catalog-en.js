@@ -60,6 +60,18 @@ window.TechMaterials={
       "imageHeight": 900,
       "thumbnailWidth": 400,
       "searchAliases": "碳纤维复合材料 围绕轻量化、高刚性与结构应用，探索碳纤增强树脂的材料及加工方案。"
+    },
+    {
+      "id": "industry-specific",
+      "name": "Industry-specific materials",
+      "en": "Industry-specific materials",
+      "image": "industry/chair-base.webp",
+      "thumbnail": "industry/chair-base-small.webp",
+      "imageWidth": 900,
+      "imageHeight": 900,
+      "thumbnailWidth": 400,
+      "intro": "Material selection and modification solutions tailored to industry service conditions and application requirements.",
+      "searchAliases": "行业专用材料 围绕行业工况与应用需求，提供针对性的材料选型与改性方案。"
     }
   ],
   "products": [
@@ -9835,6 +9847,673 @@ window.TechMaterials={
       "imageHeight": 450,
       "thumbnailWidth": 400,
       "searchAliases": "Techinherit TE-MPPOMPPE105 MPPO/MPPE 基体的静电消散型材料，采用炭黑改性体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
+    },
+    {
+      "id": "industry-chair-base",
+      "name": "Materials for ergonomic-chair five-star bases",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "Confirm for the project",
+      "features": [
+        "Loading & fatigue",
+        "Dimensions & assembly",
+        "Molding & appearance"
+      ],
+      "desc": "Develop a material solution for chair-base loading, sustained service and caster assembly around the part geometry, service load and molding conditions.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "Heat deflection temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "Molding shrinkage",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        }
+      ],
+      "profile": {
+        "parts": "Five-star chair bases, caster sockets and central load-bearing structures",
+        "focus": "Develop a material solution for chair-base loading, sustained service and caster assembly around the part geometry, service load and molding conditions.",
+        "process": "Confirm the grade, part drawing and equipment before drying, molding and part trials; use formal documentation and trial results for processing parameters.",
+        "reinforcement": "Confirm matrix, reinforcement and functional formulation for the part requirements",
+        "tests": [
+          "Loading: assess static load, impact and cyclic fatigue under the intended service conditions and applicable test specification.",
+          "Assembly: check caster insertion and removal, central-bore fit and deformation after sustained loading.",
+          "Condition: record molding state, conditioning, temperature and batch when comparing dimensions and structural behavior."
+        ]
+      },
+      "applicationIds": [
+        "furniture"
+      ],
+      "solution": {
+        "requirements": [
+          {
+            "title": "Structural loading",
+            "desc": "Define chair loads, loading modes and service cycles, focusing on weak regions around the arms and central bore."
+          },
+          {
+            "title": "Caster & central interfaces",
+            "desc": "Check caster sockets, the central mounting bore and assembly tolerances against the drawing, including conditioning and aging."
+          },
+          {
+            "title": "Molding & consistency",
+            "desc": "Assess the molding window and batch consistency through gates, weld lines, fiber orientation and surface requirements."
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/chair-base.webp",
+      "thumbnail": "industry/chair-base-small.webp",
+      "imageWidth": 900,
+      "imageHeight": 900,
+      "thumbnailWidth": 400,
+      "searchAliases": "人体工学椅五星脚专用材料 围绕五星脚的承载、长期受力与脚轮装配，结合零件结构、使用载荷和成型条件确定材料方案。 承载与疲劳 尺寸与装配 成型与外观"
+    },
+    {
+      "id": "industry-ev-charging",
+      "name": "Materials for EV charging guns and connectors",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "Confirm for the project",
+      "features": [
+        "Electrical & insulation",
+        "Heat & flame requirements",
+        "Sealing & dimensions"
+      ],
+      "desc": "Define the part function, temperature rise, wall thickness and target specification before selecting a matrix and modification system for charging guns and connectors.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "Heat deflection temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "Molding shrinkage",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        }
+      ],
+      "profile": {
+        "parts": "Charging-gun housings, connector bodies, mounting supports and mating parts",
+        "focus": "Define the part function, temperature rise, wall thickness and target specification before selecting a matrix and modification system for charging guns and connectors.",
+        "process": "Confirm the grade, part drawing and equipment before drying, molding and part trials; use formal documentation and trial results for processing parameters.",
+        "reinforcement": "Confirm matrix, reinforcement and functional formulation for the part requirements",
+        "tests": [
+          "Electrical: verify insulation, withstand voltage and related electrical properties for the part function and target specification.",
+          "Environment: assess appearance and dimensions after temperature/humidity cycles, chemical contact and outdoor exposure.",
+          "Whole part: verify flame targets, temperature rise and mating reliability with the actual wall thickness, seals and assembly."
+        ]
+      },
+      "applicationIds": [
+        "new-energy"
+      ],
+      "solution": {
+        "requirements": [
+          {
+            "title": "Electrical conditions",
+            "desc": "Separate conductive and insulating functions; define operating voltage, electrical spacing and validation requirements."
+          },
+          {
+            "title": "Heat & flame requirements",
+            "desc": "Define sustained temperature, temperature rise, specimen thickness and color; confirm heat and flame targets for the project."
+          },
+          {
+            "title": "Environment & sealed assembly",
+            "desc": "Review the material and assembly against outdoor exposure, cleaning chemicals, seals and mating cycles."
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/ev-charging.webp",
+      "thumbnail": "industry/ev-charging-small.webp",
+      "imageWidth": 675,
+      "imageHeight": 900,
+      "thumbnailWidth": 300,
+      "searchAliases": "新能源充电枪及连接器专用材料 面向充电枪及连接器的结构、电气与环境要求，先明确部位功能、温升、壁厚和目标规范，再确定基材与改性体系。 电气与绝缘 耐热与阻燃目标 密封与尺寸"
+    },
+    {
+      "id": "industry-fan-blades",
+      "name": "Materials for cooling-fan blades",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "Confirm for the project",
+      "features": [
+        "Rotational loading",
+        "Warpage & balance",
+        "Thermal environment"
+      ],
+      "desc": "Develop the material around blade stiffness, rotational load and molded dimensions, considering speed, temperature and blade geometry; verify the impeller and assembled system.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "Heat deflection temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "Molding shrinkage",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        }
+      ],
+      "profile": {
+        "parts": "Cooling-fan blades, impellers and hub interfaces",
+        "focus": "Develop the material around blade stiffness, rotational load and molded dimensions, considering speed, temperature and blade geometry; verify the impeller and assembled system.",
+        "process": "Confirm the grade, part drawing and equipment before drying, molding and part trials; use formal documentation and trial results for processing parameters.",
+        "reinforcement": "Confirm matrix, reinforcement and functional formulation for the part requirements",
+        "tests": [
+          "Rotation: plan speed, start/stop cycling and structural-integrity tests against the project specification.",
+          "Dimensions: check blade geometry, flatness, hub fit, balance and changes after thermal cycling.",
+          "System: assess vibration, noise and cooling with the actual airflow path and mounting."
+        ]
+      },
+      "applicationIds": [
+        "ai-hardware"
+      ],
+      "solution": {
+        "requirements": [
+          {
+            "title": "Speed & loading",
+            "desc": "Define maximum speed, start/stop cycles and blade geometry, focusing on hubs, blade roots and weld regions."
+          },
+          {
+            "title": "Dimensions & balance",
+            "desc": "Check blade geometry, shrinkage and warpage; record balance across batches and molding conditions."
+          },
+          {
+            "title": "Heat & operation",
+            "desc": "Assess the material and impeller against operating temperature, continuous service and airflow conditions."
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/fan-blades.webp",
+      "thumbnail": "industry/fan-blades-small.webp",
+      "imageWidth": 675,
+      "imageHeight": 660,
+      "thumbnailWidth": 400,
+      "searchAliases": "散热风扇叶片专用材料 围绕叶片刚性、旋转载荷和成型尺寸，结合转速、温度及叶型要求讨论材料方案，并通过叶轮与整机验证确认表现。 旋转载荷 翘曲与动平衡 热环境稳定"
+    },
+    {
+      "id": "industry-precision-gears",
+      "name": "Materials for precision gears",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "Confirm for the project",
+      "features": [
+        "Tooth geometry & tolerances",
+        "Friction & wear",
+        "Fatigue & lifetime"
+      ],
+      "desc": "Define a material solution for the transmission through tooth accuracy, loading and friction, together with lubrication, temperature, noise and service-life requirements.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "Heat deflection temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "Molding shrinkage",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        }
+      ],
+      "profile": {
+        "parts": "Precision transmission gears, gear sets, shaft bores and mating interfaces",
+        "focus": "Define a material solution for the transmission through tooth accuracy, loading and friction, together with lubrication, temperature, noise and service-life requirements.",
+        "process": "Confirm the grade, part drawing and equipment before drying, molding and part trials; use formal documentation and trial results for processing parameters.",
+        "reinforcement": "Confirm matrix, reinforcement and functional formulation for the part requirements",
+        "tests": [
+          "Geometry: inspect tooth profile, concentricity, shaft bore and mating tolerances against the drawing.",
+          "Operation: assess wear, temperature rise and noise under the actual load, speed and lubrication.",
+          "Lifetime: record cycles, failure modes and environmental condition against transmission-life requirements."
+        ]
+      },
+      "applicationIds": [],
+      "solution": {
+        "requirements": [
+          {
+            "title": "Transmission & loading",
+            "desc": "Define module, tooth profile, torque, speed and shock loads; distinguish continuous and intermittent duty."
+          },
+          {
+            "title": "Friction & lubrication",
+            "desc": "Confirm the mating material, lubrication, contact chemicals and wear criteria."
+          },
+          {
+            "title": "Dimensions & fit",
+            "desc": "Verify tooth geometry, shaft-bore fit and noise targets against shrinkage, conditioning and temperature changes."
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/precision-gears.webp",
+      "thumbnail": "industry/precision-gears-small.webp",
+      "imageWidth": 900,
+      "imageHeight": 866,
+      "thumbnailWidth": 400,
+      "searchAliases": "精密齿轮专用材料 以齿形精度、载荷和摩擦工况为起点，结合润滑方式、温度、噪声及寿命要求，确定适合具体传动系统的材料方案。 齿形与公差 摩擦与磨损 疲劳与寿命"
+    },
+    {
+      "id": "industry-ai-enclosures",
+      "name": "Materials for AI hardware and electronic housings",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "Confirm for the project",
+      "features": [
+        "Appearance & thin walls",
+        "Impact & assembly",
+        "Electrical requirements"
+      ],
+      "desc": "Select materials for AI hardware and electronic housings around appearance, thin-wall molding, impact and heat; specify and validate static-control and electromagnetic requirements separately for each part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "Heat deflection temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "Molding shrinkage",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        }
+      ],
+      "profile": {
+        "parts": "AI hardware housings, electronic enclosures, internal supports and snap fits",
+        "focus": "Select materials for AI hardware and electronic housings around appearance, thin-wall molding, impact and heat; specify and validate static-control and electromagnetic requirements separately for each part.",
+        "process": "Confirm the grade, part drawing and equipment before drying, molding and part trials; use formal documentation and trial results for processing parameters.",
+        "reinforcement": "Confirm matrix, reinforcement and functional formulation for the part requirements",
+        "tests": [
+          "Appearance: check color, texture, weld marks and batch consistency.",
+          "Structure: assess drops, fasteners, snap-fit cycles and assembly after thermal cycling.",
+          "Function: test the material and system against the defined resistance, electrical or electromagnetic targets."
+        ]
+      },
+      "applicationIds": [
+        "ai-hardware",
+        "electronics"
+      ],
+      "solution": {
+        "requirements": [
+          {
+            "title": "Appearance & structure",
+            "desc": "Define surface finish, color, wall thickness, snaps and fasteners, including weld marks and stressed regions."
+          },
+          {
+            "title": "Heat & electrical functions",
+            "desc": "Specify heat, flame, insulation, static control and electromagnetic needs as separate project requirements."
+          },
+          {
+            "title": "Assembly & environment",
+            "desc": "Review the material and part through drops, cleaning, temperature/humidity and internal component layout."
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/ai-enclosures.webp",
+      "thumbnail": "industry/ai-enclosures-small.webp",
+      "imageWidth": 639,
+      "imageHeight": 630,
+      "thumbnailWidth": 400,
+      "searchAliases": "AI硬件及电子外壳专用材料 面向 AI 硬件与电子外壳，结合外观、薄壁成型、冲击及热环境开展选型；静电与电磁相关需求按部位分别定义和验证。 外观与薄壁成型 冲击与装配 电气功能需求"
+    },
+    {
+      "id": "industry-outdoor-helmet",
+      "name": "Materials for outdoor sports and helmet accessories",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "Confirm for the project",
+      "features": [
+        "Impact & toughness targets",
+        "Weathering & color",
+        "Assembly reliability"
+      ],
+      "desc": "Develop materials for outdoor sports and helmet accessories around the part function, impact mode, sunlight and temperature changes. Define any protective function and its validation scope within the project.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "Heat deflection temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "Molding shrinkage",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        }
+      ],
+      "profile": {
+        "parts": "Outdoor-sports accessories, helmet attachments, mounts, buckles and adjustment parts",
+        "focus": "Develop materials for outdoor sports and helmet accessories around the part function, impact mode, sunlight and temperature changes. Define any protective function and its validation scope within the project.",
+        "process": "Confirm the grade, part drawing and equipment before drying, molding and part trials; use formal documentation and trial results for processing parameters.",
+        "reinforcement": "Confirm matrix, reinforcement and functional formulation for the part requirements",
+        "tests": [
+          "Environment: assess appearance and structure after the target sunlight, temperature, sweat and cleaning exposure.",
+          "Use: check adjustment cycles, buckle mating, mounting strength and aged performance.",
+          "Impact: assess the finished part against its intended use and applicable specification; catalog information does not replace protective-product validation."
+        ]
+      },
+      "applicationIds": [],
+      "solution": {
+        "requirements": [
+          {
+            "title": "Part function & scope",
+            "desc": "Distinguish accessories, mounts and protective components; define intended use and validation scope."
+          },
+          {
+            "title": "Outdoor environment",
+            "desc": "Record minimum and maximum service temperatures, sunlight, sweat, cleaners and storage conditions."
+          },
+          {
+            "title": "Buckles & repeated use",
+            "desc": "Review adjustment mechanisms, fasteners and repeated mating, focusing on weak sections and wear."
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/outdoor-helmet.webp",
+      "thumbnail": "industry/outdoor-helmet-small.webp",
+      "imageWidth": 900,
+      "imageHeight": 900,
+      "thumbnailWidth": 400,
+      "searchAliases": "户外运动及头盔配件专用材料 针对户外运动与头盔配件，结合使用部位、冲击形式、日晒和温度变化讨论材料。是否涉及防护功能及对应验证范围需在项目中明确。 冲击与韧性目标 耐候与颜色 装配可靠性"
+    },
+    {
+      "id": "industry-food-appliance",
+      "name": "Materials for food-contact kitchen-appliance parts",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "Confirm for the project",
+      "features": [
+        "Food-contact documentation",
+        "Temperature & cleaning",
+        "Odor & assembly"
+      ],
+      "desc": "Define contact media, duration, temperature and target market before selecting a grade and documentation for food-contact appliance parts, considering heat, cleaning, odor and assembly.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "Heat deflection temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "Molding shrinkage",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Grade not yet specified; confirm properties, test methods and specimen condition for the project"
+        }
+      ],
+      "profile": {
+        "parts": "Food-contact kitchen-appliance parts, container interfaces, lids, seal interfaces and drive couplings",
+        "focus": "Define contact media, duration, temperature and target market before selecting a grade and documentation for food-contact appliance parts, considering heat, cleaning, odor and assembly.",
+        "process": "Confirm the grade, part drawing and equipment before drying, molding and part trials; use formal documentation and trial results for processing parameters.",
+        "reinforcement": "Confirm matrix, reinforcement and functional formulation for the part requirements",
+        "tests": [
+          "Documents: match the grade, color, contact conditions and scope; a general material description is not proof of food-contact suitability.",
+          "Contact: establish material and finished-product testing for the target market and actual use.",
+          "Use: assess cleaning cycles, hot water or steam, odor, dimensions and cracking after assembly."
+        ]
+      },
+      "applicationIds": [],
+      "solution": {
+        "requirements": [
+          {
+            "title": "Food-contact conditions",
+            "desc": "Define direct or indirect contact locations, contact media, time/temperature and repeated-use conditions."
+          },
+          {
+            "title": "Grade & documentation",
+            "desc": "Check the grade, color, additive system and available food-contact documentation for the target market."
+          },
+          {
+            "title": "Use & cleaning",
+            "desc": "Define material and part requirements around hot water, steam, detergents, odor and mechanical fit."
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/food-appliance.webp",
+      "thumbnail": "industry/food-appliance-small.webp",
+      "imageWidth": 530,
+      "imageHeight": 458,
+      "thumbnailWidth": 400,
+      "searchAliases": "食品接触厨电配件专用材料 面向食品接触厨电配件，先确认接触介质、时间、温度和目标市场，再结合耐热、清洁、气味及装配要求确定牌号和资料清单。 食品接触资料 温度与清洁 气味与装配"
     }
   ],
   "applications": [

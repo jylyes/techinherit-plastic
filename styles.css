@@ -54,3 +54,4 @@ dialog{border:0;padding:0;max-height:calc(100svh - 60px);color:var(--ink);oversc
 @media(max-width:1200px){.site-header .brand-with-logo{font-size:32px;gap:9px}.site-header .brand-symbol{width:36px;height:36px}}
 @media(max-width:820px){.site-header .brand-with-logo{font-size:31px;gap:9px}.site-header .brand-symbol{width:35px;height:35px}}
 @media(max-width:540px){.site-header .brand-with-logo{font-size:28px;gap:8px}.site-header .brand-symbol{width:32px;height:32px}}
+.mega-section .mega-copy{max-width:58%}.mega-section .mega-copy strong{line-height:1.45}.mega-section .mega-links{grid-template-columns:repeat(2,minmax(0,1fr));min-width:300px}.nav-item:hover>.nav-link::after{width:100%}

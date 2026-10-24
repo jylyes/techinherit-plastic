@@ -1,0 +1,664 @@
+{
+  "products": [
+    {
+      "id": "industry-chair-base",
+      "name": "人体工学椅五星脚专用材料",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "按项目确认",
+      "features": [
+        "承载与疲劳",
+        "尺寸与装配",
+        "成型与外观"
+      ],
+      "desc": "围绕五星脚的承载、长期受力与脚轮装配，结合零件结构、使用载荷和成型条件确定材料方案。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "热变形温度",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "成型收缩率",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        }
+      ],
+      "profile": {
+        "parts": "人体工学椅五星脚、脚轮安装位及中心承载结构",
+        "focus": "围绕五星脚的承载、长期受力与脚轮装配，结合零件结构、使用载荷和成型条件确定材料方案。",
+        "process": "先确认牌号、零件图纸和设备条件，再安排干燥、成型与零件试制；具体工艺参数以正式资料和试制结果为准。",
+        "reinforcement": "基材、增强体系和功能配方按零件要求确认",
+        "tests": [
+          "承载验证：按目标工况与适用测试规范评估静载、冲击和循环疲劳。",
+          "装配验证：核对脚轮插拔、中心孔配合及长期载荷后的变形。",
+          "状态验证：记录成型状态、调湿条件、温度及批次，比较尺寸与结构表现。"
+        ]
+      },
+      "applicationIds": [
+        "furniture"
+      ],
+      "solution": {
+        "requirements": [
+          {
+            "title": "结构承载",
+            "desc": "明确整椅载荷、受力方式和使用周期，关注脚臂与中心孔周边的薄弱位置。"
+          },
+          {
+            "title": "脚轮与中心配合",
+            "desc": "按图纸核对脚轮孔、中心安装孔及装配公差，结合调湿与老化确认配合。"
+          },
+          {
+            "title": "成型与一致性",
+            "desc": "结合浇口、熔接线、纤维取向和表面要求评估成型窗口与批次一致性。"
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/chair-base.webp",
+      "thumbnail": "industry/chair-base-small.webp",
+      "imageWidth": 900,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "industry-ev-charging",
+      "name": "新能源充电枪及连接器专用材料",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "按项目确认",
+      "features": [
+        "电气与绝缘",
+        "耐热与阻燃目标",
+        "密封与尺寸"
+      ],
+      "desc": "面向充电枪及连接器的结构、电气与环境要求，先明确部位功能、温升、壁厚和目标规范，再确定基材与改性体系。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "热变形温度",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "成型收缩率",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        }
+      ],
+      "profile": {
+        "parts": "充电枪外壳、连接器壳体、安装支撑及配合部件",
+        "focus": "面向充电枪及连接器的结构、电气与环境要求，先明确部位功能、温升、壁厚和目标规范，再确定基材与改性体系。",
+        "process": "先确认牌号、零件图纸和设备条件，再安排干燥、成型与零件试制；具体工艺参数以正式资料和试制结果为准。",
+        "reinforcement": "基材、增强体系和功能配方按零件要求确认",
+        "tests": [
+          "电气验证：按部位功能与目标规范核对绝缘、耐电压及相关电性能。",
+          "环境验证：按温湿度循环、接触介质与户外暴露条件评估外观和尺寸。",
+          "整件验证：在实际壁厚、密封和装配条件下确认阻燃目标、温升及插拔可靠性。"
+        ]
+      },
+      "applicationIds": [
+        "new-energy"
+      ],
+      "solution": {
+        "requirements": [
+          {
+            "title": "电气条件",
+            "desc": "区分导电与绝缘部位，明确工作电压、电气间距及电性能验证要求。"
+          },
+          {
+            "title": "热与阻燃要求",
+            "desc": "明确持续温度、温升、试样厚度及颜色，按项目确认阻燃与耐热目标。"
+          },
+          {
+            "title": "环境与密封配合",
+            "desc": "结合户外暴露、清洁介质、密封结构和插拔工况核对材料与装配。"
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/ev-charging.webp",
+      "thumbnail": "industry/ev-charging-small.webp",
+      "imageWidth": 675,
+      "imageHeight": 900,
+      "thumbnailWidth": 300
+    },
+    {
+      "id": "industry-fan-blades",
+      "name": "散热风扇叶片专用材料",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "按项目确认",
+      "features": [
+        "旋转载荷",
+        "翘曲与动平衡",
+        "热环境稳定"
+      ],
+      "desc": "围绕叶片刚性、旋转载荷和成型尺寸，结合转速、温度及叶型要求讨论材料方案，并通过叶轮与整机验证确认表现。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "热变形温度",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "成型收缩率",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        }
+      ],
+      "profile": {
+        "parts": "散热风扇叶片、叶轮及轮毂连接部位",
+        "focus": "围绕叶片刚性、旋转载荷和成型尺寸，结合转速、温度及叶型要求讨论材料方案，并通过叶轮与整机验证确认表现。",
+        "process": "先确认牌号、零件图纸和设备条件，再安排干燥、成型与零件试制；具体工艺参数以正式资料和试制结果为准。",
+        "reinforcement": "基材、增强体系和功能配方按零件要求确认",
+        "tests": [
+          "旋转验证：按项目规范安排转速、启停循环与结构完整性测试。",
+          "尺寸验证：检查叶型、平整度、轮毂配合、动平衡及热循环后的变化。",
+          "整机验证：在实际风道和安装条件下评估振动、噪声与散热表现。"
+        ]
+      },
+      "applicationIds": [
+        "ai-hardware"
+      ],
+      "solution": {
+        "requirements": [
+          {
+            "title": "转速与受力",
+            "desc": "明确最高转速、启停工况和叶片结构，关注轮毂、叶根及熔接区域。"
+          },
+          {
+            "title": "尺寸与动平衡",
+            "desc": "核对叶型、收缩和翘曲，记录不同批次及成型条件下的动平衡表现。"
+          },
+          {
+            "title": "热环境与运行",
+            "desc": "结合工作温度、连续运行周期及气流条件评估材料与叶轮结构。"
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/fan-blades.webp",
+      "thumbnail": "industry/fan-blades-small.webp",
+      "imageWidth": 675,
+      "imageHeight": 660,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "industry-precision-gears",
+      "name": "精密齿轮专用材料",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "按项目确认",
+      "features": [
+        "齿形与公差",
+        "摩擦与磨损",
+        "疲劳与寿命"
+      ],
+      "desc": "以齿形精度、载荷和摩擦工况为起点，结合润滑方式、温度、噪声及寿命要求，确定适合具体传动系统的材料方案。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "热变形温度",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "成型收缩率",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        }
+      ],
+      "profile": {
+        "parts": "精密传动齿轮、齿轮组、轴孔及配合部位",
+        "focus": "以齿形精度、载荷和摩擦工况为起点，结合润滑方式、温度、噪声及寿命要求，确定适合具体传动系统的材料方案。",
+        "process": "先确认牌号、零件图纸和设备条件，再安排干燥、成型与零件试制；具体工艺参数以正式资料和试制结果为准。",
+        "reinforcement": "基材、增强体系和功能配方按零件要求确认",
+        "tests": [
+          "齿形验证：按图纸检查齿形、同轴度、轴孔与配合公差。",
+          "运行验证：在实际载荷、转速及润滑条件下评估磨损、温升与噪声。",
+          "寿命验证：记录循环次数、失效方式及环境状态，确认传动系统的寿命要求。"
+        ]
+      },
+      "applicationIds": [],
+      "solution": {
+        "requirements": [
+          {
+            "title": "传动与载荷",
+            "desc": "明确模数、齿形、扭矩、转速及冲击载荷，区分连续与间歇工况。"
+          },
+          {
+            "title": "摩擦与润滑",
+            "desc": "核对啮合副材料、润滑方式、接触介质与磨损判据。"
+          },
+          {
+            "title": "尺寸与配合",
+            "desc": "结合收缩、调湿和温度变化确认齿形、轴孔配合及噪声目标。"
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/precision-gears.webp",
+      "thumbnail": "industry/precision-gears-small.webp",
+      "imageWidth": 900,
+      "imageHeight": 866,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "industry-ai-enclosures",
+      "name": "AI硬件及电子外壳专用材料",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "按项目确认",
+      "features": [
+        "外观与薄壁成型",
+        "冲击与装配",
+        "电气功能需求"
+      ],
+      "desc": "面向 AI 硬件与电子外壳，结合外观、薄壁成型、冲击及热环境开展选型；静电与电磁相关需求按部位分别定义和验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "热变形温度",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "成型收缩率",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        }
+      ],
+      "profile": {
+        "parts": "AI 硬件外壳、电子设备壳体、内部支撑及卡扣结构",
+        "focus": "面向 AI 硬件与电子外壳，结合外观、薄壁成型、冲击及热环境开展选型；静电与电磁相关需求按部位分别定义和验证。",
+        "process": "先确认牌号、零件图纸和设备条件，再安排干燥、成型与零件试制；具体工艺参数以正式资料和试制结果为准。",
+        "reinforcement": "基材、增强体系和功能配方按零件要求确认",
+        "tests": [
+          "外观验证：核对颜色、表面纹理、熔接痕和批次一致性。",
+          "结构验证：评估跌落、紧固点、卡扣循环及热循环后的装配状态。",
+          "功能验证：按明确的电阻、电气或电磁目标安排材料与整机测试。"
+        ]
+      },
+      "applicationIds": [
+        "ai-hardware",
+        "electronics"
+      ],
+      "solution": {
+        "requirements": [
+          {
+            "title": "外观与结构",
+            "desc": "明确表面效果、颜色、壁厚、卡扣和紧固结构，关注熔接痕与应力位置。"
+          },
+          {
+            "title": "热与电气功能",
+            "desc": "区分耐热、阻燃、绝缘、静电控制及电磁需求，按项目建立独立指标。"
+          },
+          {
+            "title": "装配与使用环境",
+            "desc": "结合跌落、清洁、温湿度及内部器件布置核对材料与零件。"
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/ai-enclosures.webp",
+      "thumbnail": "industry/ai-enclosures-small.webp",
+      "imageWidth": 639,
+      "imageHeight": 630,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "industry-outdoor-helmet",
+      "name": "户外运动及头盔配件专用材料",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "按项目确认",
+      "features": [
+        "冲击与韧性目标",
+        "耐候与颜色",
+        "装配可靠性"
+      ],
+      "desc": "针对户外运动与头盔配件，结合使用部位、冲击形式、日晒和温度变化讨论材料。是否涉及防护功能及对应验证范围需在项目中明确。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "热变形温度",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "成型收缩率",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        }
+      ],
+      "profile": {
+        "parts": "户外运动配件、头盔附件、安装件、卡扣及调节部件",
+        "focus": "针对户外运动与头盔配件，结合使用部位、冲击形式、日晒和温度变化讨论材料。是否涉及防护功能及对应验证范围需在项目中明确。",
+        "process": "先确认牌号、零件图纸和设备条件，再安排干燥、成型与零件试制；具体工艺参数以正式资料和试制结果为准。",
+        "reinforcement": "基材、增强体系和功能配方按零件要求确认",
+        "tests": [
+          "环境验证：按目标日晒、温度、汗液及清洁条件评估外观和结构变化。",
+          "使用验证：检查调节循环、卡扣插拔、安装强度及老化后的表现。",
+          "冲击验证：按实际用途与适用规范评估整件，材料目录不代替成品防护验证。"
+        ]
+      },
+      "applicationIds": [],
+      "solution": {
+        "requirements": [
+          {
+            "title": "部位与功能边界",
+            "desc": "区分附件、安装结构与承担防护功能的部件，明确目标用途和验证范围。"
+          },
+          {
+            "title": "户外环境",
+            "desc": "记录最低与最高使用温度、日晒、汗液、清洁剂及存放条件。"
+          },
+          {
+            "title": "卡扣与反复使用",
+            "desc": "核对调节结构、紧固方式和反复插拔工况，关注薄弱截面与磨损。"
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/outdoor-helmet.webp",
+      "thumbnail": "industry/outdoor-helmet-small.webp",
+      "imageWidth": 900,
+      "imageHeight": 900,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "industry-food-appliance",
+      "name": "食品接触厨电配件专用材料",
+      "catalogType": "solution",
+      "category": "industry-specific",
+      "family": "按项目确认",
+      "features": [
+        "食品接触资料",
+        "温度与清洁",
+        "气味与装配"
+      ],
+      "desc": "面向食品接触厨电配件，先确认接触介质、时间、温度和目标市场，再结合耐热、清洁、气味及装配要求确定牌号和资料清单。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "hdt-reference",
+          "label": "热变形温度",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "molding-shrinkage",
+          "label": "成型收缩率",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "尚未确定具体牌号；参数、测试方法与试样状态按项目确认"
+        }
+      ],
+      "profile": {
+        "parts": "食品接触厨电配件、容器周边、盖体、密封配合及传动连接部件",
+        "focus": "面向食品接触厨电配件，先确认接触介质、时间、温度和目标市场，再结合耐热、清洁、气味及装配要求确定牌号和资料清单。",
+        "process": "先确认牌号、零件图纸和设备条件，再安排干燥、成型与零件试制；具体工艺参数以正式资料和试制结果为准。",
+        "reinforcement": "基材、增强体系和功能配方按零件要求确认",
+        "tests": [
+          "资料验证：核对牌号、颜色、接触条件与文件适用范围，不将通用材料说明视为食品接触证明。",
+          "接触验证：结合目标市场和实际用途制定材料及成品的接触测试计划。",
+          "使用验证：评估清洗循环、热水或蒸汽、气味及装配后的尺寸与开裂。"
+        ]
+      },
+      "applicationIds": [],
+      "solution": {
+        "requirements": [
+          {
+            "title": "食品接触条件",
+            "desc": "明确直接或间接接触位置、接触介质、时间温度以及重复使用方式。"
+          },
+          {
+            "title": "牌号与资料",
+            "desc": "按目标市场核对具体牌号、颜色、添加体系及可提供的食品接触资料。"
+          },
+          {
+            "title": "使用与清洁",
+            "desc": "结合热水、蒸汽、清洁剂、气味和机械配合确认材料与零件要求。"
+          }
+        ],
+        "illustration": false
+      },
+      "image": "industry/food-appliance.webp",
+      "thumbnail": "industry/food-appliance-small.webp",
+      "imageWidth": 530,
+      "imageHeight": 458,
+      "thumbnailWidth": 400
+    }
+  ]
+}

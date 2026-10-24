@@ -12,7 +12,7 @@
   function show(index){slideIndex=(index+slides.length)%slides.length;slides.forEach((s,i)=>{const active=i===slideIndex;s.classList.toggle('is-active',active);s.setAttribute('aria-hidden',String(!active));s.inert=!active;});dots.forEach((d,i)=>{d.classList.toggle('is-active',i===slideIndex);if(i===slideIndex)d.setAttribute('aria-current','true');else d.removeAttribute('aria-current');});$('#slide-number').textContent=String(slideIndex+1).padStart(2,'0');schedule(true);}
   dots.forEach((d,i)=>d.addEventListener('click',()=>show(i)));
   $('#autoplay-toggle').addEventListener('click',()=>{const stop=!paused.has('user');if(stop)pause('user');else resume('user');$('#autoplay-toggle').setAttribute('aria-pressed',String(stop));$('#autoplay-toggle').setAttribute('aria-label',stop?'播放轮播':'暂停轮播');});
-  hero.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')pause('hover');});hero.addEventListener('pointerleave',()=>resume('hover'));
+  // Pointer hover does not interrupt autoplay; explicit pause and keyboard focus still do.
   hero.addEventListener('focusin',()=>pause('focus'));hero.addEventListener('focusout',e=>{if(!hero.contains(e.relatedTarget))resume('focus');});
   hero.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();show(slideIndex+(e.key==='ArrowRight'?1:-1));}});
   let touch;hero.addEventListener('touchstart',e=>touch={x:e.touches[0].clientX,y:e.touches[0].clientY},{passive:true});hero.addEventListener('touchend',e=>{if(!touch)return;const dx=e.changedTouches[0].clientX-touch.x,dy=e.changedTouches[0].clientY-touch.y;if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.5)show(slideIndex+(dx<0?1:-1));touch=null;},{passive:true});

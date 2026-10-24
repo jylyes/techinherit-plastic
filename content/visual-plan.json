@@ -1,0 +1,104 @@
+{
+  "banners": {
+    "about": "research/functional-materials-concept.webp",
+    "research": "research/polymer-formulation-concept.webp",
+    "gallery": "research/material-development-concept.webp",
+    "quality": "research/polymer-testing-concept.webp",
+    "technology": "research/functional-materials-concept.webp",
+    "process": "research/polymer-pelletizing-concept.webp",
+    "homeResearch": "research/material-development-concept.webp"
+  },
+  "aboutBody": "research/material-development-concept.webp",
+  "gallery": [
+    {
+      "image": "research/compounding.webp",
+      "title": "改性材料配混与造粒",
+      "en": "Material compounding & pelletizing",
+      "category": "team",
+      "width": 1440,
+      "height": 1080
+    },
+    {
+      "image": "research/polymer-formulation-concept.webp",
+      "title": "材料配方与色样",
+      "en": "Material formulation & color samples",
+      "category": "research",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "image": "research/polymer-testing-concept.webp",
+      "title": "聚合物力学性能测试",
+      "en": "Polymer mechanical testing",
+      "category": "research",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "image": "research/incoming.webp",
+      "title": "材料样品与批次管理",
+      "en": "Material samples & batch records",
+      "category": "samples",
+      "width": 1280,
+      "height": 442
+    },
+    {
+      "image": "research/polymer-pelletizing-concept.webp",
+      "title": "聚合物挤出与造粒",
+      "en": "Polymer extrusion & pelletizing",
+      "category": "team",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "image": "research/functional-materials-concept.webp",
+      "title": "功能改性材料颗粒",
+      "en": "Functional polymer pellets",
+      "category": "samples",
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "homeGallery": [
+    {
+      "image": "research/polymer-formulation-concept.webp",
+      "title": "材料配方与色样",
+      "en": "Material formulation & color samples",
+      "category": "research",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "image": "research/compounding.webp",
+      "title": "改性材料配混与造粒",
+      "en": "Material compounding & pelletizing",
+      "category": "team",
+      "width": 1440,
+      "height": 1080
+    },
+    {
+      "image": "research/polymer-testing-concept.webp",
+      "title": "聚合物力学性能测试",
+      "en": "Polymer mechanical testing",
+      "category": "research",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "image": "research/incoming.webp",
+      "title": "材料样品与批次管理",
+      "en": "Material samples & batch records",
+      "category": "samples",
+      "width": 1280,
+      "height": 442
+    },
+    {
+      "image": "research/polymer-pelletizing-concept.webp",
+      "title": "聚合物挤出与造粒",
+      "en": "Polymer extrusion & pelletizing",
+      "category": "team",
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

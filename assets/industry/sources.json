@@ -1,0 +1,93 @@
+[
+  {
+    "id": "industry-chair-base",
+    "asset": "industry/chair-base.webp",
+    "thumbnail": "industry/chair-base-small.webp",
+    "width": 900,
+    "height": 900,
+    "thumbnailWidth": 400,
+    "source": "https://www.techinherit.com/static/upload/2026/202608077955.webp",
+    "sourcePage": "https://www.techinherit.com/engineering-plastics/25.html",
+    "referenceMaterial": "PA66 GF30",
+    "accessed": "2026-10-24",
+    "usage": "材料外观参考；不代表已确定的供货牌号或配方"
+  },
+  {
+    "id": "industry-ev-charging",
+    "asset": "industry/ev-charging.webp",
+    "thumbnail": "industry/ev-charging-small.webp",
+    "width": 675,
+    "height": 900,
+    "thumbnailWidth": 300,
+    "source": "https://www.techinherit.com/static/upload/2026/202608074932.webp",
+    "sourcePage": "https://www.techinherit.com/engineering-plastics/26.html",
+    "referenceMaterial": "阻燃增强 PA6 GF30",
+    "accessed": "2026-10-24",
+    "usage": "材料外观参考；不代表已确定的供货牌号或配方"
+  },
+  {
+    "id": "industry-fan-blades",
+    "asset": "industry/fan-blades.webp",
+    "thumbnail": "industry/fan-blades-small.webp",
+    "width": 675,
+    "height": 660,
+    "thumbnailWidth": 400,
+    "source": "https://www.techinherit.com/static/upload/2026/202607094295.png",
+    "sourcePage": "https://www.techinherit.com/engineering-plastics/12.html",
+    "referenceMaterial": "PBT 聚对苯二甲酸丁二醇酯",
+    "accessed": "2026-10-24",
+    "usage": "材料外观参考；不代表已确定的供货牌号或配方"
+  },
+  {
+    "id": "industry-precision-gears",
+    "asset": "industry/precision-gears.webp",
+    "thumbnail": "industry/precision-gears-small.webp",
+    "width": 900,
+    "height": 866,
+    "thumbnailWidth": 400,
+    "source": "https://www.techinherit.com/static/upload/2026/202607093690.png",
+    "sourcePage": "https://www.techinherit.com/engineering-plastics/11.html",
+    "referenceMaterial": "POM 聚甲醛",
+    "accessed": "2026-10-24",
+    "usage": "材料外观参考；不代表已确定的供货牌号或配方"
+  },
+  {
+    "id": "industry-ai-enclosures",
+    "asset": "industry/ai-enclosures.webp",
+    "thumbnail": "industry/ai-enclosures-small.webp",
+    "width": 639,
+    "height": 630,
+    "thumbnailWidth": 400,
+    "source": "https://www.techinherit.com/static/te/img/abs.webp",
+    "sourcePage": "https://www.techinherit.com/Carbon%20fiber%20materials/7.html",
+    "referenceMaterial": "ABS",
+    "accessed": "2026-10-24",
+    "usage": "材料外观参考；不代表已确定的供货牌号或配方"
+  },
+  {
+    "id": "industry-outdoor-helmet",
+    "asset": "industry/outdoor-helmet.webp",
+    "thumbnail": "industry/outdoor-helmet-small.webp",
+    "width": 900,
+    "height": 900,
+    "thumbnailWidth": 400,
+    "source": "https://www.techinherit.com/static/upload/2026/202608073596.webp",
+    "sourcePage": "https://www.techinherit.com/engineering-plastics/30.html",
+    "referenceMaterial": "阻燃增强耐低温 PA6",
+    "accessed": "2026-10-24",
+    "usage": "材料外观参考；不代表已确定的供货牌号或配方"
+  },
+  {
+    "id": "industry-food-appliance",
+    "asset": "industry/food-appliance.webp",
+    "thumbnail": "industry/food-appliance-small.webp",
+    "width": 530,
+    "height": 458,
+    "thumbnailWidth": 400,
+    "source": "https://www.techinherit.com/static/upload/2026/202607093131.png",
+    "sourcePage": "https://www.techinherit.com/Carbon%20fiber%20materials/14.html",
+    "referenceMaterial": "PP 聚丙烯",
+    "accessed": "2026-10-24",
+    "usage": "材料外观参考；不代表已确定的供货牌号或配方"
+  }
+]
