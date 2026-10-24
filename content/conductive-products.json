@@ -1,0 +1,6097 @@
+{
+  "products": [
+    {
+      "id": "esd-pa-101",
+      "name": "Techinherit TE-PA101",
+      "grade": "TE-PA101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "永久防静电型",
+        "高分子防静电改性",
+        "阻燃方向"
+      ],
+      "desc": "PA 基体的永久防静电型材料，采用高分子防静电改性体系并兼顾阻燃方向。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E8",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "需确认标准、试样厚度、颜色及正式报告"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的永久防静电型材料，采用高分子防静电改性体系并兼顾阻燃方向。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-101.webp",
+      "thumbnail": "materials/esd-pa-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-102",
+      "name": "Techinherit TE-PA102",
+      "grade": "TE-PA102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "永久防静电型",
+        "高分子防静电改性"
+      ],
+      "desc": "PA 基体的永久防静电型材料，采用高分子防静电改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E10",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的永久防静电型材料，采用高分子防静电改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-102.webp",
+      "thumbnail": "materials/esd-pa-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-103",
+      "name": "Techinherit TE-PA103",
+      "grade": "TE-PA103",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "永久防静电型",
+        "高分子防静电改性"
+      ],
+      "desc": "PA 基体的永久防静电型材料，采用高分子防静电改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E7",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的永久防静电型材料，采用高分子防静电改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-103.webp",
+      "thumbnail": "materials/esd-pa-103-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-104",
+      "name": "Techinherit TE-PA104",
+      "grade": "TE-PA104",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "永久防静电型",
+        "高分子防静电与玻纤增强"
+      ],
+      "desc": "PA 基体的永久防静电型材料，采用高分子防静电与玻纤增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的永久防静电型材料，采用高分子防静电与玻纤增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电与玻纤增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-104.webp",
+      "thumbnail": "materials/esd-pa-104-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-105",
+      "name": "Techinherit TE-PA105",
+      "grade": "TE-PA105",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "永久防静电型",
+        "高分子防静电与玻纤增强"
+      ],
+      "desc": "PA 基体的永久防静电型材料，采用高分子防静电与玻纤增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E8",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的永久防静电型材料，采用高分子防静电与玻纤增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电与玻纤增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-105.webp",
+      "thumbnail": "materials/esd-pa-105-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-106",
+      "name": "Techinherit TE-PA106",
+      "grade": "TE-PA106",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "静电消散型",
+        "金属纤维增强"
+      ],
+      "desc": "PA 基体的静电消散型材料，采用金属纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E5-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的静电消散型材料，采用金属纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "金属纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-106.webp",
+      "thumbnail": "materials/esd-pa-106-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-107",
+      "name": "Techinherit TE-PA107",
+      "grade": "TE-PA107",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "导电型",
+        "金属纤维增强"
+      ],
+      "desc": "PA 基体的导电型材料，采用金属纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "灰色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的导电型材料，采用金属纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "金属纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-107.webp",
+      "thumbnail": "materials/esd-pa-107-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-108",
+      "name": "Techinherit TE-PA108",
+      "grade": "TE-PA108",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "导电型",
+        "导电改性",
+        "低电阻方向"
+      ],
+      "desc": "PA 基体的导电型材料，采用导电改性体系，面向低电阻需求。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "50-500Ω",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的导电型材料，采用导电改性体系，面向低电阻需求。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "导电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-108.webp",
+      "thumbnail": "materials/esd-pa-108-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-109",
+      "name": "Techinherit TE-PA109",
+      "grade": "TE-PA109",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "静电消散型",
+        "碳纤维增强"
+      ],
+      "desc": "PA 基体的静电消散型材料，采用碳纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E5-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的静电消散型材料，采用碳纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-109.webp",
+      "thumbnail": "materials/esd-pa-109-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-110",
+      "name": "Techinherit TE-PA110",
+      "grade": "TE-PA110",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "静电消散型",
+        "碳纤维增强",
+        "阻燃方向"
+      ],
+      "desc": "PA 基体的静电消散型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E5-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "需确认标准、试样厚度、颜色及正式报告"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的静电消散型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-110.webp",
+      "thumbnail": "materials/esd-pa-110-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-111",
+      "name": "Techinherit TE-PA111",
+      "grade": "TE-PA111",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "导电型",
+        "碳纤维增强"
+      ],
+      "desc": "PA 基体的导电型材料，采用碳纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的导电型材料，采用碳纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-111.webp",
+      "thumbnail": "materials/esd-pa-111-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-112",
+      "name": "Techinherit TE-PA112",
+      "grade": "TE-PA112",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "导电型",
+        "碳纤维增强",
+        "低电阻方向"
+      ],
+      "desc": "PA 基体的导电型材料，采用碳纤维增强体系，面向低电阻需求。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "50-500Ω",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的导电型材料，采用碳纤维增强体系，面向低电阻需求。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-112.webp",
+      "thumbnail": "materials/esd-pa-112-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-113",
+      "name": "Techinherit TE-PA113",
+      "grade": "TE-PA113",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "静电消散型",
+        "炭黑改性"
+      ],
+      "desc": "PA 基体的静电消散型材料，采用炭黑改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的静电消散型材料，采用炭黑改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-113.webp",
+      "thumbnail": "materials/esd-pa-113-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa-114",
+      "name": "Techinherit TE-PA114",
+      "grade": "TE-PA114",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "导电型",
+        "炭黑改性"
+      ],
+      "desc": "PA 基体的导电型材料，采用炭黑改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA 基体的导电型材料，采用炭黑改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa-114.webp",
+      "thumbnail": "materials/esd-pa-114-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pa12-101",
+      "name": "Techinherit TE-PA12101",
+      "grade": "TE-PA12101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA12",
+      "features": [
+        "导电型",
+        "碳纤维增强",
+        "低电阻方向"
+      ],
+      "desc": "PA12 基体的导电型材料，采用碳纤维增强体系，面向低电阻需求。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E2",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔",
+        "focus": "PA12 基体的导电型材料，采用碳纤维增强体系，面向低电阻需求。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pa12-101.webp",
+      "thumbnail": "materials/esd-pa12-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pom-101",
+      "name": "Techinherit TE-POM101",
+      "grade": "TE-POM101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "永久防静电型",
+        "高分子防静电改性"
+      ],
+      "desc": "POM 基体的永久防静电型材料，采用高分子防静电改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件",
+        "focus": "POM 基体的永久防静电型材料，采用高分子防静电改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pom-101.webp",
+      "thumbnail": "materials/esd-pom-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pom-102",
+      "name": "Techinherit TE-POM102",
+      "grade": "TE-POM102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "永久防静电型",
+        "高分子防静电改性"
+      ],
+      "desc": "POM 基体的永久防静电型材料，采用高分子防静电改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E7",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件",
+        "focus": "POM 基体的永久防静电型材料，采用高分子防静电改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pom-102.webp",
+      "thumbnail": "materials/esd-pom-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pom-103",
+      "name": "Techinherit TE-POM103",
+      "grade": "TE-POM103",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "永久防静电型",
+        "高分子防静电改性"
+      ],
+      "desc": "POM 基体的永久防静电型材料，采用高分子防静电改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E8",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件",
+        "focus": "POM 基体的永久防静电型材料，采用高分子防静电改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pom-103.webp",
+      "thumbnail": "materials/esd-pom-103-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pom-104",
+      "name": "Techinherit TE-POM104",
+      "grade": "TE-POM104",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "静电消散型",
+        "金属纤维增强"
+      ],
+      "desc": "POM 基体的静电消散型材料，采用金属纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "灰色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件",
+        "focus": "POM 基体的静电消散型材料，采用金属纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "金属纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pom-104.webp",
+      "thumbnail": "materials/esd-pom-104-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pom-105",
+      "name": "Techinherit TE-POM105",
+      "grade": "TE-POM105",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "导电型",
+        "金属纤维增强"
+      ],
+      "desc": "POM 基体的导电型材料，采用金属纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "灰色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件",
+        "focus": "POM 基体的导电型材料，采用金属纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "金属纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pom-105.webp",
+      "thumbnail": "materials/esd-pom-105-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pom-106",
+      "name": "Techinherit TE-POM106",
+      "grade": "TE-POM106",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "导电型",
+        "导电改性",
+        "低电阻方向"
+      ],
+      "desc": "POM 基体的导电型材料，采用导电改性体系，面向低电阻需求。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "50-500Ω",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件",
+        "focus": "POM 基体的导电型材料，采用导电改性体系，面向低电阻需求。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "导电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pom-106.webp",
+      "thumbnail": "materials/esd-pom-106-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pom-107",
+      "name": "Techinherit TE-POM107",
+      "grade": "TE-POM107",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "静电消散型",
+        "碳纤维增强"
+      ],
+      "desc": "POM 基体的静电消散型材料，采用碳纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件",
+        "focus": "POM 基体的静电消散型材料，采用碳纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pom-107.webp",
+      "thumbnail": "materials/esd-pom-107-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pom-108",
+      "name": "Techinherit TE-POM108",
+      "grade": "TE-POM108",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "导电型",
+        "碳纤维增强"
+      ],
+      "desc": "POM 基体的导电型材料，采用碳纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件",
+        "focus": "POM 基体的导电型材料，采用碳纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pom-108.webp",
+      "thumbnail": "materials/esd-pom-108-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pom-109",
+      "name": "Techinherit TE-POM109",
+      "grade": "TE-POM109",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "静电消散型",
+        "炭黑改性"
+      ],
+      "desc": "POM 基体的静电消散型材料，采用炭黑改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件",
+        "focus": "POM 基体的静电消散型材料，采用炭黑改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pom-109.webp",
+      "thumbnail": "materials/esd-pom-109-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pom-110",
+      "name": "Techinherit TE-POM110",
+      "grade": "TE-POM110",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "导电型",
+        "炭黑改性"
+      ],
+      "desc": "POM 基体的导电型材料，采用炭黑改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件",
+        "focus": "POM 基体的导电型材料，采用炭黑改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pom-110.webp",
+      "thumbnail": "materials/esd-pom-110-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-abs-101",
+      "name": "Techinherit TE-PCABS101",
+      "grade": "TE-PCABS101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC/ABS",
+      "features": [
+        "永久防静电型",
+        "高分子防静电改性",
+        "阻燃方向"
+      ],
+      "desc": "PC/ABS 基体的永久防静电型材料，采用高分子防静电改性体系并兼顾阻燃方向。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E8-10E10",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "需确认标准、试样厚度、颜色及正式报告"
+        }
+      ],
+      "profile": {
+        "parts": "镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件",
+        "focus": "PC/ABS 基体的永久防静电型材料，采用高分子防静电改性体系并兼顾阻燃方向。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-abs-101.webp",
+      "thumbnail": "materials/esd-pc-abs-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-101",
+      "name": "Techinherit TE-PC101",
+      "grade": "TE-PC101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "永久防静电型",
+        "高分子防静电改性"
+      ],
+      "desc": "PC 基体的永久防静电型材料，采用高分子防静电改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件",
+        "focus": "PC 基体的永久防静电型材料，采用高分子防静电改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-101.webp",
+      "thumbnail": "materials/esd-pc-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-102",
+      "name": "Techinherit TE-PC102",
+      "grade": "TE-PC102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "永久防静电型",
+        "高分子防静电改性"
+      ],
+      "desc": "PC 基体的永久防静电型材料，采用高分子防静电改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E8",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件",
+        "focus": "PC 基体的永久防静电型材料，采用高分子防静电改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-102.webp",
+      "thumbnail": "materials/esd-pc-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-103",
+      "name": "Techinherit TE-PC103",
+      "grade": "TE-PC103",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "静电消散型",
+        "金属纤维增强"
+      ],
+      "desc": "PC 基体的静电消散型材料，采用金属纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "灰色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件",
+        "focus": "PC 基体的静电消散型材料，采用金属纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "金属纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-103.webp",
+      "thumbnail": "materials/esd-pc-103-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-abs-101",
+      "name": "Techinherit TE-ABS101",
+      "grade": "TE-ABS101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "ABS",
+      "features": [
+        "导电型",
+        "金属纤维增强"
+      ],
+      "desc": "ABS 基体的导电型材料，采用金属纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "灰色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件",
+        "focus": "ABS 基体的导电型材料，采用金属纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "金属纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-abs-101.webp",
+      "thumbnail": "materials/esd-abs-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-abs-102",
+      "name": "Techinherit TE-ABS102",
+      "grade": "TE-ABS102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "ABS",
+      "features": [
+        "导电型",
+        "碳纤维增强",
+        "阻燃方向"
+      ],
+      "desc": "ABS 基体的导电型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "需确认标准、试样厚度、颜色及正式报告"
+        }
+      ],
+      "profile": {
+        "parts": "镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件",
+        "focus": "ABS 基体的导电型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-abs-102.webp",
+      "thumbnail": "materials/esd-abs-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-abs-103",
+      "name": "Techinherit TE-ABS103",
+      "grade": "TE-ABS103",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "ABS",
+      "features": [
+        "静电消散型",
+        "碳纤维增强"
+      ],
+      "desc": "ABS 基体的静电消散型材料，采用碳纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件",
+        "focus": "ABS 基体的静电消散型材料，采用碳纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-abs-103.webp",
+      "thumbnail": "materials/esd-abs-103-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-104",
+      "name": "Techinherit TE-PC104",
+      "grade": "TE-PC104",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "导电型",
+        "碳纤维增强"
+      ],
+      "desc": "PC 基体的导电型材料，采用碳纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件",
+        "focus": "PC 基体的导电型材料，采用碳纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-104.webp",
+      "thumbnail": "materials/esd-pc-104-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-105",
+      "name": "Techinherit TE-PC105",
+      "grade": "TE-PC105",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "静电消散型",
+        "炭黑改性"
+      ],
+      "desc": "PC 基体的静电消散型材料，采用炭黑改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件",
+        "focus": "PC 基体的静电消散型材料，采用炭黑改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-105.webp",
+      "thumbnail": "materials/esd-pc-105-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-106",
+      "name": "Techinherit TE-PC106",
+      "grade": "TE-PC106",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "导电型",
+        "炭黑改性"
+      ],
+      "desc": "PC 基体的导电型材料，采用炭黑改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件",
+        "focus": "PC 基体的导电型材料，采用炭黑改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-106.webp",
+      "thumbnail": "materials/esd-pc-106-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-abs-102",
+      "name": "Techinherit TE-PCABS102",
+      "grade": "TE-PCABS102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC/ABS",
+      "features": [
+        "永久防静电型",
+        "高分子防静电改性"
+      ],
+      "desc": "PC/ABS 基体的永久防静电型材料，采用高分子防静电改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E10",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件",
+        "focus": "PC/ABS 基体的永久防静电型材料，采用高分子防静电改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-abs-102.webp",
+      "thumbnail": "materials/esd-pc-abs-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-107",
+      "name": "Techinherit TE-PC107",
+      "grade": "TE-PC107",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "永久防静电型",
+        "高分子防静电改性",
+        "阻燃方向"
+      ],
+      "desc": "PC 基体的永久防静电型材料，采用高分子防静电改性体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E8-10E10",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "需确认标准、试样厚度、颜色及正式报告"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的永久防静电型材料，采用高分子防静电改性体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-107.webp",
+      "thumbnail": "materials/esd-pc-107-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-108",
+      "name": "Techinherit TE-PC108",
+      "grade": "TE-PC108",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "静电消散型",
+        "金属纤维增强"
+      ],
+      "desc": "PC 基体的静电消散型材料，采用金属纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "灰色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的静电消散型材料，采用金属纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "金属纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-108.webp",
+      "thumbnail": "materials/esd-pc-108-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-109",
+      "name": "Techinherit TE-PC109",
+      "grade": "TE-PC109",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "导电型",
+        "金属纤维增强"
+      ],
+      "desc": "PC 基体的导电型材料，采用金属纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "灰色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的导电型材料，采用金属纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "金属纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-109.webp",
+      "thumbnail": "materials/esd-pc-109-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-110",
+      "name": "Techinherit TE-PC110",
+      "grade": "TE-PC110",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "静电消散型",
+        "碳纤维增强",
+        "阻燃方向"
+      ],
+      "desc": "PC 基体的静电消散型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "需确认标准、试样厚度、颜色及正式报告"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的静电消散型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-110.webp",
+      "thumbnail": "materials/esd-pc-110-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-111",
+      "name": "Techinherit TE-PC111",
+      "grade": "TE-PC111",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "导电型",
+        "碳纤维增强",
+        "阻燃方向"
+      ],
+      "desc": "PC 基体的导电型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "需确认标准、试样厚度、颜色及正式报告"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的导电型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-111.webp",
+      "thumbnail": "materials/esd-pc-111-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-112",
+      "name": "Techinherit TE-PC112",
+      "grade": "TE-PC112",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "静电消散型",
+        "碳纤维增强"
+      ],
+      "desc": "PC 基体的静电消散型材料，采用碳纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的静电消散型材料，采用碳纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-112.webp",
+      "thumbnail": "materials/esd-pc-112-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-113",
+      "name": "Techinherit TE-PC113",
+      "grade": "TE-PC113",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "导电型",
+        "碳纤维增强"
+      ],
+      "desc": "PC 基体的导电型材料，采用碳纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的导电型材料，采用碳纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-113.webp",
+      "thumbnail": "materials/esd-pc-113-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-114",
+      "name": "Techinherit TE-PC114",
+      "grade": "TE-PC114",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "导电型",
+        "碳纤维增强",
+        "低电阻方向"
+      ],
+      "desc": "PC 基体的导电型材料，采用碳纤维增强体系，面向低电阻需求。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "<500 Ω",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的导电型材料，采用碳纤维增强体系，面向低电阻需求。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-114.webp",
+      "thumbnail": "materials/esd-pc-114-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-115",
+      "name": "Techinherit TE-PC115",
+      "grade": "TE-PC115",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "静电消散型",
+        "炭黑改性",
+        "阻燃方向"
+      ],
+      "desc": "PC 基体的静电消散型材料，采用炭黑改性体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "需确认标准、试样厚度、颜色及正式报告"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的静电消散型材料，采用炭黑改性体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-115.webp",
+      "thumbnail": "materials/esd-pc-115-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-116",
+      "name": "Techinherit TE-PC116",
+      "grade": "TE-PC116",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "导电型",
+        "炭黑改性",
+        "阻燃方向"
+      ],
+      "desc": "PC 基体的导电型材料，采用炭黑改性体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "需确认标准、试样厚度、颜色及正式报告"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的导电型材料，采用炭黑改性体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-116.webp",
+      "thumbnail": "materials/esd-pc-116-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-117",
+      "name": "Techinherit TE-PC117",
+      "grade": "TE-PC117",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "静电消散型",
+        "炭黑改性"
+      ],
+      "desc": "PC 基体的静电消散型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的静电消散型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-117.webp",
+      "thumbnail": "materials/esd-pc-117-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-118",
+      "name": "Techinherit TE-PC118",
+      "grade": "TE-PC118",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "静电消散型",
+        "炭黑改性"
+      ],
+      "desc": "PC 基体的静电消散型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的静电消散型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-118.webp",
+      "thumbnail": "materials/esd-pc-118-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-119",
+      "name": "Techinherit TE-PC119",
+      "grade": "TE-PC119",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "导电型",
+        "炭黑改性"
+      ],
+      "desc": "PC 基体的导电型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的导电型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-119.webp",
+      "thumbnail": "materials/esd-pc-119-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pc-120",
+      "name": "Techinherit TE-PC120",
+      "grade": "TE-PC120",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "导电型",
+        "炭黑改性"
+      ],
+      "desc": "PC 基体的导电型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材",
+        "focus": "PC 基体的导电型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pc-120.webp",
+      "thumbnail": "materials/esd-pc-120-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pbt-101",
+      "name": "Techinherit TE-PBT101",
+      "grade": "TE-PBT101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PBT",
+      "features": [
+        "永久防静电型",
+        "高分子防静电与玻纤增强"
+      ],
+      "desc": "PBT 基体的永久防静电型材料，采用高分子防静电与玻纤增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "待确认",
+          "available": false,
+          "group": "electrical",
+          "condition": "电阻范围待核对；指数表达、单位与测试条件需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车配件、电器外壳及电子零件",
+        "focus": "PBT 基体的永久防静电型材料，采用高分子防静电与玻纤增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电与玻纤增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pbt-101.webp",
+      "thumbnail": "materials/esd-pbt-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pbt-102",
+      "name": "Techinherit TE-PBT102",
+      "grade": "TE-PBT102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PBT",
+      "features": [
+        "导电型",
+        "金属纤维增强"
+      ],
+      "desc": "PBT 基体的导电型材料，采用金属纤维增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "灰色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车配件、电器外壳及电子零件",
+        "focus": "PBT 基体的导电型材料，采用金属纤维增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "金属纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pbt-102.webp",
+      "thumbnail": "materials/esd-pbt-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pbt-103",
+      "name": "Techinherit TE-PBT103",
+      "grade": "TE-PBT103",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PBT",
+      "features": [
+        "静电消散型",
+        "碳纤维增强",
+        "阻燃方向"
+      ],
+      "desc": "PBT 基体的静电消散型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "需确认标准、试样厚度、颜色及正式报告"
+        }
+      ],
+      "profile": {
+        "parts": "汽车配件、电器外壳及电子零件",
+        "focus": "PBT 基体的静电消散型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pbt-103.webp",
+      "thumbnail": "materials/esd-pbt-103-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pbt-104",
+      "name": "Techinherit TE-PBT104",
+      "grade": "TE-PBT104",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PBT",
+      "features": [
+        "导电型",
+        "碳纤维增强",
+        "阻燃方向"
+      ],
+      "desc": "PBT 基体的导电型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "燃烧等级",
+          "sourceLabel": "燃烧等级",
+          "value": "待确认",
+          "available": false,
+          "group": "thermal",
+          "condition": "需确认标准、试样厚度、颜色及正式报告"
+        }
+      ],
+      "profile": {
+        "parts": "汽车配件、电器外壳及电子零件",
+        "focus": "PBT 基体的导电型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pbt-104.webp",
+      "thumbnail": "materials/esd-pbt-104-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pbt-105",
+      "name": "Techinherit TE-PBT105",
+      "grade": "TE-PBT105",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PBT",
+      "features": [
+        "静电消散型",
+        "碳纤维增强"
+      ],
+      "desc": "PBT 基体的静电消散型材料，采用碳纤维增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车配件、电器外壳及电子零件",
+        "focus": "PBT 基体的静电消散型材料，采用碳纤维增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pbt-105.webp",
+      "thumbnail": "materials/esd-pbt-105-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-pbt-106",
+      "name": "Techinherit TE-PBT106",
+      "grade": "TE-PBT106",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PBT",
+      "features": [
+        "导电型",
+        "碳纤维增强"
+      ],
+      "desc": "PBT 基体的导电型材料，采用碳纤维增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "汽车配件、电器外壳及电子零件",
+        "focus": "PBT 基体的导电型材料，采用碳纤维增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-pbt-106.webp",
+      "thumbnail": "materials/esd-pbt-106-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-mppo-mppe-101",
+      "name": "Techinherit TE-MPPOMPPE101",
+      "grade": "TE-MPPOMPPE101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "MPPO/MPPE",
+      "features": [
+        "永久防静电型",
+        "高分子防静电改性"
+      ],
+      "desc": "MPPO/MPPE 基体的永久防静电型材料，采用高分子防静电改性体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "本色、可配色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "永久防静电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E8-10E10",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件",
+        "focus": "MPPO/MPPE 基体的永久防静电型材料，采用高分子防静电改性体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "高分子防静电改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-mppo-mppe-101.webp",
+      "thumbnail": "materials/esd-mppo-mppe-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-mppo-mppe-102",
+      "name": "Techinherit TE-MPPOMPPE102",
+      "grade": "TE-MPPOMPPE102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "MPPO/MPPE",
+      "features": [
+        "导电型",
+        "金属纤维增强"
+      ],
+      "desc": "MPPO/MPPE 基体的导电型材料，采用金属纤维增强体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "灰色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件",
+        "focus": "MPPO/MPPE 基体的导电型材料，采用金属纤维增强体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "金属纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-mppo-mppe-102.webp",
+      "thumbnail": "materials/esd-mppo-mppe-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-mppo-mppe-103",
+      "name": "Techinherit TE-MPPOMPPE103",
+      "grade": "TE-MPPOMPPE103",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "MPPO/MPPE",
+      "features": [
+        "静电消散型",
+        "碳纤维增强"
+      ],
+      "desc": "MPPO/MPPE 基体的静电消散型材料，采用碳纤维增强体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件",
+        "focus": "MPPO/MPPE 基体的静电消散型材料，采用碳纤维增强体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-mppo-mppe-103.webp",
+      "thumbnail": "materials/esd-mppo-mppe-103-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-mppo-mppe-104",
+      "name": "Techinherit TE-MPPOMPPE104",
+      "grade": "TE-MPPOMPPE104",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "MPPO/MPPE",
+      "features": [
+        "导电型",
+        "碳纤维增强"
+      ],
+      "desc": "MPPO/MPPE 基体的导电型材料，采用碳纤维增强体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "导电型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件",
+        "focus": "MPPO/MPPE 基体的导电型材料，采用碳纤维增强体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "碳纤维增强；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-mppo-mppe-104.webp",
+      "thumbnail": "materials/esd-mppo-mppe-104-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    },
+    {
+      "id": "esd-mppo-mppe-105",
+      "name": "Techinherit TE-MPPOMPPE105",
+      "grade": "TE-MPPOMPPE105",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "MPPO/MPPE",
+      "features": [
+        "静电消散型",
+        "炭黑改性"
+      ],
+      "desc": "MPPO/MPPE 基体的静电消散型材料，采用炭黑改性体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "材料颜色",
+          "sourceLabel": "材料颜色",
+          "value": "黑色",
+          "available": true,
+          "group": "physical",
+          "condition": "颜色选择与批次外观按牌号确认"
+        },
+        {
+          "key": "static-control-type",
+          "label": "静电控制类型",
+          "sourceLabel": "静电控制类型",
+          "value": "静电消散型",
+          "available": true,
+          "group": "electrical",
+          "condition": "功能类型；实际电阻与持久性需结合项目验证"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "表面电阻参考值",
+          "sourceLabel": "表面电阻参考值",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "指数表达、单位、测试方法、电极、试样状态与温湿度需确认"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "拉伸强度",
+          "sourceLabel": "拉伸强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "缺口冲击强度",
+          "sourceLabel": "缺口冲击强度",
+          "value": "待确认",
+          "available": false,
+          "group": "mechanical",
+          "condition": "需提供具体牌号 TDS，确认测试方法与试样状态"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "干燥温度",
+          "sourceLabel": "干燥温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "熔体温度",
+          "sourceLabel": "熔体温度",
+          "value": "待确认",
+          "available": false,
+          "group": "processing",
+          "condition": "按具体牌号及设备确认，试制前核对工艺窗口"
+        }
+      ],
+      "profile": {
+        "parts": "芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件",
+        "focus": "MPPO/MPPE 基体的静电消散型材料，采用炭黑改性体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。",
+        "process": "按具体牌号确认干燥、熔体温度、模温与停留时间；试制后同时检查电阻、外观和尺寸。",
+        "reinforcement": "炭黑改性；增强比例与具体配方按牌号确认",
+        "tests": [
+          "电阻验证：明确电极、测试电压、试样状态和温湿度，核对材料与成型零件的电阻",
+          "长期表现：结合调湿、清洁、摩擦和老化，验证静电控制是否保持稳定",
+          "零件验证：结合壁厚、纤维取向、装配和接地方式确认应用表现"
+        ]
+      },
+      "image": "materials/esd-mppo-mppe-105.webp",
+      "thumbnail": "materials/esd-mppo-mppe-105-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400
+    }
+  ]
+}

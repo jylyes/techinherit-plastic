@@ -1,8 +1,8 @@
 {
   "downloadedAt": "2026-10-23T06:11:24.488Z",
   "source": "https://www.techinherit.com/raw-materials.html",
-  "materials": 37,
-  "uniqueImages": 33,
+  "materials": 30,
+  "uniqueImages": 30,
   "records": [
     {
       "id": "pa-nylon",
@@ -206,90 +206,6 @@
       "thumbnail": "materials/pa6-fr-tough-small.webp",
       "imageWidth": 900,
       "imageHeight": 900,
-      "thumbnailWidth": 400
-    },
-    {
-      "id": "antistatic-abs",
-      "name": "防静电 ABS",
-      "sourcePage": "https://www.techinherit.com/conductive-materials/22.html",
-      "imageUrl": "https://www.techinherit.com/static/upload/2026/202608069629.webp",
-      "originalAlt": "Antistatic ABS",
-      "image": "materials/antistatic-abs.webp",
-      "thumbnail": "materials/antistatic-abs-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 621,
-      "thumbnailWidth": 400
-    },
-    {
-      "id": "conductive-pp",
-      "name": "导电 PP",
-      "sourcePage": "https://www.techinherit.com/conductive-materials/18.html",
-      "imageUrl": "https://www.techinherit.com/static/upload/2026/202607093131.png",
-      "originalAlt": "Conductive PP",
-      "image": "materials/pp.webp",
-      "thumbnail": "materials/pp-small.webp",
-      "imageWidth": 530,
-      "imageHeight": 458,
-      "thumbnailWidth": 400
-    },
-    {
-      "id": "conductive-pc",
-      "name": "导电 PC",
-      "sourcePage": "https://www.techinherit.com/conductive-materials/16.html",
-      "imageUrl": "https://www.techinherit.com/static/te/img/pc.webp",
-      "originalAlt": "Conductive PC",
-      "image": "materials/pc.webp",
-      "thumbnail": "materials/pc-small.webp",
-      "imageWidth": 625,
-      "imageHeight": 544,
-      "thumbnailWidth": 400
-    },
-    {
-      "id": "antistatic-pa66",
-      "name": "防静电 PA66",
-      "sourcePage": "https://www.techinherit.com/conductive-materials/21.html",
-      "imageUrl": "https://www.techinherit.com/static/upload/2026/202608065876.webp",
-      "originalAlt": "Antistatic PA66",
-      "image": "materials/antistatic-pa66.webp",
-      "thumbnail": "materials/antistatic-pa66-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 900,
-      "thumbnailWidth": 400
-    },
-    {
-      "id": "antistatic-pa6",
-      "name": "防静电 PA6",
-      "sourcePage": "https://www.techinherit.com/conductive-materials/20.html",
-      "imageUrl": "https://www.techinherit.com/static/upload/2026/202608067899.webp",
-      "originalAlt": "Antistatic PA6",
-      "image": "materials/antistatic-pa6.webp",
-      "thumbnail": "materials/antistatic-pa6-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 900,
-      "thumbnailWidth": 400
-    },
-    {
-      "id": "conductive-pa",
-      "name": "导电 PA",
-      "sourcePage": "https://www.techinherit.com/conductive-materials/19.html",
-      "imageUrl": "https://www.techinherit.com/static/upload/2026/202607091510.png",
-      "originalAlt": "Conductive PA",
-      "image": "materials/pa-nylon.webp",
-      "thumbnail": "materials/pa-nylon-small.webp",
-      "imageWidth": 560,
-      "imageHeight": 501,
-      "thumbnailWidth": 400
-    },
-    {
-      "id": "conductive-abs",
-      "name": "导电 ABS",
-      "sourcePage": "https://www.techinherit.com/conductive-materials/17.html",
-      "imageUrl": "https://www.techinherit.com/static/te/img/abs.webp",
-      "originalAlt": "Conductive ABS",
-      "image": "materials/abs.webp",
-      "thumbnail": "materials/abs-small.webp",
-      "imageWidth": 639,
-      "imageHeight": 630,
       "thumbnailWidth": 400
     },
     {

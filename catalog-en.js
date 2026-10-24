@@ -41,11 +41,11 @@ window.TechMaterials={
       "id": "conductive",
       "name": "Conductive & antistatic",
       "en": "Conductive & antistatic",
-      "image": "materials/antistatic-pa66.webp",
+      "image": "materials/esd-pa-101.webp",
       "intro": "Include resistance targets, test environment and use conditions to balance static control with mechanical behavior.",
-      "thumbnail": "materials/antistatic-pa66-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 900,
+      "thumbnail": "materials/esd-pa-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
       "thumbnailWidth": 400,
       "searchAliases": "导电防静电材料 将目标电阻范围、测试环境和使用场景纳入选型，关注静电控制与机械性能的平衡。"
     },
@@ -212,8 +212,8 @@ window.TechMaterials={
         },
         {
           "key": "flammability-ul94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL 94)",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
           "value": "HB",
           "available": true,
           "group": "thermal",
@@ -387,8 +387,8 @@ window.TechMaterials={
         },
         {
           "key": "flammability-ul94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL 94)",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
           "value": "HB",
           "available": true,
           "group": "thermal",
@@ -562,8 +562,8 @@ window.TechMaterials={
         },
         {
           "key": "flammability-ul94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL 94)",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
           "value": "HB",
           "available": true,
           "group": "thermal",
@@ -913,8 +913,8 @@ window.TechMaterials={
         },
         {
           "key": "flammability-ul94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL 94)",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
           "value": "HB",
           "available": true,
           "group": "thermal",
@@ -1044,8 +1044,8 @@ window.TechMaterials={
         },
         {
           "key": "notched-impact-strength-method-pending",
-          "label": "Notched impact strength, method to confirm",
-          "sourceLabel": "Notched impact strength, method to confirm",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
           "value": "6 kJ/m²",
           "available": true,
           "group": "mechanical",
@@ -1183,8 +1183,8 @@ window.TechMaterials={
         },
         {
           "key": "notched-impact-strength-method-pending",
-          "label": "Notched impact strength, method to confirm",
-          "sourceLabel": "Notched impact strength, method to confirm",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
           "value": "6 kJ/m²",
           "available": true,
           "group": "mechanical",
@@ -1323,8 +1323,8 @@ window.TechMaterials={
         },
         {
           "key": "notched-impact-strength-method-pending",
-          "label": "Notched impact strength, method to confirm",
-          "sourceLabel": "Notched impact strength, method to confirm",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
           "value": "10 kJ/m²",
           "available": true,
           "group": "mechanical",
@@ -1462,8 +1462,8 @@ window.TechMaterials={
         },
         {
           "key": "notched-impact-strength-method-pending",
-          "label": "Notched impact strength, method to confirm",
-          "sourceLabel": "Notched impact strength, method to confirm",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
           "value": "15 kJ/m²",
           "available": true,
           "group": "mechanical",
@@ -1601,8 +1601,8 @@ window.TechMaterials={
         },
         {
           "key": "notched-impact-strength-method-pending",
-          "label": "Notched impact strength, method to confirm",
-          "sourceLabel": "Notched impact strength, method to confirm",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
           "value": "20 kJ/m²",
           "available": true,
           "group": "mechanical",
@@ -1635,1428 +1635,6 @@ window.TechMaterials={
       "imageHeight": 900,
       "thumbnailWidth": 400,
       "searchAliases": "Techinherit PA1212 长碳链尼龙，关注低温韧性、低吸水与尺寸稳定，适合挤出、注塑、吹塑及粉末加工方向。 低吸水方向 尺寸稳定 耐油方向"
-    },
-    {
-      "id": "antistatic-abs",
-      "name": "Antistatic ABS",
-      "category": "conductive",
-      "family": "ABS",
-      "features": [
-        "Static control",
-        "Electrical applications",
-        "Functional modification"
-      ],
-      "desc": "A ABS-based antistatic material direction. Define surface or volume resistance targets, test conditions, mechanical needs and appearance requirements as the starting point for selection.",
-      "source": "https://www.techinherit.com/conductive-materials/22.html",
-      "image": "materials/antistatic-abs.webp",
-      "thumbnail": "materials/antistatic-abs-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 621,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/conductive-materials/22.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "40-50 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "40-50 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "2000-2500 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2000-2500 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "15-30%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "15-30%"
-        },
-        {
-          "key": "flexural-strength",
-          "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "70 - 85 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "70 - 85 MPa"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "1800 - 2300 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "1800 - 2300 MPa"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R100 / R115",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R100 / R115"
-        },
-        {
-          "key": "hdt-0-45-mpa",
-          "label": "HDT (0.45 MPa)",
-          "sourceLabel": "HDT (0.45 MPa)",
-          "value": "90 - 105 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "90 - 105 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "80 - 95 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "80 - 95 °C"
-        },
-        {
-          "key": "vicat-softening-temperature",
-          "label": "Vicat softening temperature",
-          "sourceLabel": "Vicat Softening Point",
-          "value": "95 - 110 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "95 - 110 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "20 - 80 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "20 - 80 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 - 85 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 85 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "2 - 4 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "2 - 4 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "220 - 250 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "220 - 250 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "40 - 80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "40 - 80 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "50 - 100 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "50 - 100 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "0.4 - 0.7%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "0.4 - 0.7%"
-        }
-      ],
-      "profile": {
-        "parts": "ESD-sensitive housings, trays, supports and handling components",
-        "focus": "Define resistance targets and test environment first, then balance structural, color and surface needs.",
-        "process": "Formulation, dispersion and molding affect resistance distribution; check multiple locations and aged parts.",
-        "tests": [
-          "Resistance: distinguish surface resistance, surface resistivity and volume resistivity",
-          "Environment: record temperature, humidity, preconditioning and aging",
-          "Whole part: verify the grounding path and mechanical performance"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "防静电 ABS 基于 ABS 的防静电材料方向。明确表面／体积电阻目标、测试条件以及机械与外观需求，是选型的起点。 静电控制 电气应用 功能改性"
-    },
-    {
-      "id": "conductive-pp",
-      "name": "Conductive PP",
-      "category": "conductive",
-      "family": "PP",
-      "features": [
-        "Static control",
-        "Electrical applications",
-        "Functional modification"
-      ],
-      "desc": "A PP-based conductive material direction. Define surface or volume resistance targets, test conditions, mechanical needs and appearance requirements as the starting point for selection.",
-      "source": "https://www.techinherit.com/conductive-materials/18.html",
-      "image": "materials/pp.webp",
-      "thumbnail": "materials/pp-small.webp",
-      "imageWidth": 530,
-      "imageHeight": 458,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/conductive-materials/18.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "25 -35 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "25 -35 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "1,800 -2,500 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "1,800 -2,500 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "3 - 15%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 15%"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "1,800 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "1,800 MPa"
-        },
-        {
-          "key": "notched-impact-strength-izod",
-          "label": "Notched impact strength (Izod)",
-          "sourceLabel": "Impact Strength (Izod, notched)",
-          "value": "2 - 5 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2 - 5 kJ/m²"
-        },
-        {
-          "key": "shore-d-hardness",
-          "label": "Shore D hardness",
-          "sourceLabel": "Hardness (Shore D)",
-          "value": "70 - 78",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "70 - 78"
-        },
-        {
-          "key": "melting-point",
-          "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "160 - 170 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "160 - 170 °C"
-        },
-        {
-          "key": "hdt-0-45-mpa",
-          "label": "HDT (0.45 MPa)",
-          "sourceLabel": "HDT (0.45 MPa)",
-          "value": "100 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "100 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temperature",
-          "value": "80 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "80 °C"
-        },
-        {
-          "key": "surface-resistivity-source-terminology",
-          "label": "Surface resistivity (source terminology)",
-          "sourceLabel": "Surface Resistivity",
-          "value": "10³ - 10⁶ Ω/sq",
-          "available": true,
-          "group": "electrical",
-          "condition": "Electrode, method, temperature and humidity not stated",
-          "sourceValue": "10³ - 10&sup6; Ω/sq"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "1 - 2 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "1 - 2 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "190 - 250 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "190 - 250 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "30 - 60 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "30 - 60 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "40 - 100 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "40 - 100 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "1.0 - 2.0%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "1.0 - 2.0%"
-        }
-      ],
-      "profile": {
-        "parts": "ESD-sensitive housings, trays, supports and handling components",
-        "focus": "Define resistance targets and test environment first, then balance structural, color and surface needs.",
-        "process": "Formulation, dispersion and molding affect resistance distribution; check multiple locations and aged parts.",
-        "tests": [
-          "Resistance: distinguish surface resistance, surface resistivity and volume resistivity",
-          "Environment: record temperature, humidity, preconditioning and aging",
-          "Whole part: verify the grounding path and mechanical performance"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "导电 PP 基于 PP 的导电材料方向。明确表面／体积电阻目标、测试条件以及机械与外观需求，是选型的起点。 静电控制 电气应用 功能改性"
-    },
-    {
-      "id": "conductive-pc",
-      "name": "Conductive PC",
-      "category": "conductive",
-      "family": "PC",
-      "features": [
-        "Static control",
-        "Electrical applications",
-        "Functional modification"
-      ],
-      "desc": "A PC-based conductive material direction. Define surface or volume resistance targets, test conditions, mechanical needs and appearance requirements as the starting point for selection.",
-      "source": "https://www.techinherit.com/conductive-materials/16.html",
-      "image": "materials/pc.webp",
-      "thumbnail": "materials/pc-small.webp",
-      "imageWidth": 625,
-      "imageHeight": 544,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/conductive-materials/16.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "50 - 60 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "50 - 60 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "2,500 - 3,000 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,500 - 3,000 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "3 - 8%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 8%"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "2,800 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,800 MPa"
-        },
-        {
-          "key": "notched-impact-strength-izod",
-          "label": "Notched impact strength (Izod)",
-          "sourceLabel": "Impact Strength (Izod, notched)",
-          "value": "4 - 7 J/m",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "4 - 7 J/m"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R115",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R115"
-        },
-        {
-          "key": "hdt-0-45-mpa",
-          "label": "HDT (0.45 MPa)",
-          "sourceLabel": "HDT (0.45 MPa)",
-          "value": "135 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "135 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "125 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "125 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "120 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "120 °C"
-        },
-        {
-          "key": "surface-resistivity-source-terminology",
-          "label": "Surface resistivity (source terminology)",
-          "sourceLabel": "Surface Resistivity",
-          "value": "10³ - 10⁵ Ω/sq",
-          "available": true,
-          "group": "electrical",
-          "condition": "Electrode, method, temperature and humidity not stated",
-          "sourceValue": "10³ - 10&sup5; Ω/sq"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "V-0 / HB",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "V-0 / HB"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "120 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "3 - 4 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "3 - 4 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "280 - 310 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "280 - 310 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 110 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 110 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "80 - 140 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 140 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "0.3 - 0.6%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "0.3 - 0.6%"
-        }
-      ],
-      "profile": {
-        "parts": "ESD-sensitive housings, trays, supports and handling components",
-        "focus": "Define resistance targets and test environment first, then balance structural, color and surface needs.",
-        "process": "Formulation, dispersion and molding affect resistance distribution; check multiple locations and aged parts.",
-        "tests": [
-          "Resistance: distinguish surface resistance, surface resistivity and volume resistivity",
-          "Environment: record temperature, humidity, preconditioning and aging",
-          "Whole part: verify the grounding path and mechanical performance"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "导电 PC 基于 PC 的导电材料方向。明确表面／体积电阻目标、测试条件以及机械与外观需求，是选型的起点。 静电控制 电气应用 功能改性"
-    },
-    {
-      "id": "antistatic-pa66",
-      "name": "Antistatic PA66",
-      "category": "conductive",
-      "family": "PA66",
-      "features": [
-        "Static control",
-        "Electrical applications",
-        "Functional modification"
-      ],
-      "desc": "A PA66-based antistatic material direction. Define surface or volume resistance targets, test conditions, mechanical needs and appearance requirements as the starting point for selection.",
-      "source": "https://www.techinherit.com/conductive-materials/21.html",
-      "image": "materials/antistatic-pa66.webp",
-      "thumbnail": "materials/antistatic-pa66-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/conductive-materials/21.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "80 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "80 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "2,900 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,900 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "50%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "50%"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R110 / R120",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R110 / R120"
-        },
-        {
-          "key": "melting-point-pa66",
-          "label": "Melting point (PA66)",
-          "sourceLabel": "Melting Point (PA66)",
-          "value": "255 - 265 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "255 - 265 °C"
-        },
-        {
-          "key": "melting-point-pa6",
-          "label": "Melting point (PA6)",
-          "sourceLabel": "Melting Point (PA6)",
-          "value": "215 - 225 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "215 - 225 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa-pa66",
-          "label": "HDT (1.82 MPa, PA66)",
-          "sourceLabel": "HDT (1.82 MPa, PA66)",
-          "value": "70 - 90 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "70 - 90 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa-pa6",
-          "label": "HDT (1.82 MPa, PA6)",
-          "sourceLabel": "HDT (1.82 MPa, PA6)",
-          "value": "65 - 80 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "65 - 80 °C"
-        },
-        {
-          "key": "continuous-use-temperature-pa66",
-          "label": "Continuous use temperature (PA66)",
-          "sourceLabel": "Continuous Use Temp (PA66)",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 hrs"
-        },
-        {
-          "key": "melt-temperature-pa66",
-          "label": "Melt temperature (PA66)",
-          "sourceLabel": "Melt Temperature (PA66)",
-          "value": "280 - 300 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "280 - 300 °C"
-        },
-        {
-          "key": "mold-temperature-pa6-source-requires-clarification",
-          "label": "Mold temperature (PA6, source requires clarification)",
-          "sourceLabel": "Mold Temperature (PA6)",
-          "value": "250 - 290 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "250 - 290 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "1.0 - 2.0%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "1.0 - 2.0%"
-        }
-      ],
-      "profile": {
-        "parts": "ESD-sensitive housings, trays, supports and handling components",
-        "focus": "Define resistance targets and test environment first, then balance structural, color and surface needs.",
-        "process": "Formulation, dispersion and molding affect resistance distribution; check multiple locations and aged parts.",
-        "tests": [
-          "Resistance: distinguish surface resistance, surface resistivity and volume resistivity",
-          "Environment: record temperature, humidity, preconditioning and aging",
-          "Whole part: verify the grounding path and mechanical performance"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "防静电 PA66 基于 PA66 的防静电材料方向。明确表面／体积电阻目标、测试条件以及机械与外观需求，是选型的起点。 静电控制 电气应用 功能改性"
-    },
-    {
-      "id": "antistatic-pa6",
-      "name": "Antistatic PA6",
-      "category": "conductive",
-      "family": "PA6",
-      "features": [
-        "Static control",
-        "Electrical applications",
-        "Functional modification"
-      ],
-      "desc": "A PA6-based antistatic material direction. Define surface or volume resistance targets, test conditions, mechanical needs and appearance requirements as the starting point for selection.",
-      "source": "https://www.techinherit.com/conductive-materials/20.html",
-      "image": "materials/antistatic-pa6.webp",
-      "thumbnail": "materials/antistatic-pa6-small.webp",
-      "imageWidth": 900,
-      "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/conductive-materials/20.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "80 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "80 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "2,900 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,900 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "50%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "50%"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R110 / R120",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R110 / R120"
-        },
-        {
-          "key": "melting-point-pa66",
-          "label": "Melting point (PA66)",
-          "sourceLabel": "Melting Point (PA66)",
-          "value": "255 - 265 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "255 - 265 °C"
-        },
-        {
-          "key": "melting-point-pa6",
-          "label": "Melting point (PA6)",
-          "sourceLabel": "Melting Point (PA6)",
-          "value": "215 - 225 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "215 - 225 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa-pa66",
-          "label": "HDT (1.82 MPa, PA66)",
-          "sourceLabel": "HDT (1.82 MPa, PA66)",
-          "value": "70 - 90 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "70 - 90 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa-pa6",
-          "label": "HDT (1.82 MPa, PA6)",
-          "sourceLabel": "HDT (1.82 MPa, PA6)",
-          "value": "65 - 80 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "65 - 80 °C"
-        },
-        {
-          "key": "continuous-use-temperature-pa66",
-          "label": "Continuous use temperature (PA66)",
-          "sourceLabel": "Continuous Use Temp (PA66)",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB (V-0 grades available)",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB (V-0 grades available)"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 hrs"
-        },
-        {
-          "key": "melt-temperature-pa66",
-          "label": "Melt temperature (PA66)",
-          "sourceLabel": "Melt Temperature (PA66)",
-          "value": "280 - 300 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "280 - 300 °C"
-        },
-        {
-          "key": "mold-temperature-pa6-source-requires-clarification",
-          "label": "Mold temperature (PA6, source requires clarification)",
-          "sourceLabel": "Mold Temperature (PA6)",
-          "value": "250 - 290 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "250 - 290 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "80 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 120 °C"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "1.0 - 2.0%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "1.0 - 2.0%"
-        }
-      ],
-      "profile": {
-        "parts": "ESD-sensitive housings, trays, supports and handling components",
-        "focus": "Define resistance targets and test environment first, then balance structural, color and surface needs.",
-        "process": "Formulation, dispersion and molding affect resistance distribution; check multiple locations and aged parts.",
-        "tests": [
-          "Resistance: distinguish surface resistance, surface resistivity and volume resistivity",
-          "Environment: record temperature, humidity, preconditioning and aging",
-          "Whole part: verify the grounding path and mechanical performance"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "防静电 PA6 基于 PA6 的防静电材料方向。明确表面／体积电阻目标、测试条件以及机械与外观需求，是选型的起点。 静电控制 电气应用 功能改性"
-    },
-    {
-      "id": "conductive-pa",
-      "name": "Conductive PA",
-      "category": "conductive",
-      "family": "PA",
-      "features": [
-        "Static control",
-        "Electrical applications",
-        "Functional modification"
-      ],
-      "desc": "A PA-based conductive material direction. Define surface or volume resistance targets, test conditions, mechanical needs and appearance requirements as the starting point for selection.",
-      "source": "https://www.techinherit.com/conductive-materials/19.html",
-      "image": "materials/pa-nylon.webp",
-      "thumbnail": "materials/pa-nylon-small.webp",
-      "imageWidth": 560,
-      "imageHeight": 501,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/conductive-materials/19.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "55 - 70 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "55 - 70 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "2,500 - 3,500 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,500 - 3,500 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "3 - 10%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 10%"
-        },
-        {
-          "key": "flexural-modulus",
-          "label": "Flexural modulus",
-          "sourceLabel": "Flexural Modulus",
-          "value": "2,800 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,800 MPa"
-        },
-        {
-          "key": "notched-impact-strength-izod",
-          "label": "Notched impact strength (Izod)",
-          "sourceLabel": "Impact Strength (lzod, notched)",
-          "value": "3 - 5 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 5 kJ/m²"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R110 / R118",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R110 / R118"
-        },
-        {
-          "key": "melting-point",
-          "label": "Melting point",
-          "sourceLabel": "Melting Point",
-          "value": "255 - 260 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "255 - 260 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "80 - 85 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "80 - 85 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "100 - 120 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "100 - 120 °C"
-        },
-        {
-          "key": "surface-resistivity-source-terminology",
-          "label": "Surface resistivity (source terminology)",
-          "sourceLabel": "Surface Resistivity",
-          "value": "10³ - 10⁶ Ω/sq",
-          "available": true,
-          "group": "electrical",
-          "condition": "Electrode, method, temperature and humidity not stated",
-          "sourceValue": "10³ - 10&sup6; Ω/sq"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 - 90 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 90 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "4 - 6 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "4 - 6 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "260 - 290 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "260 - 290 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "60 - 90 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "60 - 90 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "60 - 120 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "60 - 120 °C"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "1.0 - 1.8%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "1.0 - 1.8%"
-        }
-      ],
-      "profile": {
-        "parts": "ESD-sensitive housings, trays, supports and handling components",
-        "focus": "Define resistance targets and test environment first, then balance structural, color and surface needs.",
-        "process": "Formulation, dispersion and molding affect resistance distribution; check multiple locations and aged parts.",
-        "tests": [
-          "Resistance: distinguish surface resistance, surface resistivity and volume resistivity",
-          "Environment: record temperature, humidity, preconditioning and aging",
-          "Whole part: verify the grounding path and mechanical performance"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "导电 PA 基于 PA 的导电材料方向。明确表面／体积电阻目标、测试条件以及机械与外观需求，是选型的起点。 静电控制 电气应用 功能改性"
-    },
-    {
-      "id": "conductive-abs",
-      "name": "Conductive ABS",
-      "category": "conductive",
-      "family": "ABS",
-      "features": [
-        "Static control",
-        "Electrical applications",
-        "Functional modification"
-      ],
-      "desc": "A ABS-based conductive material direction. Define surface or volume resistance targets, test conditions, mechanical needs and appearance requirements as the starting point for selection.",
-      "source": "https://www.techinherit.com/conductive-materials/17.html",
-      "image": "materials/abs.webp",
-      "thumbnail": "materials/abs-small.webp",
-      "imageWidth": 639,
-      "imageHeight": 630,
-      "thumbnailWidth": 400,
-      "reference": {
-        "source": "https://www.techinherit.com/conductive-materials/17.html",
-        "accessed": "2026-10-24"
-      },
-      "properties": [
-        {
-          "key": "tensile-strength",
-          "label": "Tensile strength",
-          "sourceLabel": "Tensile Strength",
-          "value": "35 - 45 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "35 - 45 MPa"
-        },
-        {
-          "key": "tensile-modulus",
-          "label": "Tensile modulus",
-          "sourceLabel": "Tensile Modulus",
-          "value": "2,200 - 2,700 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "2,200 - 2,700 MPa"
-        },
-        {
-          "key": "elongation-at-break",
-          "label": "Elongation at break",
-          "sourceLabel": "Elongation at Break",
-          "value": "3 - 10%",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 10%"
-        },
-        {
-          "key": "flexural-strength",
-          "label": "Flexural strength",
-          "sourceLabel": "Flexural Strength",
-          "value": "60 -70 MPa",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "60 -70 MPa"
-        },
-        {
-          "key": "notched-impact-strength-izod",
-          "label": "Notched impact strength (Izod)",
-          "sourceLabel": "Impact Strength (Izod, notched)",
-          "value": "3 - 6 kJ/m²",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "3 - 6 kJ/m²"
-        },
-        {
-          "key": "rockwell-hardness",
-          "label": "Rockwell hardness",
-          "sourceLabel": "Hardness (Rockwell)",
-          "value": "R100 - R108",
-          "available": true,
-          "group": "mechanical",
-          "condition": "Test method, specimen state and conditioning not stated",
-          "sourceValue": "R100 - R108"
-        },
-        {
-          "key": "hdt-0-45-mpa",
-          "label": "HDT (0.45 MPa)",
-          "sourceLabel": "HDT (0.45 MPa)",
-          "value": "95 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "95 °C"
-        },
-        {
-          "key": "hdt-1-82-mpa",
-          "label": "HDT (1.82 MPa)",
-          "sourceLabel": "HDT (1.82 MPa)",
-          "value": "85 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Load as stated in the property name; other method and conditioning details not stated",
-          "sourceValue": "85 °C"
-        },
-        {
-          "key": "continuous-use-temperature",
-          "label": "Continuous use temperature",
-          "sourceLabel": "Continuous Use Temp",
-          "value": "70 °C",
-          "available": true,
-          "group": "thermal",
-          "condition": "Method not stated; confirm service temperature against load and lifetime",
-          "sourceValue": "70 °C"
-        },
-        {
-          "key": "surface-resistivity-source-terminology",
-          "label": "Surface resistivity (source terminology)",
-          "sourceLabel": "Surface Resistivity",
-          "value": "10³ - 10⁶ Ω/sq",
-          "available": true,
-          "group": "electrical",
-          "condition": "Electrode, method, temperature and humidity not stated",
-          "sourceValue": "10³ - 10⁶ Ω/sq"
-        },
-        {
-          "key": "flammability-ul-94",
-          "label": "Flammability (UL 94)",
-          "sourceLabel": "Flammability (UL94)",
-          "value": "HB",
-          "available": true,
-          "group": "thermal",
-          "condition": "Specimen thickness and grade not stated; not a certification claim",
-          "sourceValue": "HB"
-        },
-        {
-          "key": "drying-temperature",
-          "label": "Drying temperature",
-          "sourceLabel": "Drying Temperature",
-          "value": "80 - 85 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "80 - 85 °C"
-        },
-        {
-          "key": "drying-time",
-          "label": "Drying time",
-          "sourceLabel": "Drying Time",
-          "value": "2 - 3 hrs",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "2 - 3 hrs"
-        },
-        {
-          "key": "melt-temperature",
-          "label": "Melt temperature",
-          "sourceLabel": "Melt Temperature",
-          "value": "200 - 250 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "200 - 250 °C"
-        },
-        {
-          "key": "mold-temperature",
-          "label": "Mold temperature",
-          "sourceLabel": "Mold Temperature",
-          "value": "50 - 80 °C",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "50 - 80 °C"
-        },
-        {
-          "key": "injection-pressure",
-          "label": "Injection pressure",
-          "sourceLabel": "Injection Pressure",
-          "value": "50 - 100 MPa",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "50 - 100 MPa"
-        },
-        {
-          "key": "molding-shrinkage",
-          "label": "Molding shrinkage",
-          "sourceLabel": "Shrinkage Rate",
-          "value": "0.3 - 0.7%",
-          "available": true,
-          "group": "processing",
-          "condition": "Website processing reference; verify with the grade, equipment and part trials",
-          "sourceValue": "0.3 - 0.7%"
-        }
-      ],
-      "profile": {
-        "parts": "ESD-sensitive housings, trays, supports and handling components",
-        "focus": "Define resistance targets and test environment first, then balance structural, color and surface needs.",
-        "process": "Formulation, dispersion and molding affect resistance distribution; check multiple locations and aged parts.",
-        "tests": [
-          "Resistance: distinguish surface resistance, surface resistivity and volume resistivity",
-          "Environment: record temperature, humidity, preconditioning and aging",
-          "Whole part: verify the grounding path and mechanical performance"
-        ],
-        "reinforcement": "Formulation and filler content to be confirmed"
-      },
-      "searchAliases": "导电 ABS 基于 ABS 的导电材料方向。明确表面／体积电阻目标、测试条件以及机械与外观需求，是选型的起点。 静电控制 电气应用 功能改性"
     },
     {
       "id": "pps-cf",
@@ -5103,6 +3681,6160 @@ window.TechMaterials={
         "reinforcement": "Carbon fiber; content to be confirmed"
       },
       "searchAliases": "长碳纤维增强复合材料 以 热塑性树脂 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
+    },
+    {
+      "id": "esd-pa-101",
+      "name": "Techinherit TE-PA101",
+      "grade": "TE-PA101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification",
+        "Flame-retardant option"
+      ],
+      "desc": "Permanent antistatic material based on PA, using polymeric antistatic modification technology with a flame-retardant formulation direction. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E8",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Confirm standard, specimen thickness, color and formal report"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Permanent antistatic material based on PA, using polymeric antistatic modification technology with a flame-retardant formulation direction. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-101.webp",
+      "thumbnail": "materials/esd-pa-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA101 PA 基体的永久防静电型材料，采用高分子防静电改性体系并兼顾阻燃方向。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性 阻燃方向"
+    },
+    {
+      "id": "esd-pa-102",
+      "name": "Techinherit TE-PA102",
+      "grade": "TE-PA102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification"
+      ],
+      "desc": "Permanent antistatic material based on PA, using polymeric antistatic modification technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E10",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Permanent antistatic material based on PA, using polymeric antistatic modification technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-102.webp",
+      "thumbnail": "materials/esd-pa-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA102 PA 基体的永久防静电型材料，采用高分子防静电改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+    },
+    {
+      "id": "esd-pa-103",
+      "name": "Techinherit TE-PA103",
+      "grade": "TE-PA103",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification"
+      ],
+      "desc": "Permanent antistatic material based on PA, using polymeric antistatic modification technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E7",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Permanent antistatic material based on PA, using polymeric antistatic modification technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-103.webp",
+      "thumbnail": "materials/esd-pa-103-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA103 PA 基体的永久防静电型材料，采用高分子防静电改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+    },
+    {
+      "id": "esd-pa-104",
+      "name": "Techinherit TE-PA104",
+      "grade": "TE-PA104",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification with glass-fiber reinforcement"
+      ],
+      "desc": "Permanent antistatic material based on PA, using polymeric antistatic modification with glass-fiber reinforcement technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Permanent antistatic material based on PA, using polymeric antistatic modification with glass-fiber reinforcement technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification with glass-fiber reinforcement; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-104.webp",
+      "thumbnail": "materials/esd-pa-104-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA104 PA 基体的永久防静电型材料，采用高分子防静电与玻纤增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电与玻纤增强"
+    },
+    {
+      "id": "esd-pa-105",
+      "name": "Techinherit TE-PA105",
+      "grade": "TE-PA105",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification with glass-fiber reinforcement"
+      ],
+      "desc": "Permanent antistatic material based on PA, using polymeric antistatic modification with glass-fiber reinforcement technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E8",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Permanent antistatic material based on PA, using polymeric antistatic modification with glass-fiber reinforcement technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification with glass-fiber reinforcement; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-105.webp",
+      "thumbnail": "materials/esd-pa-105-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA105 PA 基体的永久防静电型材料，采用高分子防静电与玻纤增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电与玻纤增强"
+    },
+    {
+      "id": "esd-pa-106",
+      "name": "Techinherit TE-PA106",
+      "grade": "TE-PA106",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Static dissipative",
+        "Metal-fiber reinforced"
+      ],
+      "desc": "Static dissipative material based on PA, using metal-fiber reinforced technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E5-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Static dissipative material based on PA, using metal-fiber reinforced technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Metal-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-106.webp",
+      "thumbnail": "materials/esd-pa-106-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA106 PA 基体的静电消散型材料，采用金属纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 金属纤维增强"
+    },
+    {
+      "id": "esd-pa-107",
+      "name": "Techinherit TE-PA107",
+      "grade": "TE-PA107",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Conductive",
+        "Metal-fiber reinforced"
+      ],
+      "desc": "Conductive material based on PA, using metal-fiber reinforced technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Gray",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Conductive material based on PA, using metal-fiber reinforced technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Metal-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-107.webp",
+      "thumbnail": "materials/esd-pa-107-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA107 PA 基体的导电型材料，采用金属纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 导电型 金属纤维增强"
+    },
+    {
+      "id": "esd-pa-108",
+      "name": "Techinherit TE-PA108",
+      "grade": "TE-PA108",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Conductive",
+        "Conductive modification",
+        "Low-resistance option"
+      ],
+      "desc": "Conductive material based on PA, using conductive modification technology for low-resistance requirements. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "50-500Ω",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Conductive material based on PA, using conductive modification technology for low-resistance requirements. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Conductive modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-108.webp",
+      "thumbnail": "materials/esd-pa-108-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA108 PA 基体的导电型材料，采用导电改性体系，面向低电阻需求。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 导电型 导电改性 低电阻方向"
+    },
+    {
+      "id": "esd-pa-109",
+      "name": "Techinherit TE-PA109",
+      "grade": "TE-PA109",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Static dissipative",
+        "Carbon-fiber reinforced"
+      ],
+      "desc": "Static dissipative material based on PA, using carbon-fiber reinforced technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E5-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Static dissipative material based on PA, using carbon-fiber reinforced technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-109.webp",
+      "thumbnail": "materials/esd-pa-109-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA109 PA 基体的静电消散型材料，采用碳纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强"
+    },
+    {
+      "id": "esd-pa-110",
+      "name": "Techinherit TE-PA110",
+      "grade": "TE-PA110",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Static dissipative",
+        "Carbon-fiber reinforced",
+        "Flame-retardant option"
+      ],
+      "desc": "Static dissipative material based on PA, using carbon-fiber reinforced technology with a flame-retardant formulation direction. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E5-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Confirm standard, specimen thickness, color and formal report"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Static dissipative material based on PA, using carbon-fiber reinforced technology with a flame-retardant formulation direction. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-110.webp",
+      "thumbnail": "materials/esd-pa-110-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA110 PA 基体的静电消散型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强 阻燃方向"
+    },
+    {
+      "id": "esd-pa-111",
+      "name": "Techinherit TE-PA111",
+      "grade": "TE-PA111",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Conductive",
+        "Carbon-fiber reinforced"
+      ],
+      "desc": "Conductive material based on PA, using carbon-fiber reinforced technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Conductive material based on PA, using carbon-fiber reinforced technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-111.webp",
+      "thumbnail": "materials/esd-pa-111-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA111 PA 基体的导电型材料，采用碳纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强"
+    },
+    {
+      "id": "esd-pa-112",
+      "name": "Techinherit TE-PA112",
+      "grade": "TE-PA112",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Conductive",
+        "Carbon-fiber reinforced",
+        "Low-resistance option"
+      ],
+      "desc": "Conductive material based on PA, using carbon-fiber reinforced technology for low-resistance requirements. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "50-500Ω",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Conductive material based on PA, using carbon-fiber reinforced technology for low-resistance requirements. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-112.webp",
+      "thumbnail": "materials/esd-pa-112-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA112 PA 基体的导电型材料，采用碳纤维增强体系，面向低电阻需求。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强 低电阻方向"
+    },
+    {
+      "id": "esd-pa-113",
+      "name": "Techinherit TE-PA113",
+      "grade": "TE-PA113",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Static dissipative",
+        "Carbon-black modified"
+      ],
+      "desc": "Static dissipative material based on PA, using carbon-black modified technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Static dissipative material based on PA, using carbon-black modified technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-113.webp",
+      "thumbnail": "materials/esd-pa-113-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA113 PA 基体的静电消散型材料，采用炭黑改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
+    },
+    {
+      "id": "esd-pa-114",
+      "name": "Techinherit TE-PA114",
+      "grade": "TE-PA114",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA",
+      "features": [
+        "Conductive",
+        "Carbon-black modified"
+      ],
+      "desc": "Conductive material based on PA, using carbon-black modified technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Conductive material based on PA, using carbon-black modified technology. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa-114.webp",
+      "thumbnail": "materials/esd-pa-114-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA114 PA 基体的导电型材料，采用炭黑改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 导电型 炭黑改性"
+    },
+    {
+      "id": "esd-pa12-101",
+      "name": "Techinherit TE-PA12101",
+      "grade": "TE-PA12101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PA12",
+      "features": [
+        "Conductive",
+        "Carbon-fiber reinforced",
+        "Low-resistance option"
+      ],
+      "desc": "Conductive material based on PA12, using carbon-fiber reinforced technology for low-resistance requirements. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E2",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses",
+        "focus": "Conductive material based on PA12, using carbon-fiber reinforced technology for low-resistance requirements. Application directions include automotive parts, mining equipment, power tools, containers, rods, sheets, electrical housings, tubing, industrial casters, monofilaments and styluses; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pa12-101.webp",
+      "thumbnail": "materials/esd-pa12-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PA12101 PA12 基体的导电型材料，采用碳纤维增强体系，面向低电阻需求。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强 低电阻方向"
+    },
+    {
+      "id": "esd-pom-101",
+      "name": "Techinherit TE-POM101",
+      "grade": "TE-POM101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification"
+      ],
+      "desc": "Permanent antistatic material based on POM, using polymeric antistatic modification technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "ATM and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components",
+        "focus": "Permanent antistatic material based on POM, using polymeric antistatic modification technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pom-101.webp",
+      "thumbnail": "materials/esd-pom-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-POM101 POM 基体的永久防静电型材料，采用高分子防静电改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+    },
+    {
+      "id": "esd-pom-102",
+      "name": "Techinherit TE-POM102",
+      "grade": "TE-POM102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification"
+      ],
+      "desc": "Permanent antistatic material based on POM, using polymeric antistatic modification technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E7",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "ATM and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components",
+        "focus": "Permanent antistatic material based on POM, using polymeric antistatic modification technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pom-102.webp",
+      "thumbnail": "materials/esd-pom-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-POM102 POM 基体的永久防静电型材料，采用高分子防静电改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+    },
+    {
+      "id": "esd-pom-103",
+      "name": "Techinherit TE-POM103",
+      "grade": "TE-POM103",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification"
+      ],
+      "desc": "Permanent antistatic material based on POM, using polymeric antistatic modification technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E8",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "ATM and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components",
+        "focus": "Permanent antistatic material based on POM, using polymeric antistatic modification technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pom-103.webp",
+      "thumbnail": "materials/esd-pom-103-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-POM103 POM 基体的永久防静电型材料，采用高分子防静电改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+    },
+    {
+      "id": "esd-pom-104",
+      "name": "Techinherit TE-POM104",
+      "grade": "TE-POM104",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "Static dissipative",
+        "Metal-fiber reinforced"
+      ],
+      "desc": "Static dissipative material based on POM, using metal-fiber reinforced technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Gray",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "ATM and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components",
+        "focus": "Static dissipative material based on POM, using metal-fiber reinforced technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Metal-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pom-104.webp",
+      "thumbnail": "materials/esd-pom-104-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-POM104 POM 基体的静电消散型材料，采用金属纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 金属纤维增强"
+    },
+    {
+      "id": "esd-pom-105",
+      "name": "Techinherit TE-POM105",
+      "grade": "TE-POM105",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "Conductive",
+        "Metal-fiber reinforced"
+      ],
+      "desc": "Conductive material based on POM, using metal-fiber reinforced technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Gray",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "ATM and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components",
+        "focus": "Conductive material based on POM, using metal-fiber reinforced technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Metal-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pom-105.webp",
+      "thumbnail": "materials/esd-pom-105-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-POM105 POM 基体的导电型材料，采用金属纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 金属纤维增强"
+    },
+    {
+      "id": "esd-pom-106",
+      "name": "Techinherit TE-POM106",
+      "grade": "TE-POM106",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "Conductive",
+        "Conductive modification",
+        "Low-resistance option"
+      ],
+      "desc": "Conductive material based on POM, using conductive modification technology for low-resistance requirements. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "50-500Ω",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "ATM and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components",
+        "focus": "Conductive material based on POM, using conductive modification technology for low-resistance requirements. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Conductive modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pom-106.webp",
+      "thumbnail": "materials/esd-pom-106-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-POM106 POM 基体的导电型材料，采用导电改性体系，面向低电阻需求。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 导电改性 低电阻方向"
+    },
+    {
+      "id": "esd-pom-107",
+      "name": "Techinherit TE-POM107",
+      "grade": "TE-POM107",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "Static dissipative",
+        "Carbon-fiber reinforced"
+      ],
+      "desc": "Static dissipative material based on POM, using carbon-fiber reinforced technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "ATM and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components",
+        "focus": "Static dissipative material based on POM, using carbon-fiber reinforced technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pom-107.webp",
+      "thumbnail": "materials/esd-pom-107-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-POM107 POM 基体的静电消散型材料，采用碳纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强"
+    },
+    {
+      "id": "esd-pom-108",
+      "name": "Techinherit TE-POM108",
+      "grade": "TE-POM108",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "Conductive",
+        "Carbon-fiber reinforced"
+      ],
+      "desc": "Conductive material based on POM, using carbon-fiber reinforced technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "ATM and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components",
+        "focus": "Conductive material based on POM, using carbon-fiber reinforced technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pom-108.webp",
+      "thumbnail": "materials/esd-pom-108-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-POM108 POM 基体的导电型材料，采用碳纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强"
+    },
+    {
+      "id": "esd-pom-109",
+      "name": "Techinherit TE-POM109",
+      "grade": "TE-POM109",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "Static dissipative",
+        "Carbon-black modified"
+      ],
+      "desc": "Static dissipative material based on POM, using carbon-black modified technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "ATM and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components",
+        "focus": "Static dissipative material based on POM, using carbon-black modified technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pom-109.webp",
+      "thumbnail": "materials/esd-pom-109-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-POM109 POM 基体的静电消散型材料，采用炭黑改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
+    },
+    {
+      "id": "esd-pom-110",
+      "name": "Techinherit TE-POM110",
+      "grade": "TE-POM110",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "POM",
+      "features": [
+        "Conductive",
+        "Carbon-black modified"
+      ],
+      "desc": "Conductive material based on POM, using carbon-black modified technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "ATM and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components",
+        "focus": "Conductive material based on POM, using carbon-black modified technology. Application directions include atm and banknote-handling equipment, copier paper-contact parts, automotive parts, rods, sheets, gears, bearings and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pom-110.webp",
+      "thumbnail": "materials/esd-pom-110-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-POM110 POM 基体的导电型材料，采用炭黑改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 炭黑改性"
+    },
+    {
+      "id": "esd-pc-abs-101",
+      "name": "Techinherit TE-PCABS101",
+      "grade": "TE-PCABS101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC/ABS",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification",
+        "Flame-retardant option"
+      ],
+      "desc": "Permanent antistatic material based on PC/ABS, using polymeric antistatic modification technology with a flame-retardant formulation direction. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E8-10E10",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Confirm standard, specimen thickness, color and formal report"
+        }
+      ],
+      "profile": {
+        "parts": "Tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts",
+        "focus": "Permanent antistatic material based on PC/ABS, using polymeric antistatic modification technology with a flame-retardant formulation direction. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-abs-101.webp",
+      "thumbnail": "materials/esd-pc-abs-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PCABS101 PC/ABS 基体的永久防静电型材料，采用高分子防静电改性体系并兼顾阻燃方向。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性 阻燃方向"
+    },
+    {
+      "id": "esd-pc-101",
+      "name": "Techinherit TE-PC101",
+      "grade": "TE-PC101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification"
+      ],
+      "desc": "Permanent antistatic material based on PC, using polymeric antistatic modification technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts",
+        "focus": "Permanent antistatic material based on PC, using polymeric antistatic modification technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-101.webp",
+      "thumbnail": "materials/esd-pc-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC101 PC 基体的永久防静电型材料，采用高分子防静电改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+    },
+    {
+      "id": "esd-pc-102",
+      "name": "Techinherit TE-PC102",
+      "grade": "TE-PC102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification"
+      ],
+      "desc": "Permanent antistatic material based on PC, using polymeric antistatic modification technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E8",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts",
+        "focus": "Permanent antistatic material based on PC, using polymeric antistatic modification technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-102.webp",
+      "thumbnail": "materials/esd-pc-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC102 PC 基体的永久防静电型材料，采用高分子防静电改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+    },
+    {
+      "id": "esd-pc-103",
+      "name": "Techinherit TE-PC103",
+      "grade": "TE-PC103",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Static dissipative",
+        "Metal-fiber reinforced"
+      ],
+      "desc": "Static dissipative material based on PC, using metal-fiber reinforced technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Gray",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts",
+        "focus": "Static dissipative material based on PC, using metal-fiber reinforced technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Metal-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-103.webp",
+      "thumbnail": "materials/esd-pc-103-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC103 PC 基体的静电消散型材料，采用金属纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 金属纤维增强"
+    },
+    {
+      "id": "esd-abs-101",
+      "name": "Techinherit TE-ABS101",
+      "grade": "TE-ABS101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "ABS",
+      "features": [
+        "Conductive",
+        "Metal-fiber reinforced"
+      ],
+      "desc": "Conductive material based on ABS, using metal-fiber reinforced technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Gray",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts",
+        "focus": "Conductive material based on ABS, using metal-fiber reinforced technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Metal-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-abs-101.webp",
+      "thumbnail": "materials/esd-abs-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-ABS101 ABS 基体的导电型材料，采用金属纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 金属纤维增强"
+    },
+    {
+      "id": "esd-abs-102",
+      "name": "Techinherit TE-ABS102",
+      "grade": "TE-ABS102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "ABS",
+      "features": [
+        "Conductive",
+        "Carbon-fiber reinforced",
+        "Flame-retardant option"
+      ],
+      "desc": "Conductive material based on ABS, using carbon-fiber reinforced technology with a flame-retardant formulation direction. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Confirm standard, specimen thickness, color and formal report"
+        }
+      ],
+      "profile": {
+        "parts": "Tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts",
+        "focus": "Conductive material based on ABS, using carbon-fiber reinforced technology with a flame-retardant formulation direction. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-abs-102.webp",
+      "thumbnail": "materials/esd-abs-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-ABS102 ABS 基体的导电型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强 阻燃方向"
+    },
+    {
+      "id": "esd-abs-103",
+      "name": "Techinherit TE-ABS103",
+      "grade": "TE-ABS103",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "ABS",
+      "features": [
+        "Static dissipative",
+        "Carbon-fiber reinforced"
+      ],
+      "desc": "Static dissipative material based on ABS, using carbon-fiber reinforced technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts",
+        "focus": "Static dissipative material based on ABS, using carbon-fiber reinforced technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-abs-103.webp",
+      "thumbnail": "materials/esd-abs-103-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-ABS103 ABS 基体的静电消散型材料，采用碳纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强"
+    },
+    {
+      "id": "esd-pc-104",
+      "name": "Techinherit TE-PC104",
+      "grade": "TE-PC104",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Conductive",
+        "Carbon-fiber reinforced"
+      ],
+      "desc": "Conductive material based on PC, using carbon-fiber reinforced technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts",
+        "focus": "Conductive material based on PC, using carbon-fiber reinforced technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-104.webp",
+      "thumbnail": "materials/esd-pc-104-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC104 PC 基体的导电型材料，采用碳纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强"
+    },
+    {
+      "id": "esd-pc-105",
+      "name": "Techinherit TE-PC105",
+      "grade": "TE-PC105",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Static dissipative",
+        "Carbon-black modified"
+      ],
+      "desc": "Static dissipative material based on PC, using carbon-black modified technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts",
+        "focus": "Static dissipative material based on PC, using carbon-black modified technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-105.webp",
+      "thumbnail": "materials/esd-pc-105-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC105 PC 基体的静电消散型材料，采用炭黑改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
+    },
+    {
+      "id": "esd-pc-106",
+      "name": "Techinherit TE-PC106",
+      "grade": "TE-PC106",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Conductive",
+        "Carbon-black modified"
+      ],
+      "desc": "Conductive material based on PC, using carbon-black modified technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts",
+        "focus": "Conductive material based on PC, using carbon-black modified technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-106.webp",
+      "thumbnail": "materials/esd-pc-106-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC106 PC 基体的导电型材料，采用炭黑改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 炭黑改性"
+    },
+    {
+      "id": "esd-pc-abs-102",
+      "name": "Techinherit TE-PCABS102",
+      "grade": "TE-PCABS102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC/ABS",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification"
+      ],
+      "desc": "Permanent antistatic material based on PC/ABS, using polymeric antistatic modification technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E10",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts",
+        "focus": "Permanent antistatic material based on PC/ABS, using polymeric antistatic modification technology. Application directions include tweezers, phone and camera housings, appliance housings, chip trays, electronic components, packaging sheets and electronic parts; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-abs-102.webp",
+      "thumbnail": "materials/esd-pc-abs-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PCABS102 PC/ABS 基体的永久防静电型材料，采用高分子防静电改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+    },
+    {
+      "id": "esd-pc-107",
+      "name": "Techinherit TE-PC107",
+      "grade": "TE-PC107",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification",
+        "Flame-retardant option"
+      ],
+      "desc": "Permanent antistatic material based on PC, using polymeric antistatic modification technology with a flame-retardant formulation direction. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E8-10E10",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Confirm standard, specimen thickness, color and formal report"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Permanent antistatic material based on PC, using polymeric antistatic modification technology with a flame-retardant formulation direction. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-107.webp",
+      "thumbnail": "materials/esd-pc-107-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC107 PC 基体的永久防静电型材料，采用高分子防静电改性体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性 阻燃方向"
+    },
+    {
+      "id": "esd-pc-108",
+      "name": "Techinherit TE-PC108",
+      "grade": "TE-PC108",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Static dissipative",
+        "Metal-fiber reinforced"
+      ],
+      "desc": "Static dissipative material based on PC, using metal-fiber reinforced technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Gray",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Static dissipative material based on PC, using metal-fiber reinforced technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Metal-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-108.webp",
+      "thumbnail": "materials/esd-pc-108-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC108 PC 基体的静电消散型材料，采用金属纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 金属纤维增强"
+    },
+    {
+      "id": "esd-pc-109",
+      "name": "Techinherit TE-PC109",
+      "grade": "TE-PC109",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Conductive",
+        "Metal-fiber reinforced"
+      ],
+      "desc": "Conductive material based on PC, using metal-fiber reinforced technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Gray",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Conductive material based on PC, using metal-fiber reinforced technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Metal-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-109.webp",
+      "thumbnail": "materials/esd-pc-109-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC109 PC 基体的导电型材料，采用金属纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 金属纤维增强"
+    },
+    {
+      "id": "esd-pc-110",
+      "name": "Techinherit TE-PC110",
+      "grade": "TE-PC110",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Static dissipative",
+        "Carbon-fiber reinforced",
+        "Flame-retardant option"
+      ],
+      "desc": "Static dissipative material based on PC, using carbon-fiber reinforced technology with a flame-retardant formulation direction. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Confirm standard, specimen thickness, color and formal report"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Static dissipative material based on PC, using carbon-fiber reinforced technology with a flame-retardant formulation direction. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-110.webp",
+      "thumbnail": "materials/esd-pc-110-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC110 PC 基体的静电消散型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强 阻燃方向"
+    },
+    {
+      "id": "esd-pc-111",
+      "name": "Techinherit TE-PC111",
+      "grade": "TE-PC111",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Conductive",
+        "Carbon-fiber reinforced",
+        "Flame-retardant option"
+      ],
+      "desc": "Conductive material based on PC, using carbon-fiber reinforced technology with a flame-retardant formulation direction. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Confirm standard, specimen thickness, color and formal report"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Conductive material based on PC, using carbon-fiber reinforced technology with a flame-retardant formulation direction. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-111.webp",
+      "thumbnail": "materials/esd-pc-111-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC111 PC 基体的导电型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强 阻燃方向"
+    },
+    {
+      "id": "esd-pc-112",
+      "name": "Techinherit TE-PC112",
+      "grade": "TE-PC112",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Static dissipative",
+        "Carbon-fiber reinforced"
+      ],
+      "desc": "Static dissipative material based on PC, using carbon-fiber reinforced technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Static dissipative material based on PC, using carbon-fiber reinforced technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-112.webp",
+      "thumbnail": "materials/esd-pc-112-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC112 PC 基体的静电消散型材料，采用碳纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强"
+    },
+    {
+      "id": "esd-pc-113",
+      "name": "Techinherit TE-PC113",
+      "grade": "TE-PC113",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Conductive",
+        "Carbon-fiber reinforced"
+      ],
+      "desc": "Conductive material based on PC, using carbon-fiber reinforced technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Conductive material based on PC, using carbon-fiber reinforced technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-113.webp",
+      "thumbnail": "materials/esd-pc-113-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC113 PC 基体的导电型材料，采用碳纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强"
+    },
+    {
+      "id": "esd-pc-114",
+      "name": "Techinherit TE-PC114",
+      "grade": "TE-PC114",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Conductive",
+        "Carbon-fiber reinforced",
+        "Low-resistance option"
+      ],
+      "desc": "Conductive material based on PC, using carbon-fiber reinforced technology for low-resistance requirements. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "<500 Ω",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Conductive material based on PC, using carbon-fiber reinforced technology for low-resistance requirements. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-114.webp",
+      "thumbnail": "materials/esd-pc-114-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC114 PC 基体的导电型材料，采用碳纤维增强体系，面向低电阻需求。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强 低电阻方向"
+    },
+    {
+      "id": "esd-pc-115",
+      "name": "Techinherit TE-PC115",
+      "grade": "TE-PC115",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Static dissipative",
+        "Carbon-black modified",
+        "Flame-retardant option"
+      ],
+      "desc": "Static dissipative material based on PC, using carbon-black modified technology with a flame-retardant formulation direction. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Confirm standard, specimen thickness, color and formal report"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Static dissipative material based on PC, using carbon-black modified technology with a flame-retardant formulation direction. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-115.webp",
+      "thumbnail": "materials/esd-pc-115-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC115 PC 基体的静电消散型材料，采用炭黑改性体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性 阻燃方向"
+    },
+    {
+      "id": "esd-pc-116",
+      "name": "Techinherit TE-PC116",
+      "grade": "TE-PC116",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Conductive",
+        "Carbon-black modified",
+        "Flame-retardant option"
+      ],
+      "desc": "Conductive material based on PC, using carbon-black modified technology with a flame-retardant formulation direction. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Confirm standard, specimen thickness, color and formal report"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Conductive material based on PC, using carbon-black modified technology with a flame-retardant formulation direction. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-116.webp",
+      "thumbnail": "materials/esd-pc-116-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC116 PC 基体的导电型材料，采用炭黑改性体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 炭黑改性 阻燃方向"
+    },
+    {
+      "id": "esd-pc-117",
+      "name": "Techinherit TE-PC117",
+      "grade": "TE-PC117",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Static dissipative",
+        "Carbon-black modified"
+      ],
+      "desc": "Static dissipative material based on PC, using carbon-black modified technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Static dissipative material based on PC, using carbon-black modified technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-117.webp",
+      "thumbnail": "materials/esd-pc-117-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC117 PC 基体的静电消散型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
+    },
+    {
+      "id": "esd-pc-118",
+      "name": "Techinherit TE-PC118",
+      "grade": "TE-PC118",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Static dissipative",
+        "Carbon-black modified"
+      ],
+      "desc": "Static dissipative material based on PC, using carbon-black modified technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Static dissipative material based on PC, using carbon-black modified technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-118.webp",
+      "thumbnail": "materials/esd-pc-118-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC118 PC 基体的静电消散型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
+    },
+    {
+      "id": "esd-pc-119",
+      "name": "Techinherit TE-PC119",
+      "grade": "TE-PC119",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Conductive",
+        "Carbon-black modified"
+      ],
+      "desc": "Conductive material based on PC, using carbon-black modified technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Conductive material based on PC, using carbon-black modified technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-119.webp",
+      "thumbnail": "materials/esd-pc-119-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC119 PC 基体的导电型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 炭黑改性"
+    },
+    {
+      "id": "esd-pc-120",
+      "name": "Techinherit TE-PC120",
+      "grade": "TE-PC120",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PC",
+      "features": [
+        "Conductive",
+        "Carbon-black modified"
+      ],
+      "desc": "Conductive material based on PC, using carbon-black modified technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment",
+        "focus": "Conductive material based on PC, using carbon-black modified technology. Application directions include boards, sheets, carrier tape, profiles, tweezers, electronic parts, electrical housings, containers and communications equipment; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pc-120.webp",
+      "thumbnail": "materials/esd-pc-120-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PC120 PC 基体的导电型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 炭黑改性"
+    },
+    {
+      "id": "esd-pbt-101",
+      "name": "Techinherit TE-PBT101",
+      "grade": "TE-PBT101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PBT",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification with glass-fiber reinforcement"
+      ],
+      "desc": "Permanent antistatic material based on PBT, using polymeric antistatic modification with glass-fiber reinforcement technology. Application directions include automotive parts, electrical housings and electronic components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "electrical",
+          "condition": "Resistance range requires review; confirm exponent notation, units and test conditions"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, electrical housings and electronic components",
+        "focus": "Permanent antistatic material based on PBT, using polymeric antistatic modification with glass-fiber reinforcement technology. Application directions include automotive parts, electrical housings and electronic components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification with glass-fiber reinforcement; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pbt-101.webp",
+      "thumbnail": "materials/esd-pbt-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PBT101 PBT 基体的永久防静电型材料，采用高分子防静电与玻纤增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电与玻纤增强"
+    },
+    {
+      "id": "esd-pbt-102",
+      "name": "Techinherit TE-PBT102",
+      "grade": "TE-PBT102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PBT",
+      "features": [
+        "Conductive",
+        "Metal-fiber reinforced"
+      ],
+      "desc": "Conductive material based on PBT, using metal-fiber reinforced technology. Application directions include automotive parts, electrical housings and electronic components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Gray",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, electrical housings and electronic components",
+        "focus": "Conductive material based on PBT, using metal-fiber reinforced technology. Application directions include automotive parts, electrical housings and electronic components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Metal-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pbt-102.webp",
+      "thumbnail": "materials/esd-pbt-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PBT102 PBT 基体的导电型材料，采用金属纤维增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 金属纤维增强"
+    },
+    {
+      "id": "esd-pbt-103",
+      "name": "Techinherit TE-PBT103",
+      "grade": "TE-PBT103",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PBT",
+      "features": [
+        "Static dissipative",
+        "Carbon-fiber reinforced",
+        "Flame-retardant option"
+      ],
+      "desc": "Static dissipative material based on PBT, using carbon-fiber reinforced technology with a flame-retardant formulation direction. Application directions include automotive parts, electrical housings and electronic components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Confirm standard, specimen thickness, color and formal report"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, electrical housings and electronic components",
+        "focus": "Static dissipative material based on PBT, using carbon-fiber reinforced technology with a flame-retardant formulation direction. Application directions include automotive parts, electrical housings and electronic components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pbt-103.webp",
+      "thumbnail": "materials/esd-pbt-103-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PBT103 PBT 基体的静电消散型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强 阻燃方向"
+    },
+    {
+      "id": "esd-pbt-104",
+      "name": "Techinherit TE-PBT104",
+      "grade": "TE-PBT104",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PBT",
+      "features": [
+        "Conductive",
+        "Carbon-fiber reinforced",
+        "Flame-retardant option"
+      ],
+      "desc": "Conductive material based on PBT, using carbon-fiber reinforced technology with a flame-retardant formulation direction. Application directions include automotive parts, electrical housings and electronic components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "flammability-ul94",
+          "label": "Flammability rating",
+          "sourceLabel": "Flammability rating",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "thermal",
+          "condition": "Confirm standard, specimen thickness, color and formal report"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, electrical housings and electronic components",
+        "focus": "Conductive material based on PBT, using carbon-fiber reinforced technology with a flame-retardant formulation direction. Application directions include automotive parts, electrical housings and electronic components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pbt-104.webp",
+      "thumbnail": "materials/esd-pbt-104-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PBT104 PBT 基体的导电型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强 阻燃方向"
+    },
+    {
+      "id": "esd-pbt-105",
+      "name": "Techinherit TE-PBT105",
+      "grade": "TE-PBT105",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PBT",
+      "features": [
+        "Static dissipative",
+        "Carbon-fiber reinforced"
+      ],
+      "desc": "Static dissipative material based on PBT, using carbon-fiber reinforced technology. Application directions include automotive parts, electrical housings and electronic components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, electrical housings and electronic components",
+        "focus": "Static dissipative material based on PBT, using carbon-fiber reinforced technology. Application directions include automotive parts, electrical housings and electronic components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pbt-105.webp",
+      "thumbnail": "materials/esd-pbt-105-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PBT105 PBT 基体的静电消散型材料，采用碳纤维增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强"
+    },
+    {
+      "id": "esd-pbt-106",
+      "name": "Techinherit TE-PBT106",
+      "grade": "TE-PBT106",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "PBT",
+      "features": [
+        "Conductive",
+        "Carbon-fiber reinforced"
+      ],
+      "desc": "Conductive material based on PBT, using carbon-fiber reinforced technology. Application directions include automotive parts, electrical housings and electronic components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Automotive parts, electrical housings and electronic components",
+        "focus": "Conductive material based on PBT, using carbon-fiber reinforced technology. Application directions include automotive parts, electrical housings and electronic components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-pbt-106.webp",
+      "thumbnail": "materials/esd-pbt-106-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-PBT106 PBT 基体的导电型材料，采用碳纤维增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强"
+    },
+    {
+      "id": "esd-mppo-mppe-101",
+      "name": "Techinherit TE-MPPOMPPE101",
+      "grade": "TE-MPPOMPPE101",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "MPPO/MPPE",
+      "features": [
+        "Permanent antistatic",
+        "Polymeric antistatic modification"
+      ],
+      "desc": "Permanent antistatic material based on MPPO/MPPE, using polymeric antistatic modification technology. Application directions include chip trays, turntables, electronic-component packaging sheets, atm parts and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Natural; custom colors available",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Permanent antistatic",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E8-10E10",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Chip trays, turntables, electronic-component packaging sheets, ATM parts and electrical components",
+        "focus": "Permanent antistatic material based on MPPO/MPPE, using polymeric antistatic modification technology. Application directions include chip trays, turntables, electronic-component packaging sheets, atm parts and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Polymeric antistatic modification; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-mppo-mppe-101.webp",
+      "thumbnail": "materials/esd-mppo-mppe-101-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-MPPOMPPE101 MPPO/MPPE 基体的永久防静电型材料，采用高分子防静电改性体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+    },
+    {
+      "id": "esd-mppo-mppe-102",
+      "name": "Techinherit TE-MPPOMPPE102",
+      "grade": "TE-MPPOMPPE102",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "MPPO/MPPE",
+      "features": [
+        "Conductive",
+        "Metal-fiber reinforced"
+      ],
+      "desc": "Conductive material based on MPPO/MPPE, using metal-fiber reinforced technology. Application directions include chip trays, turntables, electronic-component packaging sheets, atm parts and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Gray",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Chip trays, turntables, electronic-component packaging sheets, ATM parts and electrical components",
+        "focus": "Conductive material based on MPPO/MPPE, using metal-fiber reinforced technology. Application directions include chip trays, turntables, electronic-component packaging sheets, atm parts and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Metal-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-mppo-mppe-102.webp",
+      "thumbnail": "materials/esd-mppo-mppe-102-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-MPPOMPPE102 MPPO/MPPE 基体的导电型材料，采用金属纤维增强体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 金属纤维增强"
+    },
+    {
+      "id": "esd-mppo-mppe-103",
+      "name": "Techinherit TE-MPPOMPPE103",
+      "grade": "TE-MPPOMPPE103",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "MPPO/MPPE",
+      "features": [
+        "Static dissipative",
+        "Carbon-fiber reinforced"
+      ],
+      "desc": "Static dissipative material based on MPPO/MPPE, using carbon-fiber reinforced technology. Application directions include chip trays, turntables, electronic-component packaging sheets, atm parts and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Chip trays, turntables, electronic-component packaging sheets, ATM parts and electrical components",
+        "focus": "Static dissipative material based on MPPO/MPPE, using carbon-fiber reinforced technology. Application directions include chip trays, turntables, electronic-component packaging sheets, atm parts and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-mppo-mppe-103.webp",
+      "thumbnail": "materials/esd-mppo-mppe-103-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-MPPOMPPE103 MPPO/MPPE 基体的静电消散型材料，采用碳纤维增强体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强"
+    },
+    {
+      "id": "esd-mppo-mppe-104",
+      "name": "Techinherit TE-MPPOMPPE104",
+      "grade": "TE-MPPOMPPE104",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "MPPO/MPPE",
+      "features": [
+        "Conductive",
+        "Carbon-fiber reinforced"
+      ],
+      "desc": "Conductive material based on MPPO/MPPE, using carbon-fiber reinforced technology. Application directions include chip trays, turntables, electronic-component packaging sheets, atm parts and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Conductive",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E3-10E5",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Chip trays, turntables, electronic-component packaging sheets, ATM parts and electrical components",
+        "focus": "Conductive material based on MPPO/MPPE, using carbon-fiber reinforced technology. Application directions include chip trays, turntables, electronic-component packaging sheets, atm parts and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-fiber reinforced; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-mppo-mppe-104.webp",
+      "thumbnail": "materials/esd-mppo-mppe-104-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-MPPOMPPE104 MPPO/MPPE 基体的导电型材料，采用碳纤维增强体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强"
+    },
+    {
+      "id": "esd-mppo-mppe-105",
+      "name": "Techinherit TE-MPPOMPPE105",
+      "grade": "TE-MPPOMPPE105",
+      "catalogType": "grade",
+      "category": "conductive",
+      "family": "MPPO/MPPE",
+      "features": [
+        "Static dissipative",
+        "Carbon-black modified"
+      ],
+      "desc": "Static dissipative material based on MPPO/MPPE, using carbon-black modified technology. Application directions include chip trays, turntables, electronic-component packaging sheets, atm parts and electrical components; validate resistance and processing conditions for the grade and finished part.",
+      "source": "",
+      "reference": {
+        "accessed": "2026-10-24"
+      },
+      "properties": [
+        {
+          "key": "material-color",
+          "label": "Material color",
+          "sourceLabel": "Material color",
+          "value": "Black",
+          "available": true,
+          "group": "physical",
+          "condition": "Confirm available colors and batch appearance for the grade"
+        },
+        {
+          "key": "static-control-type",
+          "label": "Static-control type",
+          "sourceLabel": "Static-control type",
+          "value": "Static dissipative",
+          "available": true,
+          "group": "electrical",
+          "condition": "Functional classification; verify actual resistance and durability for the project"
+        },
+        {
+          "key": "surface-resistance-reference",
+          "label": "Surface resistance reference",
+          "sourceLabel": "Surface resistance reference",
+          "value": "10E6-10E9",
+          "available": true,
+          "group": "electrical",
+          "condition": "Confirm exponent notation, units, test method, electrodes, specimen condition, temperature and humidity"
+        },
+        {
+          "key": "tensile-strength",
+          "label": "Tensile strength",
+          "sourceLabel": "Tensile strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "notched-impact-strength",
+          "label": "Notched impact strength",
+          "sourceLabel": "Notched impact strength",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "mechanical",
+          "condition": "Request the grade TDS and confirm the method and specimen condition"
+        },
+        {
+          "key": "drying-temperature",
+          "label": "Drying temperature",
+          "sourceLabel": "Drying temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        },
+        {
+          "key": "melt-temperature",
+          "label": "Melt temperature",
+          "sourceLabel": "Melt temperature",
+          "value": "To be confirmed",
+          "available": false,
+          "group": "processing",
+          "condition": "Confirm for the grade and equipment; verify the processing window before trials"
+        }
+      ],
+      "profile": {
+        "parts": "Chip trays, turntables, electronic-component packaging sheets, ATM parts and electrical components",
+        "focus": "Static dissipative material based on MPPO/MPPE, using carbon-black modified technology. Application directions include chip trays, turntables, electronic-component packaging sheets, atm parts and electrical components; validate resistance and processing conditions for the grade and finished part.",
+        "process": "Confirm drying, melt temperature, mold temperature and residence time for the grade; check resistance, appearance and dimensions after trials.",
+        "reinforcement": "Carbon-black modified; confirm reinforcement content and formulation for the grade",
+        "tests": [
+          "Resistance: define electrodes, test voltage, specimen condition, temperature and humidity; test both material specimens and molded parts",
+          "Long-term behavior: evaluate static control after conditioning, cleaning, abrasion and aging",
+          "Part validation: assess wall thickness, fiber orientation, assembly and grounding in the intended application"
+        ]
+      },
+      "image": "materials/esd-mppo-mppe-105.webp",
+      "thumbnail": "materials/esd-mppo-mppe-105-small.webp",
+      "imageWidth": 600,
+      "imageHeight": 450,
+      "thumbnailWidth": 400,
+      "searchAliases": "Techinherit TE-MPPOMPPE105 MPPO/MPPE 基体的静电消散型材料，采用炭黑改性体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
     }
   ],
   "applications": [
@@ -5159,8 +9891,8 @@ window.TechMaterials={
         "Evaluate fiber orientation with part design and processing"
       ],
       "ids": [
-        "antistatic-pa66",
-        "conductive-pc",
+        "esd-pa-104",
+        "esd-pc-104",
         "cf-pa6"
       ],
       "source": "https://www.techinherit.com/ai-hardware-cases.html",
@@ -5203,7 +9935,7 @@ window.TechMaterials={
         "Validate selection against temperature rise and electrical conditions"
       ],
       "ids": [
-        "antistatic-abs"
+        "esd-abs-103"
       ],
       "source": "https://www.techinherit.com/consumer-electronics-cases.html",
       "cases": [
@@ -5287,7 +10019,7 @@ window.TechMaterials={
         "Confirm batches, documentation and validation requirements"
       ],
       "ids": [
-        "antistatic-pa6"
+        "esd-pa-103"
       ],
       "source": "https://www.techinherit.com/medical-devices-cases.html",
       "cases": [
