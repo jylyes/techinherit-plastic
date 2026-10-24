@@ -1,0 +1,138 @@
+[
+  {
+    "asset": "research/testing.webp",
+    "source": "https://www.techinherit.com/static/te/img/Heat%20verification.webp",
+    "sourcePage": "https://www.techinherit.com/rd-strength.html",
+    "width": 1464,
+    "height": 899,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "research/incoming.webp",
+    "source": "https://www.techinherit.com/static/te/img/1-1.webp",
+    "sourcePage": "https://www.techinherit.com/rd-strength.html",
+    "width": 1280,
+    "height": 442,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "research/measurement.webp",
+    "source": "https://www.techinherit.com/static/te/img/Low-warpage%20injection-molded%20parts-1.webp",
+    "sourcePage": "https://www.techinherit.com/rd-strength.html",
+    "width": 1672,
+    "height": 941,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "research/compounding.webp",
+    "source": "https://www.techinherit.com/static/te/img/Pelletizing.webp",
+    "sourcePage": "https://www.techinherit.com/rd-strength.html",
+    "width": 1440,
+    "height": 1080,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "research/reliability.webp",
+    "source": "https://www.techinherit.com/static/te/img/inspection-equipment.webp",
+    "sourcePage": "https://www.techinherit.com/rd-strength.html",
+    "width": 1448,
+    "height": 1086,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "cases/energy-connector.webp",
+    "source": "https://www.techinherit.com/static/te/img/ne-part-1.webp",
+    "sourcePage": "https://www.techinherit.com/new-energy-cases.html",
+    "width": 703,
+    "height": 365,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "cases/ai-fan.webp",
+    "source": "https://www.techinherit.com/static/te/img/ai-hardware-4.webp",
+    "sourcePage": "https://www.techinherit.com/ai-hardware-cases.html",
+    "width": 900,
+    "height": 1599,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "cases/ai-edge.webp",
+    "source": "https://www.techinherit.com/static/te/img/ai-hardware-3.webp",
+    "sourcePage": "https://www.techinherit.com/ai-hardware-cases.html",
+    "width": 900,
+    "height": 1599,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "cases/electronics-earbuds.webp",
+    "source": "https://www.techinherit.com/static/te/img/ce-case-2.webp",
+    "sourcePage": "https://www.techinherit.com/consumer-electronics-cases.html",
+    "width": 941,
+    "height": 1672,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "cases/energy-motor.webp",
+    "source": "https://www.techinherit.com/static/te/img/ne-part-4.webp",
+    "sourcePage": "https://www.techinherit.com/new-energy-cases.html",
+    "width": 941,
+    "height": 1672,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "cases/electronics-frame.webp",
+    "source": "https://www.techinherit.com/static/te/img/ce-case-3.webp",
+    "sourcePage": "https://www.techinherit.com/consumer-electronics-cases.html",
+    "width": 941,
+    "height": 1672,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "cases/furniture-bracket.webp",
+    "source": "https://www.techinherit.com/static/te/img/office-chair-case-2.webp",
+    "sourcePage": "https://www.techinherit.com/office-furniture-cases.html",
+    "width": 941,
+    "height": 1672,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "cases/furniture-armrest.webp",
+    "source": "https://www.techinherit.com/static/te/img/office-chair-case-3.webp",
+    "sourcePage": "https://www.techinherit.com/office-furniture-cases.html",
+    "width": 941,
+    "height": 1672,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "cases/medical-monitor.webp",
+    "source": "https://www.techinherit.com/static/te/img/medical-case-1.webp",
+    "sourcePage": "https://www.techinherit.com/medical-devices-cases.html",
+    "width": 1132,
+    "height": 1389,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "cases/medical-snap.webp",
+    "source": "https://www.techinherit.com/static/te/img/medical-case-4.webp",
+    "sourcePage": "https://www.techinherit.com/medical-devices-cases.html",
+    "width": 1254,
+    "height": 1254,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "cases/pet-feeder.webp",
+    "source": "https://www.techinherit.com/static/te/img/pet-case-2.webp",
+    "sourcePage": "https://www.techinherit.com/pet-supplies-cases.html",
+    "width": 941,
+    "height": 1672,
+    "accessed": "2026-10-24"
+  },
+  {
+    "asset": "cases/pet-crate.webp",
+    "source": "https://www.techinherit.com/static/te/img/pet-case-1.webp",
+    "sourcePage": "https://www.techinherit.com/pet-supplies-cases.html",
+    "width": 941,
+    "height": 1672,
+    "accessed": "2026-10-24"
+  }
+]

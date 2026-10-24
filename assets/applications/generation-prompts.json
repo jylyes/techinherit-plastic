@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-23T09:37:35.877Z",
+  "tool": "Built-in image_gen",
+  "purpose": "Illustrative application scenes, not documentary client or facility photographs.",
+  "records": [
+    {
+      "id": "new-energy",
+      "path": "assets/applications/new-energy.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 105594,
+      "prompt": "Use case: ads-marketing. Asset type: high-end materials-company application-sector website photograph. Generate a single finished image, not a collage or a page mockup. Wide 16:9 landscape, high resolution, crisp realistic commercial photography with believable fine surface detail. Cohesive art direction: bright, clean contemporary environments; natural white light, blue-white-gray palette with restrained deep-blue accents; premium but believable products, no sci-fi glow. Materials and engineered plastic components should be visible. Subject arranged mainly in the central and right portions with a quieter left edge so the photo can also be cropped for a website banner. Keep all important objects within the middle 70% vertically for wide banner crops. No text, lettering, logos, watermarks, badges, charts or UI overlays. This is illustrative application imagery, not a documentary photograph of a real company's facilities. Subject: a premium electric-vehicle charging installation in a clean contemporary mobility setting, with a white and deep-blue EV charging unit in three-quarter view and an unbranded vehicle softly visible behind. Foreground emphasis on a realistic ergonomic charging connector, its precision molded polymer housing and ribbed flexible cable. Recognizable new-energy application, refined white architecture and soft daylight; no people. A coherent real scene, not an exploded diagram."
+    },
+    {
+      "id": "ai-hardware",
+      "path": "assets/applications/ai-hardware.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 257224,
+      "prompt": "Use case: ads-marketing. Asset type: high-end materials-company application-sector website photograph. Generate a single finished image, not a collage or a page mockup. Wide 16:9 landscape, high resolution, crisp realistic commercial photography with believable fine surface detail. Cohesive art direction: bright, clean contemporary environments; natural white light, blue-white-gray palette with restrained deep-blue accents; premium but believable products, no sci-fi glow. Materials and engineered plastic components should be visible. Subject arranged mainly in the central and right portions with a quieter left edge so the photo can also be cropped for a website banner. Keep all important objects within the middle 70% vertically for wide banner crops. No text, lettering, logos, watermarks, badges, charts or UI overlays. This is illustrative application imagery, not a documentary photograph of a real company's facilities. Subject: AI and data-center hardware, close three-quarter view of a precision server module on a clean work surface, with black molded cooling-fan frames, graphite polymer support structures and fine metal heat sinks visible. Orderly server racks softly in the background with restrained blue status lights. No code or screen content. Highly plausible hardware proportions and connections. Differentiate from consumer gadgets: this is professional computing infrastructure, industrial yet immaculate."
+    },
+    {
+      "id": "electronics",
+      "path": "assets/applications/electronics.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 103016,
+      "prompt": "Use case: ads-marketing. Asset type: high-end materials-company application-sector website photograph. Generate a single finished image, not a collage or a page mockup. Wide 16:9 landscape, high resolution, crisp realistic commercial photography with believable fine surface detail. Cohesive art direction: bright, clean contemporary environments; natural white light, blue-white-gray palette with restrained deep-blue accents; premium but believable products, no sci-fi glow. Materials and engineered plastic components should be visible. Subject arranged mainly in the central and right portions with a quieter left edge so the photo can also be cropped for a website banner. Keep all important objects within the middle 70% vertically for wide banner crops. No text, lettering, logos, watermarks, badges, charts or UI overlays. This is illustrative application imagery, not a documentary photograph of a real company's facilities. Subject: a carefully composed group of unbranded consumer electronics on a light gray desktop: a compact white smart-home hub with a subtly perforated precision polymer enclosure, wireless earbuds with an open smooth white case, and a slim dark wearable with an unlit screen. Highlight tactile high-quality molded surfaces, accurate assembly seams and translucent detail. Bright modern home-study background softly out of focus, gentle daylight, editorial product photography."
+    },
+    {
+      "id": "furniture",
+      "path": "assets/applications/furniture.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 206736,
+      "prompt": "Use case: ads-marketing. Asset type: high-end materials-company application-sector website photograph. Generate a single finished image, not a collage or a page mockup. Wide 16:9 landscape, high resolution, crisp realistic commercial photography with believable fine surface detail. Cohesive art direction: bright, clean contemporary environments; natural white light, blue-white-gray palette with restrained deep-blue accents; premium but believable products, no sci-fi glow. Materials and engineered plastic components should be visible. Subject arranged mainly in the central and right portions with a quieter left edge so the photo can also be cropped for a website banner. Keep all important objects within the middle 70% vertically for wide banner crops. No text, lettering, logos, watermarks, badges, charts or UI overlays. This is illustrative application imagery, not a documentary photograph of a real company's facilities. Subject: a single premium unbranded ergonomic office chair in three-quarter rear-side view in a minimal contemporary workspace. Emphasize its sculpted charcoal reinforced-polymer back frame, precisely molded armrest supports, matte polymer five-star base and softly textured mesh back; credible mechanically functional design. Pale oak desk and bright windows softly in background. Camera at chair height; complete chair visible and large enough to read its materials. No people."
+    },
+    {
+      "id": "medical",
+      "path": "assets/applications/medical.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 104252,
+      "prompt": "Use case: ads-marketing. Asset type: high-end materials-company application-sector website photograph. Generate a single finished image, not a collage or a page mockup. Wide 16:9 landscape, high resolution, crisp realistic commercial photography with believable fine surface detail. Cohesive art direction: bright, clean contemporary environments; natural white light, blue-white-gray palette with restrained deep-blue accents; premium but believable products, no sci-fi glow. Materials and engineered plastic components should be visible. Subject arranged mainly in the central and right portions with a quieter left edge so the photo can also be cropped for a website banner. Keep all important objects within the middle 70% vertically for wide banner crops. No text, lettering, logos, watermarks, badges, charts or UI overlays. This is illustrative application imagery, not a documentary photograph of a real company's facilities. Subject: a contemporary unbranded compact diagnostic device on a clean medical equipment trolley in a bright clinical examination room. Refined white molded polymer housing, dark unlit display, simple ergonomic grip and a carefully coiled blue flexible cable. A realistic non-invasive medical-equipment application, no patients, no procedures, no bodily imagery. Soft white daylight, hygienic blue-white accents, focus on smooth cleanable surfaces, precise assembly and durable housings."
+    },
+    {
+      "id": "pet",
+      "path": "assets/applications/pet.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 165060,
+      "prompt": "Use case: ads-marketing. Asset type: high-end materials-company application-sector website photograph. Generate a single finished image, not a collage or a page mockup. Wide 16:9 landscape, high resolution, crisp realistic commercial photography with believable fine surface detail. Cohesive art direction: bright, clean contemporary environments; natural white light, blue-white-gray palette with restrained deep-blue accents; premium but believable products, no sci-fi glow. Materials and engineered plastic components should be visible. Subject arranged mainly in the central and right portions with a quieter left edge so the photo can also be cropped for a website banner. Keep all important objects within the middle 70% vertically for wide banner crops. No text, lettering, logos, watermarks, badges, charts or UI overlays. This is illustrative application imagery, not a documentary photograph of a real company's facilities. Subject: premium unbranded smart pet-care products in a bright minimalist home: a sculpted white polymer automatic pet feeder with a dark-blue translucent food hopper beside a compact white-and-blue water fountain. A healthy short-haired gray-and-white cat sitting calmly nearby to establish the application. Show high-quality smooth and translucent polymer parts, soft-touch details and easy-clean surfaces. Natural daylight, quiet pale floor, warm but restrained domestic setting; believable product scale and cat anatomy."
+    }
+  ]
+}
