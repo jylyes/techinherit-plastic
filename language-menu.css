@@ -1,0 +1,39 @@
+/* Shared typography and language menu for all eight editions. */
+.language-selector{position:relative;display:flex;align-items:center;flex-shrink:0;height:100%}
+.language-selector .language-button{width:38px;height:38px;display:grid;place-items:center;font:600 11px/1 Arial,sans-serif;letter-spacing:.02em;border:1px solid currentColor!important;border-radius:50%;color:inherit;transition:background .2s,color .2s,box-shadow .2s}
+.language-selector .language-button:hover,.language-selector.is-open .language-button{color:white;background:var(--brand);border-color:var(--brand)!important}
+.language-button:focus-visible{outline:2px solid var(--brand);outline-offset:4px}
+.language-panel[hidden]{display:none!important}
+.language-panel{position:absolute;top:calc(100% - 7px);right:0;width:350px;max-width:calc(100vw - 32px);padding:22px;background:#fff;color:var(--ink);border:1px solid #e7edf4;border-radius:4px;box-shadow:0 16px 50px #112c4a24;z-index:120;animation:language-reveal .16s ease-out;max-height:calc(100svh - 100px);overflow:auto}
+.language-heading{font-size:12px;font-weight:600;line-height:1.7;color:#7d8792;margin:0 0 14px}
+.language-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 6px}
+.language-option{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:43px;padding:10px;border-radius:3px;font-size:13px;line-height:1.6;font-weight:400;letter-spacing:0;transition:background .16s,color .16s}
+.language-option:hover,.language-option:focus-visible,.language-option.is-active{background:#edf5ff;color:var(--brand)}
+.language-check{font:12px Arial,sans-serif;color:#a5afbb}.language-option.is-active .language-check{color:var(--brand)}
+.language-close{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;margin-top:14px;padding-top:15px!important;border-top:1px solid #edf0f4!important;color:#7d8792;font-size:11px;line-height:1.8;text-align:left}
+.language-close>span{font:20px/1 Arial,sans-serif}.language-close:hover{color:var(--brand)}
+.site-header:has(.language-selector.is-open){background:white;color:var(--ink);border-color:#e8edf3;box-shadow:0 3px 25px #00000006}
+.site-header:has(.language-selector.is-open) .brand-wordmark{color:#343434}
+html:lang(en) body,html:lang(vi) body,html:lang(id) body{font-family:Arial,"Noto Sans",sans-serif}
+html:lang(ja) body{font-family:"Yu Gothic","Meiryo","Noto Sans JP",sans-serif}
+html:lang(ko) body{font-family:"Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",sans-serif}
+html:lang(th) body{font-family:"Leelawadee UI","Noto Sans Thai",Tahoma,sans-serif}
+html:lang(hi) body{font-family:"Nirmala UI","Mangal","Noto Sans Devanagari",sans-serif}
+html:not(:lang(zh-CN)) .body-copy,html:not(:lang(zh-CN)) .tag-list,html:not(:lang(zh-CN)) .material-card p{letter-spacing:0}
+html:not(:lang(zh-CN)) .hero h1,html:not(:lang(zh-CN)) .hero h2{font-size:clamp(36px,4.1vw,76px);line-height:1.28;letter-spacing:0;overflow-wrap:break-word}
+html:lang(th) .hero h1,html:lang(th) .hero h2,html:lang(hi) .hero h1,html:lang(hi) .hero h2{line-height:1.5}
+html:lang(th) .eyebrow,html:lang(hi) .eyebrow{letter-spacing:.02em;line-height:1.9}
+html:not(:lang(zh-CN)) .inner-hero h1{font-size:clamp(26px,3.6vw,52px);line-height:1.4;max-width:95%;overflow-wrap:break-word}
+html:not(:lang(zh-CN)) .mega-section .mega-copy strong{font-size:clamp(22px,2vw,31px)}
+.mega-section .mega-links{max-width:46%}.mega-section .mega-links a{white-space:normal;line-height:1.65}
+.material-card h3,.technical-overview h1,.technical-overview h2,.solution-overview h2{overflow-wrap:anywhere}
+@keyframes language-reveal{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
+@media(min-width:1021px){html:not(:lang(zh-CN)) .desktop-nav{gap:clamp(12px,1.6vw,28px)}html:not(:lang(zh-CN)) .nav-link{font-size:clamp(11px,.95vw,15px)}}
+@media(min-width:821px) and (max-width:1120px){
+ .desktop-nav{display:none}.menu-button{display:block}.header-actions{margin-left:auto}
+ .mobile-menu{display:flex;position:fixed;inset:0;background:white;z-index:95;padding:110px 35px 35px;flex-direction:column;justify-content:space-between;visibility:hidden;opacity:0;transform:translateY(-15px);transition:opacity .25s,visibility .25s,transform .3s;overflow:auto}
+ .mobile-menu nav{display:flex;flex-direction:column}.mobile-menu nav>a{font-size:22px;padding:14px 0;border-bottom:1px solid #eee}
+ .menu-open .mobile-menu{visibility:visible;opacity:1;transform:none}.menu-open .site-header{background:#fff;color:var(--ink)}
+}
+@media(max-width:540px){.language-selector .language-button{width:32px;height:32px;font-size:10px}.language-panel{position:fixed;top:var(--header-height);left:auto;right:16px;width:320px;max-width:calc(100vw - 32px);padding:18px;max-height:calc(100svh - 100px)}.language-option{font-size:12px;min-height:43px}html:not(:lang(zh-CN)) .hero h1,html:not(:lang(zh-CN)) .hero h2{font-size:clamp(26px,7.7vw,38px)}html:lang(th) .inner-hero h1,html:lang(hi) .inner-hero h1{font-size:25px}}
+@media(prefers-reduced-motion:reduce){.language-panel{animation:none}}

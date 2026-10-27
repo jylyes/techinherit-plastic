@@ -1,0 +1,46 @@
+{
+  "default": "en",
+  "languages": [
+    {
+      "id": "en",
+      "lang": "en",
+      "name": "English"
+    },
+    {
+      "id": "zh",
+      "lang": "zh-CN",
+      "name": "简体中文"
+    },
+    {
+      "id": "vi",
+      "lang": "vi",
+      "name": "Tiếng Việt"
+    },
+    {
+      "id": "th",
+      "lang": "th",
+      "name": "ไทย"
+    },
+    {
+      "id": "id",
+      "lang": "id",
+      "name": "Bahasa Indonesia"
+    },
+    {
+      "id": "hi",
+      "lang": "hi",
+      "name": "हिन्दी"
+    },
+    {
+      "id": "ko",
+      "lang": "ko",
+      "name": "한국어"
+    },
+    {
+      "id": "ja",
+      "lang": "ja",
+      "name": "日本語"
+    }
+  ],
+  "pagesPerLanguage": 117
+}

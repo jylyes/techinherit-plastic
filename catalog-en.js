@@ -1,4 +1,4 @@
-/* English material catalog. Chinese search aliases preserve cross-language searches. */
+/* English material catalog. */
 window.TechMaterials={
   "categories": [
     {
@@ -10,8 +10,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-tn900-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "透明尼龙12 围绕透光、韧性、耐化学性与成型尺寸，选择适合透明部件的尼龙方案。"
+      "thumbnailWidth": 400
     },
     {
       "id": "long-chain-nylon",
@@ -22,8 +21,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-pa610-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "长碳链尼龙 从吸水、尺寸稳定和介质接触出发，探索长碳链尼龙的加工与应用。"
+      "thumbnailWidth": 400
     },
     {
       "id": "bio-based-nylon",
@@ -34,8 +32,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-tn955-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "生物基尼龙 结合生物基材料方向与实际部件要求，核对性能、加工和项目资料。"
+      "thumbnailWidth": 400
     },
     {
       "id": "conductive",
@@ -46,8 +43,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-101-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "导电防静电材料 将目标电阻范围、测试环境和使用场景纳入选型，关注静电控制与机械性能的平衡。"
+      "thumbnailWidth": 400
     },
     {
       "id": "carbon",
@@ -58,8 +54,7 @@ window.TechMaterials={
       "thumbnail": "materials/cf-pa6-small.webp",
       "imageWidth": 900,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "碳纤维复合材料 围绕轻量化、高刚性与结构应用，探索碳纤增强树脂的材料及加工方案。"
+      "thumbnailWidth": 400
     },
     {
       "id": "industry-specific",
@@ -70,8 +65,7 @@ window.TechMaterials={
       "imageWidth": 900,
       "imageHeight": 900,
       "thumbnailWidth": 400,
-      "intro": "Material selection and modification solutions tailored to industry service conditions and application requirements.",
-      "searchAliases": "行业专用材料 围绕行业工况与应用需求，提供针对性的材料选型与改性方案。"
+      "intro": "Material selection and modification solutions tailored to industry service conditions and application requirements."
     }
   ],
   "products": [
@@ -247,8 +241,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-tn900-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TN900 透明尼龙12，兼顾透光、回弹与韧性，适合围绕透明结构件、电子电器及工业消费品开展选型。 透明外观 韧性与回弹 耐化学方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "nylon-tn915",
@@ -422,8 +415,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-tn915-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TN915 非晶型透明尼龙，关注刚性、低吸水和耐化学表现，可用于汽车部件、电子产品及包装方向。 透明外观 韧性与回弹 耐化学方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "nylon-tn926",
@@ -597,8 +589,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-tn926-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TN926 高透光透明尼龙12，关注韧性与耐应力开裂表现，可围绕光学部件、透明外壳和工业零件进行评估。 透明外观 韧性与回弹 耐化学方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "nylon-tn955",
@@ -773,8 +764,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-tn955-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TN955 生物基透明尼龙，兼顾刚性、低吸水与耐水解方向，适合汽车、电子和高端包装部件的材料评估。 生物基方向 透明外观 韧性与回弹"
+      "thumbnailWidth": 400
     },
     {
       "id": "nylon-tn956",
@@ -948,8 +938,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-tn956-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TN956 透明尼龙12，关注耐热、韧性与透明外观，可用于杯体、电子电器和光学部件方向；接触合规按具体用途确认。 透明外观 韧性与回弹 耐化学方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "nylon-pa610",
@@ -1088,8 +1077,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-pa610-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit PA610 长碳链生物基尼龙，关注低吸水、低温韧性和尺寸稳定，适用于单丝、电缆包覆及机械配合件方向。 生物基方向 低吸水方向 尺寸稳定"
+      "thumbnailWidth": 400
     },
     {
       "id": "nylon-pa612",
@@ -1227,8 +1215,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-pa612-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit PA612 长碳链尼龙，兼顾韧性、耐油和电气应用需求，可围绕牙刷丝、单丝、电缆包覆及仪表零件选型。 低吸水方向 尺寸稳定 耐油方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "nylon-pa1010",
@@ -1367,8 +1354,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-pa1010-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit PA1010 长碳链生物基尼龙，关注韧性、强度、低吸水和成型收缩，可用于汽车、仪表与工业结构件方向。 生物基方向 低吸水方向 尺寸稳定"
+      "thumbnailWidth": 400
     },
     {
       "id": "nylon-pa1012",
@@ -1506,8 +1492,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-pa1012-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit PA1012 长碳链尼龙，关注低吸水、耐油及尺寸稳定，可用于挤出、注塑、吹塑与管材相关应用。 低吸水方向 尺寸稳定 耐油方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "nylon-pa1212",
@@ -1645,8 +1630,7 @@ window.TechMaterials={
       "thumbnail": "materials/nylon-pa1212-small.webp",
       "imageWidth": 1200,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit PA1212 长碳链尼龙，关注低温韧性、低吸水与尺寸稳定，适合挤出、注塑、吹塑及粉末加工方向。 低吸水方向 尺寸稳定 耐油方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "pps-cf",
@@ -1831,8 +1815,7 @@ window.TechMaterials={
           "Processing & dimensions: check fiber condition, warpage and assembly"
         ],
         "reinforcement": "Carbon fiber; content to be confirmed"
-      },
-      "searchAliases": "PPS CF 以 PPS 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
+      }
     },
     {
       "id": "cf-pc",
@@ -2017,8 +2000,7 @@ window.TechMaterials={
           "Processing & dimensions: check fiber condition, warpage and assembly"
         ],
         "reinforcement": "Carbon fiber; content to be confirmed"
-      },
-      "searchAliases": "碳纤增强 PC 以 PC 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
+      }
     },
     {
       "id": "cf-etfe",
@@ -2203,8 +2185,7 @@ window.TechMaterials={
           "Processing & dimensions: check fiber condition, warpage and assembly"
         ],
         "reinforcement": "Carbon fiber; content to be confirmed"
-      },
-      "searchAliases": "碳纤增强 ETFE 以 ETFE 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
+      }
     },
     {
       "id": "cf-pa6",
@@ -2389,8 +2370,7 @@ window.TechMaterials={
           "Processing & dimensions: check fiber condition, warpage and assembly"
         ],
         "reinforcement": "Carbon fiber; content to be confirmed"
-      },
-      "searchAliases": "碳纤增强 PA6 以 PA6 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
+      }
     },
     {
       "id": "cf-pa66",
@@ -2575,8 +2555,7 @@ window.TechMaterials={
           "Processing & dimensions: check fiber condition, warpage and assembly"
         ],
         "reinforcement": "Carbon fiber; content to be confirmed"
-      },
-      "searchAliases": "碳纤增强 PA66 以 PA66 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
+      }
     },
     {
       "id": "cf-pa12",
@@ -2761,8 +2740,7 @@ window.TechMaterials={
           "Processing & dimensions: check fiber condition, warpage and assembly"
         ],
         "reinforcement": "Carbon fiber; content to be confirmed"
-      },
-      "searchAliases": "碳纤增强 PA12 以 PA12 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
+      }
     },
     {
       "id": "cf-peek",
@@ -2947,8 +2925,7 @@ window.TechMaterials={
           "Processing & dimensions: check fiber condition, warpage and assembly"
         ],
         "reinforcement": "Carbon fiber; content to be confirmed"
-      },
-      "searchAliases": "碳纤增强 PEEK 以 PEEK 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
+      }
     },
     {
       "id": "cf-pvdf",
@@ -3133,8 +3110,7 @@ window.TechMaterials={
           "Processing & dimensions: check fiber condition, warpage and assembly"
         ],
         "reinforcement": "Carbon fiber; content to be confirmed"
-      },
-      "searchAliases": "碳纤增强 PVDF 以 PVDF 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
+      }
     },
     {
       "id": "cf-pei",
@@ -3319,8 +3295,7 @@ window.TechMaterials={
           "Processing & dimensions: check fiber condition, warpage and assembly"
         ],
         "reinforcement": "Carbon fiber; content to be confirmed"
-      },
-      "searchAliases": "碳纤增强 PEI 以 PEI 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
+      }
     },
     {
       "id": "cf-pfa",
@@ -3505,8 +3480,7 @@ window.TechMaterials={
           "Processing & dimensions: check fiber condition, warpage and assembly"
         ],
         "reinforcement": "Carbon fiber; content to be confirmed"
-      },
-      "searchAliases": "碳纤增强 PFA 以 PFA 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
+      }
     },
     {
       "id": "long-carbon",
@@ -3691,8 +3665,7 @@ window.TechMaterials={
           "Processing & dimensions: check fiber condition, warpage and assembly"
         ],
         "reinforcement": "Carbon fiber; content to be confirmed"
-      },
-      "searchAliases": "长碳纤维增强复合材料 以 热塑性树脂 为基体的碳纤维复合材料方向。关注纤维分布、结构设计和加工条件，综合评估轻量化与刚性需求。 碳纤增强 轻量化 高刚性"
+      }
     },
     {
       "id": "esd-pa-101",
@@ -3800,8 +3773,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-101-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA101 PA 基体的永久防静电型材料，采用高分子防静电改性体系并兼顾阻燃方向。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性 阻燃方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-102",
@@ -3899,8 +3871,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-102-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA102 PA 基体的永久防静电型材料，采用高分子防静电改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-103",
@@ -3998,8 +3969,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-103-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA103 PA 基体的永久防静电型材料，采用高分子防静电改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-104",
@@ -4097,8 +4067,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-104-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA104 PA 基体的永久防静电型材料，采用高分子防静电与玻纤增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电与玻纤增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-105",
@@ -4196,8 +4165,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-105-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA105 PA 基体的永久防静电型材料，采用高分子防静电与玻纤增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电与玻纤增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-106",
@@ -4295,8 +4263,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-106-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA106 PA 基体的静电消散型材料，采用金属纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 金属纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-107",
@@ -4394,8 +4361,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-107-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA107 PA 基体的导电型材料，采用金属纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 导电型 金属纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-108",
@@ -4494,8 +4460,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-108-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA108 PA 基体的导电型材料，采用导电改性体系，面向低电阻需求。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 导电型 导电改性 低电阻方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-109",
@@ -4593,8 +4558,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-109-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA109 PA 基体的静电消散型材料，采用碳纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-110",
@@ -4702,8 +4666,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-110-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA110 PA 基体的静电消散型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强 阻燃方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-111",
@@ -4801,8 +4764,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-111-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA111 PA 基体的导电型材料，采用碳纤维增强体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-112",
@@ -4901,8 +4863,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-112-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA112 PA 基体的导电型材料，采用碳纤维增强体系，面向低电阻需求。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强 低电阻方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-113",
@@ -5000,8 +4961,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-113-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA113 PA 基体的静电消散型材料，采用炭黑改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa-114",
@@ -5099,8 +5059,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa-114-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA114 PA 基体的导电型材料，采用炭黑改性体系。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 导电型 炭黑改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pa12-101",
@@ -5199,8 +5158,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pa12-101-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PA12101 PA12 基体的导电型材料，采用碳纤维增强体系，面向低电阻需求。适用于汽车零部件、矿井设备、电动工具、容器、棒材、板材、电子电器外壳、管材、工业脚轮、工业单丝及手写笔等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强 低电阻方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pom-101",
@@ -5298,8 +5256,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pom-101-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-POM101 POM 基体的永久防静电型材料，采用高分子防静电改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pom-102",
@@ -5397,8 +5354,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pom-102-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-POM102 POM 基体的永久防静电型材料，采用高分子防静电改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pom-103",
@@ -5496,8 +5452,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pom-103-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-POM103 POM 基体的永久防静电型材料，采用高分子防静电改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pom-104",
@@ -5595,8 +5550,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pom-104-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-POM104 POM 基体的静电消散型材料，采用金属纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 金属纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pom-105",
@@ -5694,8 +5648,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pom-105-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-POM105 POM 基体的导电型材料，采用金属纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 金属纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pom-106",
@@ -5794,8 +5747,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pom-106-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-POM106 POM 基体的导电型材料，采用导电改性体系，面向低电阻需求。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 导电改性 低电阻方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pom-107",
@@ -5893,8 +5845,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pom-107-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-POM107 POM 基体的静电消散型材料，采用碳纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pom-108",
@@ -5992,8 +5943,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pom-108-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-POM108 POM 基体的导电型材料，采用碳纤维增强体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pom-109",
@@ -6091,8 +6041,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pom-109-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-POM109 POM 基体的静电消散型材料，采用炭黑改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pom-110",
@@ -6190,8 +6139,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pom-110-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-POM110 POM 基体的导电型材料，采用炭黑改性体系。适用于ATM 与验钞设备、复印机纸张接触部件、汽车零件、棒材、板材、齿轮、轴承及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 炭黑改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-abs-101",
@@ -6299,8 +6247,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-abs-101-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PCABS101 PC/ABS 基体的永久防静电型材料，采用高分子防静电改性体系并兼顾阻燃方向。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性 阻燃方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-101",
@@ -6398,8 +6345,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-101-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC101 PC 基体的永久防静电型材料，采用高分子防静电改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-102",
@@ -6497,8 +6443,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-102-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC102 PC 基体的永久防静电型材料，采用高分子防静电改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-103",
@@ -6596,8 +6541,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-103-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC103 PC 基体的静电消散型材料，采用金属纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 金属纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-abs-101",
@@ -6695,8 +6639,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-abs-101-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-ABS101 ABS 基体的导电型材料，采用金属纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 金属纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-abs-102",
@@ -6804,8 +6747,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-abs-102-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-ABS102 ABS 基体的导电型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强 阻燃方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-abs-103",
@@ -6903,8 +6845,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-abs-103-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-ABS103 ABS 基体的静电消散型材料，采用碳纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-104",
@@ -7002,8 +6943,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-104-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC104 PC 基体的导电型材料，采用碳纤维增强体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-105",
@@ -7101,8 +7041,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-105-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC105 PC 基体的静电消散型材料，采用炭黑改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-106",
@@ -7200,8 +7139,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-106-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC106 PC 基体的导电型材料，采用炭黑改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 炭黑改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-abs-102",
@@ -7299,8 +7237,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-abs-102-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PCABS102 PC/ABS 基体的永久防静电型材料，采用高分子防静电改性体系。适用于镊子、手机与相机外壳、电器外壳、芯片托盘、电子元件、包装板及电子零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-107",
@@ -7408,8 +7345,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-107-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC107 PC 基体的永久防静电型材料，采用高分子防静电改性体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性 阻燃方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-108",
@@ -7507,8 +7443,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-108-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC108 PC 基体的静电消散型材料，采用金属纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 金属纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-109",
@@ -7606,8 +7541,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-109-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC109 PC 基体的导电型材料，采用金属纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 金属纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-110",
@@ -7715,8 +7649,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-110-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC110 PC 基体的静电消散型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强 阻燃方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-111",
@@ -7824,8 +7757,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-111-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC111 PC 基体的导电型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强 阻燃方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-112",
@@ -7923,8 +7855,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-112-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC112 PC 基体的静电消散型材料，采用碳纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-113",
@@ -8022,8 +7953,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-113-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC113 PC 基体的导电型材料，采用碳纤维增强体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-114",
@@ -8122,8 +8052,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-114-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC114 PC 基体的导电型材料，采用碳纤维增强体系，面向低电阻需求。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强 低电阻方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-115",
@@ -8231,8 +8160,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-115-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC115 PC 基体的静电消散型材料，采用炭黑改性体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性 阻燃方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-116",
@@ -8340,8 +8268,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-116-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC116 PC 基体的导电型材料，采用炭黑改性体系并兼顾阻燃方向。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 炭黑改性 阻燃方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-117",
@@ -8439,8 +8366,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-117-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC117 PC 基体的静电消散型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-118",
@@ -8538,8 +8464,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-118-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC118 PC 基体的静电消散型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-119",
@@ -8637,8 +8562,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-119-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC119 PC 基体的导电型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 炭黑改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pc-120",
@@ -8736,8 +8660,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pc-120-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PC120 PC 基体的导电型材料，采用炭黑改性体系。适用于板材、片材、载带、异型材、镊子、电子零件、电器外壳、容器及通讯器材等方向，电阻与加工条件需按牌号及零件验证。 导电型 炭黑改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pbt-101",
@@ -8835,8 +8758,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pbt-101-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PBT101 PBT 基体的永久防静电型材料，采用高分子防静电与玻纤增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电与玻纤增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pbt-102",
@@ -8934,8 +8856,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pbt-102-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PBT102 PBT 基体的导电型材料，采用金属纤维增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 金属纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pbt-103",
@@ -9043,8 +8964,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pbt-103-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PBT103 PBT 基体的静电消散型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强 阻燃方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pbt-104",
@@ -9152,8 +9072,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pbt-104-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PBT104 PBT 基体的导电型材料，采用碳纤维增强体系并兼顾阻燃方向。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强 阻燃方向"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pbt-105",
@@ -9251,8 +9170,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pbt-105-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PBT105 PBT 基体的静电消散型材料，采用碳纤维增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-pbt-106",
@@ -9350,8 +9268,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-pbt-106-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-PBT106 PBT 基体的导电型材料，采用碳纤维增强体系。适用于汽车配件、电器外壳及电子零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-mppo-mppe-101",
@@ -9449,8 +9366,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-mppo-mppe-101-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-MPPOMPPE101 MPPO/MPPE 基体的永久防静电型材料，采用高分子防静电改性体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 永久防静电型 高分子防静电改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-mppo-mppe-102",
@@ -9548,8 +9464,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-mppo-mppe-102-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-MPPOMPPE102 MPPO/MPPE 基体的导电型材料，采用金属纤维增强体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 金属纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-mppo-mppe-103",
@@ -9647,8 +9562,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-mppo-mppe-103-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-MPPOMPPE103 MPPO/MPPE 基体的静电消散型材料，采用碳纤维增强体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 碳纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-mppo-mppe-104",
@@ -9746,8 +9660,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-mppo-mppe-104-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-MPPOMPPE104 MPPO/MPPE 基体的导电型材料，采用碳纤维增强体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 导电型 碳纤维增强"
+      "thumbnailWidth": 400
     },
     {
       "id": "esd-mppo-mppe-105",
@@ -9845,8 +9758,7 @@ window.TechMaterials={
       "thumbnail": "materials/esd-mppo-mppe-105-small.webp",
       "imageWidth": 600,
       "imageHeight": 450,
-      "thumbnailWidth": 400,
-      "searchAliases": "Techinherit TE-MPPOMPPE105 MPPO/MPPE 基体的静电消散型材料，采用炭黑改性体系。适用于芯片托盘、转盘、电子元件包装板、ATM 配件及电子电器零件等方向，电阻与加工条件需按牌号及零件验证。 静电消散型 炭黑改性"
+      "thumbnailWidth": 400
     },
     {
       "id": "industry-chair-base",
@@ -9941,8 +9853,7 @@ window.TechMaterials={
       "thumbnail": "industry/chair-base-small.webp",
       "imageWidth": 900,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "人体工学椅五星脚专用材料 围绕五星脚的承载、长期受力与脚轮装配，结合零件结构、使用载荷和成型条件确定材料方案。 承载与疲劳 尺寸与装配 成型与外观"
+      "thumbnailWidth": 400
     },
     {
       "id": "industry-ev-charging",
@@ -10037,8 +9948,7 @@ window.TechMaterials={
       "thumbnail": "industry/ev-charging-small.webp",
       "imageWidth": 675,
       "imageHeight": 900,
-      "thumbnailWidth": 300,
-      "searchAliases": "新能源充电枪及连接器专用材料 面向充电枪及连接器的结构、电气与环境要求，先明确部位功能、温升、壁厚和目标规范，再确定基材与改性体系。 电气与绝缘 耐热与阻燃目标 密封与尺寸"
+      "thumbnailWidth": 300
     },
     {
       "id": "industry-fan-blades",
@@ -10133,8 +10043,7 @@ window.TechMaterials={
       "thumbnail": "industry/fan-blades-small.webp",
       "imageWidth": 675,
       "imageHeight": 660,
-      "thumbnailWidth": 400,
-      "searchAliases": "散热风扇叶片专用材料 围绕叶片刚性、旋转载荷和成型尺寸，结合转速、温度及叶型要求讨论材料方案，并通过叶轮与整机验证确认表现。 旋转载荷 翘曲与动平衡 热环境稳定"
+      "thumbnailWidth": 400
     },
     {
       "id": "industry-precision-gears",
@@ -10227,8 +10136,7 @@ window.TechMaterials={
       "thumbnail": "industry/precision-gears-small.webp",
       "imageWidth": 900,
       "imageHeight": 866,
-      "thumbnailWidth": 400,
-      "searchAliases": "精密齿轮专用材料 以齿形精度、载荷和摩擦工况为起点，结合润滑方式、温度、噪声及寿命要求，确定适合具体传动系统的材料方案。 齿形与公差 摩擦与磨损 疲劳与寿命"
+      "thumbnailWidth": 400
     },
     {
       "id": "industry-ai-enclosures",
@@ -10324,8 +10232,7 @@ window.TechMaterials={
       "thumbnail": "industry/ai-enclosures-small.webp",
       "imageWidth": 639,
       "imageHeight": 630,
-      "thumbnailWidth": 400,
-      "searchAliases": "AI硬件及电子外壳专用材料 面向 AI 硬件与电子外壳，结合外观、薄壁成型、冲击及热环境开展选型；静电与电磁相关需求按部位分别定义和验证。 外观与薄壁成型 冲击与装配 电气功能需求"
+      "thumbnailWidth": 400
     },
     {
       "id": "industry-outdoor-helmet",
@@ -10418,8 +10325,7 @@ window.TechMaterials={
       "thumbnail": "industry/outdoor-helmet-small.webp",
       "imageWidth": 900,
       "imageHeight": 900,
-      "thumbnailWidth": 400,
-      "searchAliases": "户外运动及头盔配件专用材料 针对户外运动与头盔配件，结合使用部位、冲击形式、日晒和温度变化讨论材料。是否涉及防护功能及对应验证范围需在项目中明确。 冲击与韧性目标 耐候与颜色 装配可靠性"
+      "thumbnailWidth": 400
     },
     {
       "id": "industry-food-appliance",
@@ -10512,8 +10418,7 @@ window.TechMaterials={
       "thumbnail": "industry/food-appliance-small.webp",
       "imageWidth": 530,
       "imageHeight": 458,
-      "thumbnailWidth": 400,
-      "searchAliases": "食品接触厨电配件专用材料 面向食品接触厨电配件，先确认接触介质、时间、温度和目标市场，再结合耐热、清洁、气味及装配要求确定牌号和资料清单。 食品接触资料 温度与清洁 气味与装配"
+      "thumbnailWidth": 400
     }
   ],
   "applications": [
@@ -10554,8 +10459,7 @@ window.TechMaterials={
           "ids": [],
           "source": "https://www.techinherit.com/new-energy-cases.html"
         }
-      ],
-      "searchAliases": "新能源 围绕电池周边、连接器、充电设备和电机结构件，关注阻燃、绝缘、耐热及尺寸稳定需求。"
+      ]
     },
     {
       "id": "ai-hardware",
@@ -10598,8 +10502,7 @@ window.TechMaterials={
           "ids": [],
           "source": "https://www.techinherit.com/ai-hardware-cases.html"
         }
-      ],
-      "searchAliases": "AI 与智能硬件 从智能设备外壳到内部支撑与风扇周边部件，将静电控制、热环境、刚性及外观要求放在同一选型框架内。"
+      ]
     },
     {
       "id": "electronics",
@@ -10640,8 +10543,7 @@ window.TechMaterials={
           "ids": [],
           "source": "https://www.techinherit.com/consumer-electronics-cases.html"
         }
-      ],
-      "searchAliases": "消费电子 面向智能设备、家用电器与电子外壳，关注外观一致性、抗冲击、电气需求和精密配合。"
+      ]
     },
     {
       "id": "furniture",
@@ -10682,8 +10584,7 @@ window.TechMaterials={
           "ids": [],
           "source": "https://www.techinherit.com/office-furniture-cases.html"
         }
-      ],
-      "searchAliases": "办公家具 围绕扶手、椅背、座托与结构支撑，结合承载方式、疲劳使用、外观及耐候需求展开材料评估。"
+      ]
     },
     {
       "id": "medical",
@@ -10724,8 +10625,7 @@ window.TechMaterials={
           "ids": [],
           "source": "https://www.techinherit.com/medical-devices-cases.html"
         }
-      ],
-      "searchAliases": "医疗设备 针对医疗设备外壳及精密结构件，关注清洁剂接触、尺寸稳定、可追溯性和项目相关的合规资料。"
+      ]
     },
     {
       "id": "pet",
@@ -10764,8 +10664,7 @@ window.TechMaterials={
           "ids": [],
           "source": "https://www.techinherit.com/pet-supplies-cases.html"
         }
-      ],
-      "searchAliases": "宠物与生活用品 面向智能宠物设备、食品接触部件与结构外壳，结合低气味、韧性、接触条件与长期使用需求进行选型。"
+      ]
     }
   ],
   "articles": [
@@ -10789,8 +10688,7 @@ window.TechMaterials={
           "Check test methods, sample condition and thickness when reading data. Sample validation should also cover real assembly and use; do not directly compare data from different conditions."
         ]
       ],
-      "source": "https://www.techinherit.com/raw-materials.html",
-      "searchAliases": "PA6 与 PA66，选型先看哪些条件？ 从环境、结构与加工条件出发，理解尼龙材料的选型差异。"
+      "source": "https://www.techinherit.com/raw-materials.html"
     },
     {
       "id": "esd-selection",
@@ -10812,8 +10710,7 @@ window.TechMaterials={
           "Evaluate static-control compounds alongside impact, stiffness, surface and processing needs. Confirm the final choice through grade documentation and application validation."
         ]
       ],
-      "source": "https://www.techinherit.com/conductive-materials.html",
-      "searchAliases": "防静电材料，为什么要先明确电阻目标？ 静电控制不是一个单独标签，还需要一致的测试和使用条件。"
+      "source": "https://www.techinherit.com/conductive-materials.html"
     },
     {
       "id": "flame-insulation",
@@ -10835,8 +10732,7 @@ window.TechMaterials={
           "Alongside documentation, plan validation around assembly, working voltage, humidity, contact media and long-term use."
         ]
       ],
-      "source": "https://www.techinherit.com/technical/170.html",
-      "searchAliases": "阻燃之外，为什么还要关注绝缘性能？ 电气应用中的材料选择，需要把温度、阻燃与绝缘放在一起看。"
+      "source": "https://www.techinherit.com/technical/170.html"
     },
     {
       "id": "carbon-dimension",
@@ -10858,8 +10754,7 @@ window.TechMaterials={
           "Define dimensional, stiffness and environmental requirements first. Then assess trial samples and specific-grade data, validating materials and structure together."
         ]
       ],
-      "source": "https://www.techinherit.com/technical/168.html",
-      "searchAliases": "碳纤增强尼龙：轻量化与尺寸稳定如何兼顾？ 从纤维取向、结构和加工条件出发，关注最终部件的表现。"
+      "source": "https://www.techinherit.com/technical/168.html"
     },
     {
       "id": "sample-validation",
@@ -10881,8 +10776,7 @@ window.TechMaterials={
           "Before production, agree on acceptance criteria, packaging, identification, delivery plans and change communication."
         ]
       ],
-      "source": "https://www.techinherit.com/raw-materials.html",
-      "searchAliases": "从资料到样品，一份完整的材料验证清单 先把目标写清楚，再让材料资料与实际应用相互印证。"
+      "source": "https://www.techinherit.com/raw-materials.html"
     },
     {
       "id": "weathering",
@@ -10904,8 +10798,7 @@ window.TechMaterials={
           "Share the target color, operating environment and acceptance criteria with the engineering team to guide compound, sample and validation discussions."
         ]
       ],
-      "source": "https://www.techinherit.com/anti-yellowing-aging-parts/",
-      "searchAliases": "耐候与抗黄变：外观之外还要考虑什么？ 将紫外线、热环境和使用周期纳入材料评估。"
+      "source": "https://www.techinherit.com/anti-yellowing-aging-parts/"
     },
     {
       "id": "food-contact",
@@ -10927,8 +10820,7 @@ window.TechMaterials={
           "Record material batches, supplier documents and sample details to support validation, delivery and change communication."
         ]
       ],
-      "source": "https://www.techinherit.com/food-grade-parts/",
-      "searchAliases": "食品接触材料：从使用条件到合规资料 先明确接触对象与市场，再安排材料与成品验证。"
+      "source": "https://www.techinherit.com/food-grade-parts/"
     },
     {
       "id": "furniture-balance",
@@ -10950,8 +10842,7 @@ window.TechMaterials={
           "Check appearance, dimensions and relevant properties during trials. Add impact, fatigue and environmental validation as required by the project."
         ]
       ],
-      "source": "https://www.techinherit.com/",
-      "searchAliases": "办公家具结构件，如何讨论刚性与韧性？ 从承载、冲击与反复使用的场景出发，梳理材料要求。"
+      "source": "https://www.techinherit.com/"
     }
   ],
   "faqs": [
